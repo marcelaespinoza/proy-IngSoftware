@@ -1,40 +1,45 @@
 <a name="readme-top"></a>
 
 <div align="center">
+  <img align="center" src="images/logo.jpg" width="100"/>
   <a href="https://github.com/Sandovl0593/proy-IngSoftware">
   </a>
   <h1>💚 FeelScan 💚</h1>
 </div>
 
-<h3 align="center"><em>Proyecto desarrollado por estudiantes del curso de Ing. de Software
-de la Universidad de Ingeniería y Tecnología</em></h3>
-<h5 align="center">Para fines académicos</h5>
+<h3 align="center"><em>Producto desarrollado en el curso de Ing. de Software - Ciencia de la Computación</em></h3>
+<!-- <h5 align="center">Fines académicos</h5> -->
 
 
 <details open>
-  <summary><h2>&nbsp Índice</h2></summary>
+  <summary><h2>&nbsp Contents</h2></summary>
   <ul>
-    <li><a href="#integrantes">Integrantes</a></li>
-    <li><a href="#problemática-y-solución">Problemática y solución</a></li>
-    <li><a href="#puntos-de-dolor">Puntos de dolor</a></li>
+    <li><a href="#members">Members</a></li>
+    <li><a href="#problem--solution">Problem & Solution</a></li>
+    <li><a href="#pain-points">Pain Points</a></li>
   </ul>
 </details>
 
 
-## Integrantes 
+## Members 
 
 |    1    |    2    |    3    |    4    |    5    |    6    |    7    |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-[1](https://github.com/) | [2](https://github.com/) | [3](https://github.com/) | [4](https://github.com/)  | [5](https://github.com/) | [6](https://github.com/) | [7](https://github.com/)
+|Marcela <br>Espinoza <br>Herrera|José <br>Osnayo <br> Matos|Margiory<br>Alvarado<br>Chávez|Milloshy <br>Crisóstomo<br>Rodríguez|Kelvin<br>Cahuana<br>Condori|Adrian<br>Sandoval<br>Huamaní|Fabiola<br>Guardamino<br>Morales
 <!-- <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> -->
 
-## Problemática y solución
+## Problem & Solution
 
-El estrés, la ansiedad y la depresión son comunes que perciben los estudiantes de UTEC por diversos problemas sea internos o externos, tras ello se requiere de apoyo o consejería psicológica para mejorar su aprendizaje, autoestima y regulación de emociones que no siempre se evidencia diariamente durante el ciclo académico.
+El estrés y ansiedad son problemas de salud mental que el 85% de estudiantes universidtarios, administrativos y trabajadores lo presentan por diversos problemas sea internos o externos, tras ello se requiere de apoyo o consejería psicológica para mejorar la experiencia t calidad de vida.
 
-Es por ello que elegimos implementar sistema de análisis emocional basado en las imágenes de rostros capturadas por una cámara de reconocimiento facial, que evalúa patrones emocionales y de comportamiento en los estudiantes para detectar posibles problemas emocionales antes de que se conviertan en crisis.
+Nuestro producto es un sistema de recomendación (IA) de actividades a realizar, brindándole un soporte al personal o área encargada de la salud mental en la eleccion El propósito es mejorar esa información que se tiene y de esa forma facilitar la comprensión de la salud mental de las personas en base a las estadísticas de las emociones de un grupo de personas en una institución (empresa, universidad, colegio) y dar recomendaciones a los profesionales o personal de psicología sobre qué actividades o programas realizar.
 
-### Utilidades
+### User
+
+Área encargada de salud y bienestar que proporcionan actividades y seguimientos psicilógicos a los miembros de una institución.
+
+
+### Utils
 
 - Prioridades en agendar citas con psicólogos.
 - Programas de ayuda.
@@ -42,7 +47,7 @@ Es por ello que elegimos implementar sistema de análisis emocional basado en la
 - Reportes por periodo de tiempo
 - Evaluar mejora en los estudiantes citados.
 
-## Puntos de dolor
+## Pain Points
 
 |||
 |--|--|
@@ -51,33 +56,38 @@ Es por ello que elegimos implementar sistema de análisis emocional basado en la
 3.|Los estudiantes pocos sociables para integrarlos a las actividades de la universidad con distintos tipos de talleres que sean efectivos para el desarrollo de esa emoción
 4.|Los estudiantes que no responden las encuestas que realiza bienestar estudiantil para saber la condición de los estudiantes en determinado tiempopor cuestión de tiempo o vergüenza.
 
-## Requerimientos
+## Requirements
 
+- Acceso y registro a través de una credencial y una contraseña.
+- Indicar cuál la emoción actual más predominante en todos los miembros de la institución.
+- Indicar cuál es el porcentaje de cada área de la institución que presenta esa emoción predominante.
+- Informar una lista, en orden de prioridad, de los miembros con la emoción negativa muy recurrente en el lapso de una semana.
+- Informar una lista, en orden de prioridad, de acuerdo a la mejora o desmejora de cada estudiante evaluado para brindar la ayuda psicológica respectiva por la institución.
+- Facilitar la comunicación entre el miembro y un especialista para agendar una cita psicológica.
+- Analizar emociones para cada área de la institución con la cantidad de miembros que presentan cada emoción, de manera continua o porcentual y por un intervalo temporal (día, semana, mes y año) seleccionable.
+- Recomendar una lista de actividades, con orden de predominancia, que la institución puede realizar para cada emoción a partir de un catálogo.
+- Ofrecer la sección de actividades donde se encuentra todo el sistema de recomendación.
+- Recomendar alguna actividad en base a lo que se muestra en la lista de actividades que más les gusta a la mayoría de las personas con X emoción.
+- Recomendar en base a las elecciones del equipo psicopedagógico de la institución.
+- Mostrar detalles en el sistema de recomendación de la actividad a realizar especificando aforo de aprobación, mínimo de participantes, duración, emociones asociadas, y tipo.
 
-### Funcionales
+## Database
 
-### No Funcionales
+## Development
 
-## Tecnologías
+## Components / Routes
 
-### Base de Datos
+## Dataset
 
-- 
+## Deployment
 
-### Interfaz de usuario
+## Annexes
 
-
-<!-- ## Especificaciones y requisitos -->
-
-## Componentes
-
-## Ambiente y despliegue
-
-## Anexos
-
-### Prototipo inicial
+### Prototype
 
 |<img src="images/dashboard.png" width="800"/> | <img src="images/search.png" width="800"/> | <img src="images/userview.png" width="800"/> |
 |-|-|-|
 
-[En Mockups](https://app.moqups.com/IqSTDekAIIgvXnys9JeET5JvGV9Q0qEl/view/page/a7d17d5c8)
+[En Mockups](https://app.moqups.com/L4DOzpgZmVrPYT0dtXQNG5a2IRYaGvHz/edit/page/ade76401d)
+
+### Demo Preview
