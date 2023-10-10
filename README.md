@@ -4,7 +4,7 @@
   <img align="center" src="images/logo.jpg" width="100"/>
   <a href="https://github.com/Sandovl0593/proy-IngSoftware">
   </a>
-  <h1><em>💚 FeelScan 💚<em></h1>
+  <h1><em>💚 FeelScan 💚</em></h1>
 </div>
 
 <h3 align="center"><em>Producto desarrollado en el curso de Ing. de Software - Computer Science</em></h3>
