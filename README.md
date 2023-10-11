@@ -8,7 +8,7 @@
 </div>
 
 <h4 align="center"><em>Sistema de recomendación (IA) de actividades
-a realizar en base a las estadísticas de las emociones de un grupo de personas en una institución, brindándole un soporte al personal o área encargada de la salud mental</em></h4>
+a realizar en base a las estadísticas de las emociones de los miembros en una institución, brindándole un soporte al personal o área encargada de salud mental</em></h4>
 <h5 align="center"><em>Producto desarrollado en el curso de Ing. de Software - Computer Science</em></h5>
 <!-- <h5 align="center">Fines académicos</h5> -->
 
@@ -17,21 +17,28 @@ a realizar en base a las estadísticas de las emociones de un grupo de personas 
   <summary><h2>&nbsp Contents</h2></summary>
   <ul>
     <li><a href="#members">Members</a></li>
+    <li><a href="#user">User</a></li>
     <li><a href="#pain-points">Pain Points</a></li>
+    <li><a href="#database">Database</a></li>
+    <li><a href="#components--routes">Components</a></li>
   </ul>
 </details>
 
 
 ## Members 
 
+<div align="center">
+
 |    1    |    2    |    3    |    4    |    5    |    6    |    7    |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+**Full-Stack**|**Back-end**|**Front-end**|**Full-Stack**|**Back-end**|**Full-Stack**|**Front-end**
 |Marcela <br>Espinoza <br>Herrera|José <br>Osnayo <br> Matos|Margiory<br>Alvarado<br>Chávez|Milloshy <br>Crisóstomo<br>Rodríguez|Kelvin<br>Cahuana<br>Condori|Adrian<br>Sandoval<br>Huamaní|Fabiola<br>Guardamino<br>Morales
 <!-- <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> -->
 
+</div>
 
 
-### User
+## User
 
 Área encargada de salud y bienestar que proporcionan actividades y seguimientos psicilógicos a los miembros de una institución.
 
@@ -77,7 +84,7 @@ a realizar en base a las estadísticas de las emociones de un grupo de personas 
 
 [ explicación de la arquitectura y funcionamiento de la plataforma ]
 
-## Components / Routes
+## Components
 
 [ componentes que está distribuido la plataforma web ]
 
@@ -87,15 +94,17 @@ a realizar en base a las estadísticas de las emociones de un grupo de personas 
 
 ## Deployment
 
-[ despliegue de la plataforma web para pruebas con los datos, fetching e interacción con el usuario ]
+[ despliegue de la plataforma web para pruebas de fetching e interacción con el usuario ]
 
 ## Annexes
 
-### Prototype
+### Primer prototipo en [Mockups](https://app.moqups.com/L4DOzpgZmVrPYT0dtXQNG5a2IRYaGvHz/edit/page/ade76401d)
 
 |<img src="images/dashboard.png" width="800"/> | <img src="images/search.png" width="800"/> | <img src="images/userview.png" width="800"/> |
 |-|-|-|
 
-[En Mockups](https://app.moqups.com/L4DOzpgZmVrPYT0dtXQNG5a2IRYaGvHz/edit/page/ade76401d)
+### Diagrama de clases
 
-### Demo Preview
+<div align="center">
+  <img src="images/classes_diag.png" width="600"/>
+</div>
