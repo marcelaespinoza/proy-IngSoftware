@@ -8,7 +8,7 @@
 </div>
 
 <h4 align="center"><em>Sistema de recomendación (IA) de actividades
-a realizar en base a las estadísticas de las emociones de un grupo de personas en una institución, brindándole un soporte al personal o área encargada de la salud mental con la recomendación de actividades</em></h4>
+a realizar en base a las estadísticas de las emociones de un grupo de personas en una institución, brindándole un soporte al personal o área encargada de la salud mental</em></h4>
 <h5 align="center"><em>Producto desarrollado en el curso de Ing. de Software - Computer Science</em></h5>
 <!-- <h5 align="center">Fines académicos</h5> -->
 
