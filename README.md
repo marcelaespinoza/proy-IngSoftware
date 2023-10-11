@@ -4,10 +4,12 @@
   <img align="center" src="images/logo.jpg" width="100"/>
   <a href="https://github.com/Sandovl0593/proy-IngSoftware">
   </a>
-  <h1><em>💚 FeelScan 💚</em></h1>
+  <h1>💚 <em>FeelScan</em> 💚</h1>
 </div>
 
-<h3 align="center"><em>Producto desarrollado en el curso de Ing. de Software - Computer Science</em></h3>
+<h4 align="center"><em>Sistema de recomendación (IA) de actividades
+a realizar en base a las estadísticas de las emociones de un grupo de personas en una institución, brindándole un soporte al personal o área encargada de la salud mental con la recomendación de actividades</em></h4>
+<h5 align="center"><em>Producto desarrollado en el curso de Ing. de Software - Computer Science</em></h5>
 <!-- <h5 align="center">Fines académicos</h5> -->
 
 
@@ -15,7 +17,6 @@
   <summary><h2>&nbsp Contents</h2></summary>
   <ul>
     <li><a href="#members">Members</a></li>
-    <li><a href="#problem--solution">Problem & Solution</a></li>
     <li><a href="#pain-points">Pain Points</a></li>
   </ul>
 </details>
@@ -28,24 +29,20 @@
 |Marcela <br>Espinoza <br>Herrera|José <br>Osnayo <br> Matos|Margiory<br>Alvarado<br>Chávez|Milloshy <br>Crisóstomo<br>Rodríguez|Kelvin<br>Cahuana<br>Condori|Adrian<br>Sandoval<br>Huamaní|Fabiola<br>Guardamino<br>Morales
 <!-- <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> -->
 
-## Problem & Solution
 
-El estrés y ansiedad son problemas de salud mental que el 85% de estudiantes universidtarios, administrativos y trabajadores lo presentan por diversos problemas sea internos o externos, tras ello se requiere de apoyo o consejería psicológica para mejorar la experiencia t calidad de vida.
-
-Nuestro producto es un sistema de recomendación (IA) de actividades a realizar, brindándole un soporte al personal o área encargada de la salud mental en la eleccion El propósito es mejorar esa información que se tiene y de esa forma facilitar la comprensión de la salud mental de las personas en base a las estadísticas de las emociones de un grupo de personas en una institución (empresa, universidad, colegio) y dar recomendaciones a los profesionales o personal de psicología sobre qué actividades o programas realizar.
 
 ### User
 
 Área encargada de salud y bienestar que proporcionan actividades y seguimientos psicilógicos a los miembros de una institución.
 
-
+<!-- 
 ### Utils
 
 - Prioridades en agendar citas con psicólogos.
 - Programas de ayuda.
 - Emociones en proporción a la carrera, edad, ciclo, o algún periodo en tendencia (Ej. la semana de exámenes).
 - Reportes por periodo de tiempo
-- Evaluar mejora en los estudiantes citados.
+- Evaluar mejora en los estudiantes citados. -->
 
 ## Pain Points
 
@@ -56,7 +53,7 @@ Nuestro producto es un sistema de recomendación (IA) de actividades a realizar,
 3.|Los estudiantes pocos sociables para integrarlos a las actividades de la universidad con distintos tipos de talleres que sean efectivos para el desarrollo de esa emoción
 4.|Los estudiantes que no responden las encuestas que realiza bienestar estudiantil para saber la condición de los estudiantes en determinado tiempopor cuestión de tiempo o vergüenza.
 
-## Requirements
+<!-- ## Requirements
 
 - Acceso y registro a través de una credencial y una contraseña.
 - Indicar cuál la emoción actual más predominante en todos los miembros de la institución.
@@ -69,17 +66,28 @@ Nuestro producto es un sistema de recomendación (IA) de actividades a realizar,
 - Ofrecer la sección de actividades donde se encuentra todo el sistema de recomendación.
 - Recomendar alguna actividad en base a lo que se muestra en la lista de actividades que más les gusta a la mayoría de las personas con X emoción.
 - Recomendar en base a las elecciones del equipo psicopedagógico de la institución.
-- Mostrar detalles en el sistema de recomendación de la actividad a realizar especificando aforo de aprobación, mínimo de participantes, duración, emociones asociadas, y tipo.
+- Mostrar detalles en el sistema de recomendación de la actividad a realizar especificando aforo de aprobación, mínimo de participantes, duración, emociones asociadas, y tipo. -->
 
 ## Database
 
+[ tipo de base de datos ]
+[ las base de datos que se utilizan ]
+
 ## Development
+
+[ explicación de la arquitectura y funcionamiento de la plataforma ]
 
 ## Components / Routes
 
+[ componentes que está distribuido la plataforma web ]
+
 ## Dataset
 
+[ generacion de datos para realizar las estimaciones ]
+
 ## Deployment
+
+[ despliegue de la plataforma web para pruebas con los datos, fetching e interacción con el usuario ]
 
 ## Annexes
 
