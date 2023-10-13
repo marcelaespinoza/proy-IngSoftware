@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../assets/Ubuntu-Regular.ttf');
+}
+
+#app, body {
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+}
+
+/* START FRONTEND */
