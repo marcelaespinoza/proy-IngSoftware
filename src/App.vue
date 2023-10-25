@@ -6,7 +6,7 @@ import Dashboard from './components/Dashboard.vue';
   <nav id="sup-navbar">
     <div id="logo-title">
       <div style="margin-right: 20px;">
-        <img src="./icons/feelscan.svg" type="image/svg+xml"/>
+        <img src="./svg/feelscan.svg" type="image/svg+xml"/>
       </div>
       <h1>FeelScan</h1>
     </div>
@@ -20,19 +20,20 @@ import Dashboard from './components/Dashboard.vue';
   <nav id="lateral-navbar">
     <li>
       <ol><div>
-         <img src="./icons/home.svg" type="image/svg+xml"/>
+         <img src="./svg/home.svg" type="image/svg+xml"/>
       </div></ol>
       
       <ol><div>
-         <img src="./icons/user.svg" type="image/svg+xml"/>
+         <img src="./svg/user.svg" type="image/svg+xml"/>
       </div></ol>
 
-      <ol></ol>
+      <ol><div>
+        <img src="./svg/activity.svg" type="image/svg+xml"/>
+      </div></ol>
     </li>
   </nav>
 
-  <Dashboard />
-  
+    <Dashboard />
   <!--  -->
 </template>
 
