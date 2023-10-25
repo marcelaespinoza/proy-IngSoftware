@@ -8,7 +8,7 @@ export default {
   // },
   watch: {
     '$route'(to, _) {
-      this.$refs[`${this.$route.params.name}`].style.background = "white";
+      // this.$refs[`${this.$route.params.name}`].style.background = "white";
     }
   },
 }
