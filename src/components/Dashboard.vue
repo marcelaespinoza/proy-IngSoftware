@@ -1,25 +1,27 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String,
-})
-
-const count = ref(0);
-
+<script>
+export default {
+  name: "DashBoard",
+}
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+<div id="select-emotion-b">
 
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-  </div>
-  <p class="read-the-docs">Getting started</p>
+</div>
+
+<div id="circular-graph-b">
+
+</div>
+
+<div id="dominant-emotion-b">
+
+</div>
+
+<div id="chart-emotion-area-b">
+
+</div>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+
 </style>
