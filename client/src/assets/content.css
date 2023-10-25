@@ -6,8 +6,13 @@
 :root {
   --lateral-navbar-width: 90px;
   --sup-navbar-height: 70px;
-  --section-width: 190vh;
-  --section-height: 85vh;
+  --section-width: 187vh;
+  --section-height: 83vh;
+}
+
+::-webkit-scrollbar { /* ocultar scrollbar */
+  width: 0.1em;
+  background-color: transparent;
 }
 
 #app, body, html {
@@ -101,7 +106,7 @@ section {
   height: 48px;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
   border-radius: 9px;
   display: flex;
   transition: 0.5s;

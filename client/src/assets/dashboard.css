@@ -15,16 +15,17 @@ section div {
 
 #section-emotion div {
   border: 4px solid orange;
+  border-radius: 10px;
 }
 
   #dominant-emotion-b {
     margin-right: 5em;
-    width: 80%;
+    width: 75%;
     height: 10em;
   }
 
   #circular-graph-b {
-    width: 45%;
+    width: 40%;
     height: 20em;
   }
 
@@ -32,7 +33,6 @@ section div {
 #chart-emotion-area-b {
   border-radius: 10px;
   border: 4px solid orange;
-  width: 100%;
   height: 50em;
   align-items: center;
 }
@@ -40,6 +40,5 @@ section div {
 #feature-emotion-trend-b {
   border-radius: 10px;
   border: 4px solid orange;
-  width: 100%;
   height: 30em;
 }
