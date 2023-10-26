@@ -60,7 +60,7 @@ section {
 }
 
 #sup-navbar button {
-  width: 146px;
+  width: 142px;
   height: 42px;
   background: #006D2C;
   color: #FFFFFF;
@@ -68,7 +68,7 @@ section {
   border-radius: 10px;
   font-family: inherit;
   font-size: 15px;
-  text-align: center;
+  text-align: inherit;
   position: inherit;
 }
 
@@ -129,4 +129,46 @@ section {
 .icono {
   font-size: 20px;
   margin-right: 5px;
+}
+
+/* Estilo para el modal */
+.window {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+/* Estilo para el contenido del modal */
+.window-content {
+  background-color: #ffffb1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#miembrosPendientes {
+  list-style-type: none;
+  padding: 0;
+}
+
+#miembrosPendientes li {
+  margin: 10px 0;
 }
