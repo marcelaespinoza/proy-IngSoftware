@@ -1,50 +1,61 @@
-from faker import Faker
-from random import choice
+from .db import dynamodb
+from botocore.exceptions import ClientError
+from fastapi.responses import JSONResponse
+from boto3.dynamodb.conditions import Key
 
-faker = Faker("pe_PE")
+table = dynamodb.Table("members")
 
-# las areas se visualizan de la web asignando la cantidad y las carreras
-# se asignan 12 para este caso
+def create_member(member: dict):
+    try:
+        table.put_item(Item=member)
+        return member
+    except ClientError as e:
+        return JSONResponse(content=e.response["Error"], status_code=500)
 
-"""
-carrers = ["Administración", "Bioingeniería", "Ing. Ambiental", "Ing. Química", "Ing. Civil"] + \
-    ["Computer Science", "Ing. Industrial", "Ing. Mecánica", "Ing. Energía" , "Ing. Mecatrónica", "Ing. Electrónica", "Data Science"]
+def get_member(code: str):
+    try:
+        response = table.query(
+            KeyConditionExpression=Key("code").eq(code)
+        )
+        return response["Items"]
+    except ClientError as e:
+        return JSONResponse(content=e.response["Error"], status_code=500)
 
-# generar 400 miembros
-members = []
+def get_members():
+    try:
+        response = table.scan(
+            Limit=5,
+            AttributesToGet=["name", "code"]
+        )
+        return response["Items"]
+    except ClientError as e:
+        return JSONResponse(content=e.response["Error"], status_code=500)
 
-for i in range(400):
-    # modelo de dato en formato json para database dynamodb con tenant_id
+def delete_member(member: dict):
+    try:
+        response = table.delete_item(
+            Key={
+                "code": member["code"],
+                "age": member["age"],
+            }
+        )
+        return response
+    except ClientError as e:
+        return JSONResponse(content=e.response["Error"], status_code=500)
 
-    member = {
-        "tenant_id": faker.uuid4(),
-        "body": {
-            "name": faker.name(),
-            "carrer": choice(carrers),
-            "age":  faker.random_int(min=18, max=30),
-        }
-    }
-{
-  "dni": "12345678A",
-  "nombre": "Nombre Apellido",
-  "area_especializacion": "Psicología Clínica",
-  "edad": 35,
-  "email": "correo@ejemplo.com",
-  "horarios": [
-    {
-      "dia": "Lunes",
-      "horas": [
-        "10:00 AM",
-        "2:00 PM"
-      ]
-    },
-    {
-      "dia": "Miércoles",
-      "horas": [
-        "3:00 PM",
-        "5:00 PM"
-      ]
-    }
-  ]
-}
-"""
+def update_member(member: dict):
+    try:
+        response = table.update_item(
+            Key={
+                "code": member["code"],
+                "age": member["age"]
+            },
+            UpdateExpression="SET name = :name, age = :age",
+            ExpressionAttributeValues={
+                ":name": member["name"],
+                ":age": member["age"]
+            }
+        )
+        return response
+    except ClientError as e:
+        return JSONResponse(content=e.response["Error"], status_code=500)
