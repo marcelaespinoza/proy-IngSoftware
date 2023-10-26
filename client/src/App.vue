@@ -43,6 +43,10 @@ export default {
       <ol><div ref="recommendation">
         <img src="./svg/activity.svg" type="image/svg+xml" loading="lazy"/>
       </div></ol>
+
+      <ol><div ref="notification">
+        <img src="./svg/notification.svg" type="image/svg+xml" loading="lazy"/>
+      </div></ol>
     </li>
   </nav>
 
