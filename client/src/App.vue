@@ -3,20 +3,27 @@ import { RouterLink, RouterView } from 'vue-router';
 
 export default {
   name: "App",
-  // data() {
-  //   return { active_section: "dashboard" }
-  // },
+  data() {
+    return { user_logged: false }
+  },
   watch: {
     '$route'(to, _) {
       // this.$refs[`${this.$route.params.name}`].style.background = "white";
     }
+  },
+  
+  computed: {
+    user_logged() {
+      return this.$route.path !== '/login' && this.$route.path !== '/welcome';
+    },
   },
 }
 
 </script>
 
 <template>
-  <nav id="sup-navbar">
+    
+  <nav v-if="user_logged" id="sup-navbar">
     <div id="logo-title">
       <div style="margin-right: 20px;">
         <img src="./svg/feelscan.svg" type="image/svg+xml" width="50" loading="lazy"/>
@@ -30,20 +37,21 @@ export default {
     </div>
   </nav>
 
-  <nav id="lateral-navbar">
+  <nav v-if="user_logged" id="lateral-navbar">
     <li>
       <ol><div ref="dashboard">
-         <img src="./svg/home.svg" type="image/svg+xml" loading="lazy"/>
+         <router-link to="/dashboard"><img src="./svg/home.svg" type="image/svg+xml" loading="lazy"/></router-link>
       </div></ol>
       
       <ol><div ref="user">
-         <img src="./svg/user.svg" type="image/svg+xml" loading="lazy"/>
+        <router-link to="/profile"><img src="./svg/user.svg" type="image/svg+xml" loading="lazy"/></router-link>
       </div></ol>
 
       <ol><div ref="recommendation">
-        <img src="./svg/activity.svg" type="image/svg+xml" loading="lazy"/>
+        <router-link to="/recommendation"><img src="./svg/recommendation.svg" type="image/svg+xml" loading="lazy"/></router-link>
       </div></ol>
 
+      <!-- AQUI NO HAY ROUTER LINK, solo muestra la ventana flotante de notificaciones -->
       <ol><div ref="notification">
         <img src="./svg/notification.svg" type="image/svg+xml" loading="lazy"/>
       </div></ol>

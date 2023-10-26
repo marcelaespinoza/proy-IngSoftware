@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "Recommendation",
+  name: "Profile",
 }
 </script>
 
