@@ -15,28 +15,25 @@ emociones_puntajes = {
     'alivio': -2
 }
 
-
-with open('../server/registroEmociones.csv', 'r') as archivo_csv:
+datos_puntajes = {}
+with open('server/registroEmociones.csv', 'r') as archivo_csv:
     lector_csv = csv.reader(archivo_csv)
     for fila in lector_csv:
-        datos_puntajes = {}
-        for fila in lector_csv:
-            codigo = fila[0]
-            emocion = fila[1]
-            # Calcula el puntaje usando el diccionario de emociones_puntajes
-            puntaje = emociones_puntajes.get(emocion, 0)
-            # Si el código ya está en el diccionario, agrega el puntaje
-            if codigo in datos_puntajes:
-                datos_puntajes[codigo] += puntaje
-            # Si el código no está en el diccionario, crea una nueva entrada
-            else:
-                datos_puntajes[codigo] = puntaje
-
+        codigo = fila[0]
+        emocion = fila[1]
+        # Calcula el puntaje usando el diccionario de emociones_puntajes
+        puntaje = emociones_puntajes.get(emocion, 0)
+        # Si el código ya está en el diccionario, agrega el puntaje
+        if codigo in datos_puntajes:
+            datos_puntajes[codigo] += puntaje
+        # Si el código no está en el diccionario, crea una nueva entrada
+        else:
+            datos_puntajes[codigo] = puntaje
 # Ordena los códigos según los puntajes de mayor a menor
 codigos_ordenados = sorted(datos_puntajes.items(), key=lambda x: x[1], reverse=True)
 
 # Escribir los códigos y puntajes ordenados
-with open('../server/codigos_puntajes_ordenados.csv', 'w', newline='') as archivo_csv_puntajes:
+with open('server/codigos_puntajes_ordenados.csv', 'w', newline='') as archivo_csv_puntajes:
     escritor_csv = csv.writer(archivo_csv_puntajes)
     # Escribe los datos en el nuevo archivo CSV con los n primeros miembros
     n=0
