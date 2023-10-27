@@ -109,7 +109,6 @@ export default {
           </router-link>
         </div></ul> -->
   
-        <!-- AQUI NO HAY ROUTER LINK, solo muestra la ventana flotante de notificaciones -->
         <!-- <ol></ol>
       </li> -->
       <li class="sidenav-nav-item" v-for="data in navData" :key="data.routeLink">
