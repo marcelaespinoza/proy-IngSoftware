@@ -15,19 +15,16 @@ emociones_puntajes = {
     'alivio': -2
 }
 
+
 with open('../server/registroEmociones.csv', 'r') as archivo_csv:
     lector_csv = csv.reader(archivo_csv)
     for fila in lector_csv:
-        print(fila)
         datos_puntajes = {}
         for fila in lector_csv:
             codigo = fila[0]
             emocion = fila[1]
             # Calcula el puntaje usando el diccionario de emociones_puntajes
             puntaje = emociones_puntajes.get(emocion, 0)
-            print()
-            print(puntaje)
-            print()
             # Si el código ya está en el diccionario, agrega el puntaje
             if codigo in datos_puntajes:
                 datos_puntajes[codigo] += puntaje
@@ -38,7 +35,6 @@ with open('../server/registroEmociones.csv', 'r') as archivo_csv:
 # Ordena los códigos según los puntajes de mayor a menor
 codigos_ordenados = sorted(datos_puntajes.items(), key=lambda x: x[1], reverse=True)
 
-"""
 # Escribir los códigos y puntajes ordenados
 with open('../server/codigos_puntajes_ordenados.csv', 'w', newline='') as archivo_csv_puntajes:
     escritor_csv = csv.writer(archivo_csv_puntajes)
@@ -48,4 +44,3 @@ with open('../server/codigos_puntajes_ordenados.csv', 'w', newline='') as archiv
         if(n<numero):
             escritor_csv.writerow([codigo, puntaje])
         n+=1
-"""
