@@ -12,4 +12,9 @@ client/.idea
 
 # Backend
 server/__pycache__
-server/venv
+server/env
+
+server/database/__pycache__
+server/models/__pycache__
+server/routes/__pycache__
+server/.env

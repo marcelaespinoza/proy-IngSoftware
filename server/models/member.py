@@ -7,3 +7,4 @@ class Member(BaseModel):
     age: int
     email: str
     role: str
+    emotion_score: int

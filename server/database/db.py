@@ -9,28 +9,65 @@ dynamodb = resource('dynamodb',
 
 tables = [
     {
-        "TableName": "members",
+        "TableName": "Members",
         "KeySchema": [
             {
                 'AttributeName': 'code',
                 'KeyType': 'HASH'
-            },
-            {
-                'AttributeName': 'age',
-                'KeyType': 'RANGE' 
             }
         ],
         "AttributeDefinitions": [
             {
                 'AttributeName': 'code',
                 'AttributeType': 'S'
-            },
-            {
-                'AttributeName': 'age',
-                'AttributeType': 'N'
-            },
+            }
         ],
     },
+    {
+        "TableName": "EmotionLog",
+        "KeySchema": [
+            {
+                'AttributeName': 'member_code',
+                'KeyType': 'HASH'
+            },
+            {
+                'AttributeName': 'date',
+                'KeyType': 'RANGE'
+            },
+            {
+                'AttributeName': 'hour',
+                'KeyType': 'RANGE'                
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                'AttributeName': 'member_code',
+                'AttributeType': 'S'
+            },
+            {
+                'AttributeName': 'date',
+                'AttributeType': 'S'
+            },
+            {
+                'AttributeName': 'hour',
+                'AttributeType': 'S'
+            }
+        ],
+        "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "DateIndex",
+                "KeySchema": [
+                    {
+                        'AttributeName': 'date',
+                        'KeyType': 'RANGE'
+                    },
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                }
+            }
+        ]
+    }, 
 ]
 
 def create_tables():

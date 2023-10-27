@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from models.member import Member
-from database.members import create_member, get_member, get_members, delete_member, update_member
+from server.database.member import create_member, get_member, get_members, delete_member, update_member
 
 routes_member = APIRouter()
 
@@ -16,10 +16,10 @@ def get_by_code(code: str):
 def get_all():
     return get_members()
 
-@routes_member.post("/delete")
-def create(member: Member):
+@routes_member.delete("/delete")
+def delete(member: Member):
     return delete_member(member.model_dump())
 
-@routes_member.post("/update")
-def create(member: Member):
+@routes_member.put("/update")
+def update(member: Member):
     return update_member(member.model_dump())
