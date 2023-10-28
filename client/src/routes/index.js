@@ -10,7 +10,7 @@ const router = createRouter({
   routes: [ {
       path: "/",
       name: "/",
-      component: () => import("../components/Dashboard.vue"),
+      component: () => import("../components/Landing.vue"),
       // meta: {
       //   requiresAuth: true
       // }
@@ -21,7 +21,7 @@ const router = createRouter({
     },{
       path: "/dashboard",
       name: "dashboard",
-      component: () => import("../components/DashBoard.vue"),
+      component: () => import("../components/Dashboard.vue"),
     },{
       path: "/login",
       name: "login",
@@ -41,9 +41,9 @@ const router = createRouter({
     //   component: () => import("../components/Settings.vue"),
     // },
     {
-      path: "/mail",
-      name: "mail",
-      component: () => import("../components/Mail.vue"),
+      path: "/aggent",
+      name: "aggent",
+      component: () => import("../components/Aggent.vue"),
     },
   ],
 });

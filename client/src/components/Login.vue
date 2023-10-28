@@ -28,27 +28,27 @@ export default {
       this.$router.push('/dashboard');
     }
   },
-    doRegister() {
-      if (
-        this.emailReg === '' ||
-        this.nameReg === '' ||
-        this.lastnameReg === '' ||
-        this.passwordReg === '' ||
-        this.confirmReg === '' ||
-        this.tipoReg === ''
-      ) {
-        this.emptyFields = true;
-      } else {
-      // Registro exitoso, guarda el correo en Local Storage
-      localStorage.setItem('email', this.emailReg);
-      alert('You are now registered');
-      this.$router.push('/dashboard');
-    }
-    },
-    toggleRegister() {
-      this.registerActive = !this.registerActive;
-      this.emptyFields = false;
-    },
+    // doRegister() {
+    //   if (
+    //     this.emailReg === '' ||
+    //     this.nameReg === '' ||
+    //     this.lastnameReg === '' ||
+    //     this.passwordReg === '' ||
+    //     this.confirmReg === '' ||
+    //     this.tipoReg === ''
+    //   ) {
+    //     this.emptyFields = true;
+    //   } else {
+    //   // Registro exitoso, guarda el correo en Local Storage
+    //   localStorage.setItem('email', this.emailReg);
+    //   alert('You are now registered');
+    //   this.$router.push('/dashboard');
+    // }
+    // },
+    // toggleRegister() {
+    //   this.registerActive = !this.registerActive;
+    //   this.emptyFields = false;
+    // },
   },
 }
 </script>
@@ -68,12 +68,12 @@ export default {
           <input v-model="passwordLogin" type="password" class="form-control" placeholder="Contraseña" required />
           <!-- <button type="submit" class="button-68" @click="doLogin">Entrar</button> -->
           <button type="submit" class="button-68" @click="doLogin"><router-link to="/dashboard">Entrar</router-link></button>
-          <p>¿No tienes una cuenta? <a href="javascript:void(0)" @click="toggleRegister">Crear cuenta</a></p>
-          <p><a href="javascript:void(0)">¿Olvidaste tu contraseña?</a></p>
+          <!-- <p>¿No tienes una cuenta? <a href="javascript:void(0)" @click="toggleRegister">Crear cuenta</a></p> -->
+          <!-- <p><a href="javascript:void(0)">¿Olvidaste tu contraseña?</a></p> -->
         </div>
       </div>
 
-      <div v-if="registerActive" class="card register" :class="{ 'error': emptyFields }">
+      <!-- <div v-if="registerActive" class="card register" :class="{ 'error': emptyFields }">
         <img src="../svg/feelscan.svg" alt="VitalCheck logo" width="200" height="70" />
         <h1>Registrarse</h1>
         <div class="form-group">
@@ -87,12 +87,12 @@ export default {
           <input v-model="passwordReg" type="password" class="form-control" placeholder="Contraseña" required />
           <label class="error-message" v-if="emptyFields && confirmReg === ''">Por favor confirma tu contraseña</label>
           <input v-model="confirmReg" type="password" class="form-control" placeholder="Confirmar Contraseña" required />
-          <br />
-          <!-- <button type="submit" class="button-68" @click="doRegister">Registrar</button> -->
+          <br /> -->
+          <!-- <button type="submit" class="button-68" @click="doRegister">Registrar</button>
           <button type="submit" class="button-68"> <RouterLink to="/dashboard"> Registrar </RouterLink></button>
           <p>¿Ya tienes una cuenta? <a href="javascript:void(0)" @click="toggleRegister">Iniciar sesión</a></p>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </div>
   </div>
 

@@ -34,7 +34,7 @@
   
   <script>
   export default {
-    name: "Mail",
+    name: "Aggent",
     data() {
       return {
         userData: {
