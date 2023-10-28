@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from models.member import Member
-from server.database.member import create_member, get_member, get_members, delete_member, update_member
+from database.member import create_member, get_member, get_members, delete_member, update_member
 
 routes_member = APIRouter()
 

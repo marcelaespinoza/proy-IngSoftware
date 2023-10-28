@@ -9,9 +9,11 @@ base_url = 'http://localhost:8000'
 create_endpoint = '/member/create'
 
 # Iterate over each row in the DataFrame and make a POST request
+i = 0
 for _, row in df.iterrows():
+    if i == 50: break
     member_data = {
-        "code": str(row['code']),
+        "code": row['code'],
         "name": row['name'],
         "area": row['area'],
         "age": int(row['age']),
@@ -24,3 +26,4 @@ for _, row in df.iterrows():
         print(f'Member created successfully: {member_data}')
     else:
         print(f'Error creating member: {response.text}')
+    i = i+1

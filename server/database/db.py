@@ -2,14 +2,14 @@ from boto3 import resource
 from os import getenv
 
 dynamodb = resource('dynamodb',
-         aws_access_key_id=getenv("AWS_ACCESS_KEY_ID"),
-         aws_secret_access_key=getenv("AWS_SECRET_ACCESS_KEY"),
-         aws_session_token=getenv("AWS_SESSION_TOKEN"),
-         region_name=getenv("AWS_REGION_NAME"))
+         aws_access_key_id=getenv("aws_access_key_id"),
+         aws_secret_access_key=getenv("aws_secret_access_key"),
+         aws_session_token=getenv("aws_session_token"),
+         region_name=getenv("aws_region_name"))
 
 tables = [
     {
-        "TableName": "Members",
+        "TableName": "Member",
         "KeySchema": [
             {
                 'AttributeName': 'code',
@@ -22,62 +22,64 @@ tables = [
                 'AttributeType': 'S'
             }
         ],
+        "GlobalSecondaryIndexes": []
     },
     {
         "TableName": "EmotionLog",
         "KeySchema": [
             {
-                'AttributeName': 'member_code',
-                'KeyType': 'HASH'
+                "AttributeName": "member_code",
+                "KeyType": "HASH"
             },
             {
-                'AttributeName': 'date',
-                'KeyType': 'RANGE'
-            },
-            {
-                'AttributeName': 'hour',
-                'KeyType': 'RANGE'                
+                "AttributeName": "timestamp",
+                "KeyType": "RANGE"
             }
         ],
         "AttributeDefinitions": [
             {
-                'AttributeName': 'member_code',
-                'AttributeType': 'S'
+                "AttributeName": "member_code",
+                "AttributeType": "S"
             },
             {
-                'AttributeName': 'date',
-                'AttributeType': 'S'
-            },
-            {
-                'AttributeName': 'hour',
-                'AttributeType': 'S'
+                "AttributeName": "timestamp",
+                "AttributeType": "S"
             }
         ],
         "GlobalSecondaryIndexes": [
             {
-                "IndexName": "DateIndex",
+                "IndexName": "TimestampIndex",
                 "KeySchema": [
                     {
-                        'AttributeName': 'date',
-                        'KeyType': 'RANGE'
-                    },
+                        "AttributeName": "timestamp",
+                        "KeyType": "HASH"
+                    }
                 ],
                 "Projection": {
                     "ProjectionType": "ALL"
                 }
             }
         ]
-    }, 
+    }
 ]
 
 def create_tables():
     try:
         for table in tables:
-            dynamodb.create_table(
-                TableName=table["TableName"],
-                KeySchema=table["KeySchema"],
-                AttributeDefinitions=table["AttributeDefinitions"],
-                BillingMode="PAY_PER_REQUEST"
-            )
+            if table["GlobalSecondaryIndexes"] == []: 
+                dynamodb.create_table(
+                    TableName=table["TableName"],
+                    KeySchema=table["KeySchema"],
+                    AttributeDefinitions=table["AttributeDefinitions"],
+                    BillingMode="PAY_PER_REQUEST"
+                )
+            else:
+                dynamodb.create_table(
+                    TableName=table["TableName"],
+                    KeySchema=table["KeySchema"],
+                    AttributeDefinitions=table["AttributeDefinitions"],
+                    GlobalSecondaryIndexes=table["GlobalSecondaryIndexes"],
+                    BillingMode="PAY_PER_REQUEST"
+                )
     except Exception as e:
         print(e)
