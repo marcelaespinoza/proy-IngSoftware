@@ -10,9 +10,9 @@ export default {
         return this.$route.path !== '/login' && this.$route.path !== '/welcome';
     },
 
-    in_dashboard() {
-      return this.$route.path === '/dashboard';
-    }
+    // in_dashboard() {
+    //   return this.$route.path === '/dashboard';
+    // }
   },
   components: { Sidebar, Notification }
 }
@@ -22,12 +22,13 @@ export default {
 <template>
  
 
-  <Sidebar v-if="user_logged"> </Sidebar>
+  <Sidebar v-if="user_logged"/>
 
   <router-view />
 
-  <Notification v-if="in_dashboard"></Notification>
+  <Notification v-if="in_dashboard" />
   <!--  -->
+
 </template>
 
 <style scoped>

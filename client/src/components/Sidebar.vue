@@ -7,7 +7,7 @@ export default {
     data() {
       return {
         collapsed: false,
-        showNotifications: false,
+        showNotifications: true,
         screenWidth: window.innerWidth,
         navData: [
           {
@@ -51,9 +51,7 @@ export default {
                 this.collapsed = false; // Oculta el sidenav en dispositivos no móviles
             }
         },
-    },
-    computed: {
-      viewNotifications() {
+        viewNotifications() {
           this.showNotifications = !this.showNotifications;
       }
     },
@@ -118,13 +116,13 @@ export default {
         </router-link>
       </li>
       <li @click="viewNotifications" class="sidenav-nav-item">
-          <img style="margin-top: 3em;" src="../svg/notification.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
+          <img src="../svg/notification.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
           <span class="sidenav-link-text" v-if="collapsed">Notification</span>
        </li>
     </ul>
   </div>
 
-  <Notification v-if="showNotifications"></Notification>
+  <Notification v-if="showNotifications" />
 </template>
 
 

@@ -18,16 +18,10 @@ const router = createRouter({
       path: "/welcome",
       name: "welcome",
       component: () => import("../components/Landing.vue"),
-      // meta: {
-      //   requiresAuth: false
-      // }
     },{
       path: "/dashboard",
       name: "dashboard",
       component: () => import("../components/DashBoard.vue"),
-      // meta: {
-      //   requiresAuth: true
-      // }
     },{
       path: "/login",
       name: "login",
@@ -36,46 +30,21 @@ const router = createRouter({
       path: "/recommendation",
       name: "recommendation",
       component: () => import("../components/Recommendation.vue"),
-      // meta: {
-      //   requiresAuth: false
-      // }
     }, {
       path: "/profile",
       name: "profile",
       component: () => import("../components/Profile.vue"),
-      // meta: {
-      //   requiresAuth: true
-      // }
-    },
-    // {
-    //   path: "/notification",
-    //   name: "notification",
-    //   component: () => import("../components/Notification.vue")
-    // }, 
+    }, 
     // {
     //   path: "/settings",
     //   name: "settings",
     //   component: () => import("../components/Settings.vue"),
-    //   meta: {
-    //     requiresAuth: true
-    //   }
     // },
     // {
     //   path: "/mail",
     //   name: "mail",
     //   component: () => import("../components/Mail.vue"),
-    //   meta: {
-    //     requiresAuth: true
-    //   }
-    // }, 
-    {
-      path: "/sidebar",
-      name: "sidebar",
-      component: () => import("../components/Sidebar.vue"),
-      // meta: {
-      //   requiresAuth: true
-      // }
-    }
+    // },
   ],
 });
 

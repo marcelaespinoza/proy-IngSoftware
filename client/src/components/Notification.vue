@@ -7,7 +7,7 @@ export default {
         citasPendientes: ["Margiory", "Marcela", "Milloshy", "Fabiola", "Adrian"],
     }
   },
-  methods: {
+  computed: {
     viewNotifications() {
         this.showCitas = !this.showCitas;
     }
