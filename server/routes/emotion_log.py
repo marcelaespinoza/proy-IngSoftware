@@ -1,11 +1,12 @@
 from fastapi import APIRouter
 from models.emotion_log import EmotionLog
-from server.database.emotion_log import create_emotion_log, get_emotion_logs, get_emotion_logs_by_member, delete_emotion_log, update_emotion_log
+from database.emotion_log import create_emotion_log, get_emotion_logs, get_emotion_logs_by_member, delete_emotion_log, update_emotion_log
 
 routes_emotion_log = APIRouter()
 
 @routes_emotion_log.post("/create", response_model=EmotionLog)
 def create(emotion_log: EmotionLog):
+    print(emotion_log.model_dump())
     return create_emotion_log(emotion_log.model_dump())
 
 @routes_emotion_log.get("/get/{member_code}/{start_date}/{end_date}")

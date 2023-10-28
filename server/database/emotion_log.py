@@ -21,7 +21,7 @@ emotion_scores = {
 def create_emotion_log(emotion_log: dict):
     try:
         table.put_item(Item=emotion_log)
-        score = emotion_scores.get(emotion_log["Emotion"], 0)
+        score = emotion_scores.get(emotion_log["emotion"], 0)
         dynamodb.update_item(
             TableName='Member',
             Key={'code': {'S': emotion_log["member_code"]}},
@@ -36,7 +36,7 @@ def get_emotion_logs_by_member(member_code: str, start_date: str, end_date: str)
     try:
         response = table.query(
             KeyConditionExpression=Key('member_code').eq(member_code) &
-                                  Key('date').between(start_date, end_date)
+                                   Key('timestamp').between(f"{start_date}T00:00:00", f"{end_date}T23:59:59")
         )
         return response["Items"]
     except ClientError as e:
@@ -46,7 +46,7 @@ def get_emotion_logs(start_date: str, end_date: str):
     try:
         response = table.query(
             IndexName='DateIndex',
-            KeyConditionExpression=Key('date').between(start_date, end_date)
+            KeyConditionExpression=Key('timestamp').between(f"{start_date}T00:00:00", f"{end_date}T23:59:59")
         )
         return response["Items"]
     except ClientError as e:
@@ -57,8 +57,7 @@ def delete_emotion_log(emotion_log: dict):
         response = table.delete_item(
             Key={
                 "member_code": emotion_log["member_code"],
-                "date": emotion_log["date"],
-                "hour": emotion_log["hour"]
+                "timestamp": emotion_log["timestamp"]
             }
         )
         return response
@@ -67,11 +66,10 @@ def delete_emotion_log(emotion_log: dict):
 
 def update_emotion_log(emotion_log: dict):
     try:
-        response = table.update_item(
+        response = table.put_item(
             Key={
                 "member_code": emotion_log["member_code"],
-                "date": emotion_log["date"],
-                "hour": emotion_log["hour"]
+                "timestamp": emotion_log["timestamp"]
             },
             UpdateExpression="SET emotion = :emotion",
             ExpressionAttributeValues={

@@ -8,5 +8,4 @@ app = FastAPI()
 app.include_router(routes_member, prefix="/member")
 app.include_router(routes_emotion_log, prefix="/emotion_log")
 
-if __name__ == "__main__":
-    create_tables()
+create_tables()
