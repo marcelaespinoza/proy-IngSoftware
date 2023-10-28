@@ -6,13 +6,13 @@ import Notification from './components/Notification.vue'
 export default {
   name: "App",
   computed: {
-    user_logged() {
+    viewNav() {
         return this.$route.path !== '/login' && this.$route.path !== '/welcome';
     },
 
-    // in_dashboard() {
-    //   return this.$route.path === '/dashboard';
-    // }
+    in_dashboard() {
+      return this.$route.path === '/dashboard';
+    }
   },
   components: { Sidebar, Notification }
 }
@@ -22,7 +22,7 @@ export default {
 <template>
  
 
-  <Sidebar v-if="user_logged"/>
+  <Sidebar v-if="viewNav"/>
 
   <router-view />
 

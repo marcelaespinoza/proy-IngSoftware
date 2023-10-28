@@ -7,7 +7,7 @@ export default {
     data() {
       return {
         collapsed: false,
-        showNotifications: true,
+        showNotifications: false,
         screenWidth: window.innerWidth,
         navData: [
           {

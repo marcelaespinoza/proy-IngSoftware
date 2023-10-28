@@ -10,7 +10,7 @@ const router = createRouter({
   routes: [ {
       path: "/",
       name: "/",
-      component: () => import("../components/Landing.vue"),
+      component: () => import("../components/Dashboard.vue"),
       // meta: {
       //   requiresAuth: true
       // }
@@ -40,28 +40,28 @@ const router = createRouter({
     //   name: "settings",
     //   component: () => import("../components/Settings.vue"),
     // },
-    // {
-    //   path: "/mail",
-    //   name: "mail",
-    //   component: () => import("../components/Mail.vue"),
-    // },
+    {
+      path: "/mail",
+      name: "mail",
+      component: () => import("../components/Mail.vue"),
+    },
   ],
 });
 
-router.beforeEach((to, from, next) => {
-  if (to.matched.some((record) => record.meta.requiresAuth)) {
-    // La ruta requiere autenticación
-    if (isAuthenticated()) {
-      // El usuario está autenticado, permitir el acceso
-      next();
-    } else {
-      // El usuario no está autenticado, redirigir a la página de inicio de sesión
-      next("/login");
-    }
-  } else {
-    // La ruta no requiere autenticación, permitir el acceso sin verificar
-    next();
-  }
-});
+// router.beforeEach((to, from, next) => {
+//   if (to.matched.some((record) => record.meta.requiresAuth)) {
+//     // La ruta requiere autenticación
+//     if (isAuthenticated()) {
+//       // El usuario está autenticado, permitir el acceso
+//       next();
+//     } else {
+//       // El usuario no está autenticado, redirigir a la página de inicio de sesión
+//       next("/login");
+//     }
+//   } else {
+//     // La ruta no requiere autenticación, permitir el acceso sin verificar
+//     next();
+//   }
+// });
 
 export default router;
