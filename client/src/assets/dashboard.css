@@ -3,7 +3,7 @@ section {
   /* display: flex; */
   top: 4em;
   left:  calc(var(--lateral-navbar-width) + 2em);
-  width: var(--section-width);
+    width: var(--section-width);
   height: var(--section-height);
   /* background-color: #7fd9bb; */
   flex-direction: column;
@@ -12,7 +12,7 @@ section {
 }
 
 .sidenav {
-  background: #cbe8ba;
+  background-color: var(--color-feelscan-2);
   transition: all .5s ease;
   position: fixed;
   z-index: 1;
@@ -67,3 +67,49 @@ section div {
   height: 30em;
 }
 
+
+/* /////////////// */
+/* Tabla */
+
+#feature-emotion-trend-b {
+  /* padding: 3em 0 3em 0; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+#table-box {
+  overflow-y: scroll;
+}
+
+#feature-emotion-trend-b h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 0 20px 0;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  color: #555; /* Color medio plomo */
+}
+
+th {
+  background-color: var(--color-feelscan-2); /* Verde aqua */
+  color: rgb(7, 3, 3); /* Texto blanco en la fila de encabezado */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}

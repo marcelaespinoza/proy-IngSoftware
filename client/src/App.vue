@@ -7,7 +7,7 @@ export default {
   name: "App",
   computed: {
     viewNav() {
-        return this.$route.path !== '/login' && this.$route.path !== '/welcome';
+        return this.$route.path !== '/login' && this.$route.path !== '/welcome' && this.$route.path !== '/';
     },
 
     in_dashboard() {

@@ -127,57 +127,6 @@ export default {
 
 
 <style scoped>
-.logo-container {
-  display: flex;
-  align-items: center;
-  padding: 0.938rem;
-  width: 100%;
-}
-
-.logo {
-  background: #cbe8ba;
-  text-align: center;
-  width: 3.5rem;
-  height: 3.2rem;
-  min-width: 3rem;
-  border-radius: 0.313rem;
-  font-size: 24px;
-  font-weight: 900;
-  cursor: pointer;
-  border: none;
-}
-
-.logo img{
-  width: 3rem;
-  min-width: 3rem;
-}
-
-.logo-text {
-  margin-left: 1.5rem;
-  font-size: 24px;
-  font-weight: 700;
-  color: #000000;
-}
-
-.btn-close {
-  margin-left: auto;
-  cursor: pointer;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: transparent;
-  border: none;
-}
-
-.fa-times {
-  color: #cbe8ba;
-  font-size: 24px;
-}
-
-.active .sidenav-link-icon,
-.active .sidenav-link-text {
-  color: #000;
-}
 
 
 </style>
