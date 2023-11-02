@@ -1,4 +1,4 @@
-const datos_api = [
+[
   {
     "id": 202010100,
     "nombre": "Emigdio Llorente Checa",
@@ -68936,5 +68936,3 @@ const datos_api = [
     "rol": "Psicologo"
   }
 ]
-
-export default datos_api;

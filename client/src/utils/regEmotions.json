@@ -1,4 +1,4 @@
-const regEmotions = [
+[
     {
       "codigo": 201215114,
       "emocion": "enojo",
@@ -20989,6 +20989,4 @@ const regEmotions = [
       "emocion": "satisfaccion",
       "fecha": "2023-03-20T17:30:00"
     }
-   ]
-
-export default regEmotions;
+ ]

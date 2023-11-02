@@ -1,25 +1,28 @@
 <script>
-// import axios from 'axios';
 import loadEmotions from '../utils/emotions'
-import datos_api from '../utils/members'
-import regEmotions from '../utils/regEmotions'
+
+import members from '../utils/members.json'
+import regEmotions from '../utils/regEmotions.json'
 
 export default {
   name: "Dashboard",
   data() {
     return {
       // url: 'https://syy8260zh3.execute-api.us-east-1.amazonaws.com/UTEC/miembros',
-      featureEmotions: []
+      featureEmotions: [],
+      members: JSON.parse(JSON.stringify(members)),
+      regEmotions: JSON.parse(JSON.stringify(regEmotions)),
 
+      showAgent: false
     }
   },
   created() {
 
-    const sort_codigos = loadEmotions(regEmotions);
+    const sort_codigos = loadEmotions(this.regEmotions);
     
-    // const datos_api = axios.get(this.url).then(res => res.data.body)
+    // const members = axios.get(this.url).then(res => res.data.body)
     sort_codigos.forEach((reg) => {
-        const val = datos_api.find(member => member.id.toString() === reg[0])
+        const val = this.members.find(member => member.id.toString() === reg[0])
         if (val) {
           let resultado = {
             "codigo": reg[0],
@@ -33,7 +36,9 @@ export default {
     })
   },
   methods: {
-
+    viewAgenda() {
+      this.showAgent = !this.showAgent;
+    }
   },
   mounted() {
 
@@ -64,9 +69,9 @@ export default {
   </div>
   
   <div id="feature-emotion-trend-b">
-    <div id="table-box">
-
-      <table id="miembros-table">
+    <div id="scroll-block">
+      <div id="table-box">
+        <table id="miembros-table">
         <thead>
             <tr>
               <th>Anotación</th><th>Código</th>
@@ -83,19 +88,23 @@ export default {
             <td>
               <div id="state-check">
                 <div class="circulo rojo" @click=""></div>
-                <div class="circulo amarillo"></div>
-                <div class="circulo verde"></div>
+                <div class="circulo amarillo" @click=""></div>
+                <div class="circulo verde" @click=""></div>
               </div>
             </td>
           </tr>
-          
-        </tbody>
-      </table>
-    </div>
+            
+          </tbody>
+        </table>
+      </div>
     
-
-    <div id="agent-button">
-
+      <div id="agent-button">
+        <ul>
+          <li v-for="index in featureEmotions.length" :key="index">
+            <div id="plus-env" @click="viewAgenda"><h1>+</h1></div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
@@ -104,7 +113,8 @@ export default {
 <style scoped>
 
 #state-check {
-  /* padding-top: 30px; */
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
  .circulo {
@@ -113,6 +123,7 @@ export default {
     border-radius: 50%;
     display: inline-block;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .rojo {
@@ -126,4 +137,5 @@ export default {
 .verde {
     background-color: gray;
 }
+
 </style>

@@ -1,4 +1,5 @@
 <template>
+  
     <div class="container">
     <h1 class="text-center">Agenda tu visita</h1>
     <h3>Reserve una consulta con nuestros especialistas en salud mental para fortalecer su bienestar emocional y mental.</h3>
