@@ -11,13 +11,13 @@ export default {
     viewNotifications() {
         this.showCitas = !this.showCitas;
     }
-  }
+  },
 }
 </script>
 
 
 <template>
-<div v-if="showCitas" id="ventanaCita" class="window">
+<div v-if="showCitas" class="window">
   <div class="window-content">
     <button @click="viewNotifications" class="close" id="closewindow">&times;</button>
     <h2>Tienes citas pendientes!!</h2>

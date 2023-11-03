@@ -1,6 +1,7 @@
 <script>
-import loadEmotions from '../utils/emotions'
+import Aggent from './Aggent.vue'
 
+import loadEmotions from '../utils/emotions'
 import members from '../utils/members.json'
 import regEmotions from '../utils/regEmotions.json'
 
@@ -9,19 +10,28 @@ export default {
   data() {
     return {
       // url: 'https://syy8260zh3.execute-api.us-east-1.amazonaws.com/UTEC/miembros',
-      featureEmotions: [],
       members: JSON.parse(JSON.stringify(members)),
+      // member: {}
       regEmotions: JSON.parse(JSON.stringify(regEmotions)),
 
-      showAgent: false
+      sort_codigos: [],
+      featureEmotions: [],
+      
+      showAgent: false,
+      unDoneCheck: [],
+      meanWhileCheck: [],
+      DoneCheck: [],
+
+      userToCitar: "",
+      emailToCitar: ""
     }
   },
   created() {
 
-    const sort_codigos = loadEmotions(this.regEmotions);
+      // members = axios.get(this.url).then(res => res.data.body)
+    this.sort_codigos = loadEmotions(this.regEmotions);
     
-    // const members = axios.get(this.url).then(res => res.data.body)
-    sort_codigos.forEach((reg) => {
+    this.sort_codigos.forEach((reg) => {
         const val = this.members.find(member => member.id.toString() === reg[0])
         if (val) {
           let resultado = {
@@ -33,16 +43,50 @@ export default {
           }
           this.featureEmotions.push(resultado);
         }
-    })
+      })
+
+      // carga los estados checks de cada miembro por defecto
+      for (let i = 0; i < this.featureEmotions.length; i++) {
+        this.unDoneCheck[i] = false
+        this.meanWhileCheck[i] = this.DoneCheck[i] = false;
+      }
   },
   methods: {
     viewAgenda() {
       this.showAgent = !this.showAgent;
+    },
+
+    getUserRow(index) {
+      const infoUser = this.sort_codigos[index-1]
+      const UserData = this.members.find(member => member.id.toString() === infoUser[0])
+      this.userToCitar = UserData.nombre
+      this.emailToCitar = UserData.correo
+      console.log(this.userToCitar, this.emailToCitar)
+    },
+
+    tounDoneCheck(index) {
+        if (this.unDoneCheck[index]) {
+          this.meanWhileCheck[index] = false;
+          this.DoneCheck[index] = false;
+        }
+      },
+    toNeanwhileCheck(index) {
+      if (this.meanWhileCheck[index]) {
+        this.unDoneCheck[index] = false;
+        this.DoneCheck[index] = false;
+      }
+    },
+    toDoneCheck(index) {
+      if (this.DoneCheck[index]) {
+        this.unDoneCheck[index] = false;
+        this.meanWhileCheck[index] = false;
+      }
     }
   },
   mounted() {
 
-  }
+  },
+  components: { Aggent }
 }
 </script>
 
@@ -74,7 +118,7 @@ export default {
         <table id="miembros-table">
         <thead>
             <tr>
-              <th>Anotación</th><th>Código</th>
+              <th>Código</th>
               <th>Nombre</th><th>Área</th>
               <th>Edad</th><th>Puntaje</th>
               <th>Estado</th>
@@ -82,14 +126,13 @@ export default {
         </thead>
         <tbody>
           <!-- Los datos se cargan EN VUE -->
-          <tr v-for="(row, index) in featureEmotions" :key="index">
-            <td> <!-- La anotacion de checks --> </td>
+          <tr :id="`row-${index++}`" v-for="(row, index) in featureEmotions" :key="index">
             <td v-for="cell in row">{{ cell }} </td>
-            <td>
+            <td id="state-cell">
               <div id="state-check">
-                <div class="circulo rojo" @click=""></div>
-                <div class="circulo amarillo" @click=""></div>
-                <div class="circulo verde" @click=""></div>
+                <input type="checkbox" :class="`check-style n-undone`" v-model="unDoneCheck[index]" @change="tounDoneCheck(index)">
+                <input type="checkbox" :class="`check-style n-meanwhile`" v-model="meanWhileCheck[index]" @change="toNeanwhileCheck(index)">
+                <input type="checkbox" :class="`check-style n-done`" v-model="DoneCheck[index]" @change="toDoneCheck(index)">
               </div>
             </td>
           </tr>
@@ -99,43 +142,50 @@ export default {
       </div>
     
       <div id="agent-button">
+        <h5>Citar</h5>
         <ul>
-          <li v-for="index in featureEmotions.length" :key="index">
-            <div id="plus-env" @click="viewAgenda"><h1>+</h1></div>
+          <li :id="`li-${index-1}`" v-for="index in featureEmotions.length" :key="index">
+            <div id="plus-env" @click="{getUserRow(index); viewAgenda()}"><h1>+</h1></div>
           </li>
         </ul>
       </div>
+
     </div>
   </div>
 </section>
+
+<Aggent v-if="showAgent" :username="userToCitar" :email="emailToCitar"/>
+
 </template>
 
 <style scoped>
 
 #state-check {
-  margin-top: 30px;
-  margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 14px;
 }
 
- .circulo {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    display: inline-block;
+#state-cell {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.check-style {
     margin-left: 5px;
     cursor: pointer;
 }
 
-.rojo {
-    background-color: red;
-}
+.n-undone:checked { 
+  accent-color: red;
+} 
 
-.amarillo {
-    background-color: gray;
-}
+.n-meanwhile:checked { 
+    accent-color: yellow; 
+} 
 
-.verde {
-    background-color: gray;
-}
+.n-done:checked { 
+    accent-color: green; 
+} 
 
 </style>

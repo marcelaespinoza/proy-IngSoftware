@@ -99,7 +99,7 @@ table {
 
 th, td {
   border: 1px solid #ddd;
-  padding: 3px 15px 3px 15px;
+  padding: 4px 25px 4px 25px;
   text-align: center;
   color: #555; /* Color medio plomo */
 }
@@ -118,14 +118,18 @@ tr:hover {
   background-color: #ddd;
 }
 
+
+/* /////////////// */
+/* Lista de botones agendar cita */
+
 #agent-button {
   width: 10px;
-  margin: 35px 0 0 10px;
+  /* margin-top: 1px; */
 }
 
 #agent-button li {
   list-style: none;
-  padding-bottom: 1.5px;
+  padding-bottom: 0px;
 }
 
 #agent-button ul {
@@ -137,14 +141,14 @@ tr:hover {
   color: white;
   border-radius: 100%;
   background-color: var(--color-feelscan-3);
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
 }
 
 #plus-env h1 {
-  padding-top: 10px;
+  padding-top: 5px;
   margin: 0;
 }
