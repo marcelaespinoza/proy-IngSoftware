@@ -164,8 +164,8 @@ def getNmembers(dynamodb = db, N = 20):
             "codigo": codigo,
             "nombre": nombre,
             "area": area,
-            "puntaje": puntaje,
-            "correo": correo
+            "correo": correo,
+            "puntaje": puntaje
         }
 
         # Agrega el elemento al diccionario resultante usando el código como clave
@@ -246,10 +246,6 @@ def getDataTiempo(dynamodb, tenant_id, fecha_limite):
     )
     return response['Items']
 
-"""
-#########################
-#IGNORAR
-#########################
 
 def getXmainGrafico(fecha_limite = datetime(2023, 8, 20, 0,0,0)):
     end_date = datetime(2023, 8, 28, 0,0,0)
@@ -261,21 +257,32 @@ def getXmainGrafico(fecha_limite = datetime(2023, 8, 20, 0,0,0)):
         if 6 <= current_date.hour <= 23:
             fechaThora_list.append(current_date.strftime('%Y-%m-%dT%H:%M:%S'))
         
-        current_date += timedelta(hours=13)
+        current_date += timedelta(hours=3)
 
     return fechaThora_list
 
 
-def getValuesMainGrafico(dynamodb,fecha_limite, tenant_id = 'UTEC'):
+def getValuesMainGrafico(dynamodb = db,fecha_limite = datetime(2023, 8, 20), tenant_id = 'UTEC'):
     fechaThora_list = getXmainGrafico(fecha_limite)
-    table_name = 't_registro_emociones'
     #diccionario
-
+    formato = '%Y-%m-%dT%H:%M:%S'
     valores = getDataTiempo(dynamodb, tenant_id, fecha_limite) #todos los valores sin filtrar por area o emocion 
-    for i in range(len(valores)):
-        pass
+    # Inicializa un diccionario vacío
+    fecha_dict = {clave: 0 for clave in fechaThora_list}
 
+    for fecha_list in fechaThora_list:
+        for item in valores:
+            if item['fechaThora']['S'] <= fecha_list and item['fechaThora']['S'] >= str(fecha_limite):
+                fecha_dict[fecha_list] += 1
 
+    return fecha_dict 
+    
+#print(getValuesMainGrafico())
+
+#########################
+#IGNORAR
+#########################
+"""
 #solo cambia la emoción y el área
 def mainGrafico(emocion = 'tristeza', area = 'Computer Science', items = getDataTiempo(db,'UTEC',fecha_limite = datetime(2023, 8, 20, 0, 0, 0)),dynamodb = db, tenant_id = 'UTEC'):
     emocion_ids = getEmocionesId(items)
@@ -294,8 +301,7 @@ def getEmocionesId(items):
         id = item['code']['S']
         emocion_ids[emocion].append(id)
 
-    return dict(emocion_ids)    
-
+    return dict(emocion_ids)   
 
 #mainGrafico()
 """
