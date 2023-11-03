@@ -1,49 +1,35 @@
 <script>
-import Aggent from './Aggent.vue'
+import axios from 'axios'
 
-import loadEmotions from '../utils/emotions'
+import Aggent from './Aggent.vue'
 import members from '../utils/members.json'
-import regEmotions from '../utils/regEmotions.json'
+import puntajes from '../utils/puntajes.json'
 
 export default {
   name: "Dashboard",
   data() {
     return {
-      // url: 'https://syy8260zh3.execute-api.us-east-1.amazonaws.com/UTEC/miembros',
       members: JSON.parse(JSON.stringify(members)),
-      // member: {}
-      regEmotions: JSON.parse(JSON.stringify(regEmotions)),
+      // members: axios.get('http://127.0.0.1:5000/api/Nmembers').then(res => res.data)
 
-      sort_codigos: [],
-      featureEmotions: [],
+      featureEmotions: JSON.parse(JSON.stringify(puntajes)),
+      // featureEmotions: axios.get('http://127.0.0.1:5000/api/predominante').then(res => res.data)
       
       showAgent: false,
       unDoneCheck: [],
       meanWhileCheck: [],
       DoneCheck: [],
 
+      dominantEmotion: "",
+      imageDomEmotion: "",
+      
       userToCitar: "",
       emailToCitar: ""
     }
   },
   created() {
-
-      // members = axios.get(this.url).then(res => res.data.body)
-    this.sort_codigos = loadEmotions(this.regEmotions);
-    
-    this.sort_codigos.forEach((reg) => {
-        const val = this.members.find(member => member.id.toString() === reg[0])
-        if (val) {
-          let resultado = {
-            "codigo": reg[0],
-            "nombre": val.nombre,
-            "area": val.area,
-            "edad": val.edad,
-            "puntaje": reg[1],
-          }
-          this.featureEmotions.push(resultado);
-        }
-      })
+      this.dominantEmotion = "Enojo"
+      // this.dominantEmotion = axios.get('http://127.0.0.1:5000/api/emocionDominante').then(res => res.data)
 
       // carga los estados checks de cada miembro por defecto
       for (let i = 0; i < this.featureEmotions.length; i++) {
@@ -57,11 +43,10 @@ export default {
     },
 
     getUserRow(index) {
-      const infoUser = this.sort_codigos[index-1]
-      const UserData = this.members.find(member => member.id.toString() === infoUser[0])
+      const infoUser = this.featureEmotions[index-1]
+      const UserData = this.members.find(member => member.id.toString() === infoUser.codigo)
       this.userToCitar = UserData.nombre
       this.emailToCitar = UserData.correo
-      console.log(this.userToCitar, this.emailToCitar)
     },
 
     tounDoneCheck(index) {
@@ -69,20 +54,29 @@ export default {
           this.meanWhileCheck[index] = false;
           this.DoneCheck[index] = false;
         }
+        const codeuser = this.featureEmotions[index-1].codigo
+        axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`)
       },
+      
     toNeanwhileCheck(index) {
       if (this.meanWhileCheck[index]) {
         this.unDoneCheck[index] = false;
         this.DoneCheck[index] = false;
       }
+      const codeuser = this.featureEmotions[index-1].codigo
+      axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`)
     },
+
     toDoneCheck(index) {
       if (this.DoneCheck[index]) {
         this.unDoneCheck[index] = false;
         this.meanWhileCheck[index] = false;
       }
-    }
+      const codeuser = this.featureEmotions[index-1].codigo
+      axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`)
+    },
   },
+
   mounted() {
 
   },
@@ -93,26 +87,52 @@ export default {
 <template>
 <section>
   
-  <div id="select-emotion-b">
+  <div id="select-emotion-b" class="box-info">
+
+    <div id="pet-select-em"><h4>Selecciona la emoción: </h4></div>
+    <div id="form-select-em">
+      <form action="#">
+        <label for="select-emotion">
+          <select name="emotion-active" id="lang">
+            <option value="felicidad">Felicidad</option>
+            <option value="tristeza">Tristeza</option>
+            <option value="estres">Estres</option>
+            <option value="enojo">Enojo</option>
+            <option value="ansiedad">Ansiedad</option>
+            <option value="aburrimiento">Aburrimiento</option>
+            <option value="alivio">Alivio</option>
+          </select>
+        </label>
+      </form>
+    </div>
 
   </div>
   
+
   <div id="section-emotion">
-    <div id="dominant-emotion-b">
-      
+
+    <div id="dominant-emotion-b" class="box-info">
+      <div>Emocion dominante</div>
+      <div id="get-dom-image">
+          <!-- <h2>{{ dominantEmotion }}</h2> -->
+          <img :src="`./public/images/` + dominantEmotion + '.jpg'" :alt="dominantEmotion" width="100">
+      </div>  
     </div>
     
+
     <div id="circular-graph-b">
       
     </div>
     
   </div>
   
+
   <div id="chart-emotion-area-b">
     
   </div>
   
-  <div id="feature-emotion-trend-b">
+  <div id="feature-emotion-trend-b" class="box-info">
+
     <div id="scroll-block">
       <div id="table-box">
         <table id="miembros-table">
@@ -121,7 +141,7 @@ export default {
               <th>Código</th>
               <th>Nombre</th><th>Área</th>
               <th>Edad</th><th>Puntaje</th>
-              <th>Estado</th>
+              <th>Asistencia</th>
             </tr>
         </thead>
         <tbody>
@@ -151,6 +171,7 @@ export default {
       </div>
 
     </div>
+
   </div>
 </section>
 
@@ -160,15 +181,20 @@ export default {
 
 <style scoped>
 
+#get-dom-image {
+  width: 100px;
+  height: 70px;
+  /* border: 1px solid black; */
+}
+
 #state-check {
-  margin-top: 20px;
-  margin-bottom: 14px;
+  margin: 20px 23px 0 0;
 }
 
 #state-cell {
   display: flex;
-  align-items: center;
-  width: 60%;
+  /* align-items: center; */
+  width: 80%;
 }
 
 .check-style {

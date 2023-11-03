@@ -1,0 +1,328 @@
+{
+  "201033134": {
+    "Jueves": [
+      "14:00",
+      "16:00"
+    ],
+    "Lunes": [
+      "10:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "17:00"
+    ],
+    "Martes": [
+      "12:00",
+      "13:00",
+      "15:00",
+      "16:00",
+      "17:00"
+    ],
+    "Miercoles": [],
+    "Viernes": [
+      "13:00",
+      "15:00"
+    ],
+    "correo": "cortuno@utec.edu.pe",
+    "nombre": "Cebrian Ortuno Chacon"
+  },
+  "201333109": {
+    "Jueves": [],
+    "Lunes": [],
+    "Martes": [
+      "15:00"
+    ],
+    "Miercoles": [
+      "10:00",
+      "11:00",
+      "14:00",
+      "17:00"
+    ],
+    "Viernes": [
+      "17:00"
+    ],
+    "correo": "umarti@utec.edu.pe",
+    "nombre": "Ulises Marti Dalmau"
+  },
+  "201333132": {
+    "Jueves": [],
+    "Lunes": [
+      "14:00",
+      "17:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "12:00",
+      "13:00",
+      "14:00",
+      "16:00"
+    ],
+    "Viernes": [],
+    "correo": "caguilar@utec.edu.pe",
+    "nombre": "Cruz Aguilar Bolanos"
+  },
+  "201433113": {
+    "Jueves": [
+      "13:00",
+      "16:00",
+      "17:00"
+    ],
+    "Lunes": [
+      "12:00",
+      "13:00",
+      "16:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "14:00",
+      "17:00"
+    ],
+    "Viernes": [],
+    "correo": "rhernando@utec.edu.pe",
+    "nombre": "Ramiro Hernando Robledo"
+  },
+  "201633118": {
+    "Jueves": [
+      "17:00"
+    ],
+    "Lunes": [
+      "12:00",
+      "13:00",
+      "15:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "12:00",
+      "14:00",
+      "17:00"
+    ],
+    "Viernes": [
+      "10:00",
+      "13:00",
+      "15:00",
+      "16:00",
+      "17:00"
+    ],
+    "correo": "carroyo@utec.edu.pe",
+    "nombre": "Cristina Arroyo Rivera"
+  },
+  "201633119": {
+    "Jueves": [
+      "17:00"
+    ],
+    "Lunes": [
+      "13:00",
+      "15:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "12:00",
+      "13:00",
+      "16:00",
+      "17:00"
+    ],
+    "Viernes": [
+      "16:00"
+    ],
+    "correo": "ogranados@utec.edu.pe",
+    "nombre": "Olimpia Granados Larrea"
+  },
+  "201833100": {
+    "Jueves": [],
+    "Lunes": [
+      "12:00",
+      "13:00",
+      "15:00",
+      "17:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "10:00",
+      "11:00",
+      "12:00",
+      "15:00",
+      "16:00"
+    ],
+    "Viernes": [],
+    "correo": "sfernandez@utec.edu.pe",
+    "nombre": "Sabas Fernandez Palmer"
+  },
+  "201933105": {
+    "Jueves": [],
+    "Lunes": [
+      "17:00"
+    ],
+    "Martes": [],
+    "Miercoles": [],
+    "Viernes": [
+      "17:00"
+    ],
+    "correo": "abauza@utec.edu.pe",
+    "nombre": "Azeneth Bauza Montesinos"
+  },
+  "201933122": {
+    "Jueves": [
+      "14:00",
+      "15:00",
+      "16:00"
+    ],
+    "Lunes": [],
+    "Martes": [
+      "11:00",
+      "12:00",
+      "15:00",
+      "16:00",
+      "17:00"
+    ],
+    "Miercoles": [
+      "13:00",
+      "16:00"
+    ],
+    "Viernes": [],
+    "correo": "cbecerra@utec.edu.pe",
+    "nombre": "Celso Becerra Pombo"
+  },
+  "201933125": {
+    "Jueves": [
+      "17:00"
+    ],
+    "Lunes": [
+      "11:00",
+      "12:00",
+      "13:00",
+      "15:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "12:00",
+      "14:00",
+      "15:00",
+      "17:00"
+    ],
+    "Viernes": [
+      "14:00",
+      "17:00"
+    ],
+    "correo": "anarvaez@utec.edu.pe",
+    "nombre": "Adolfo Narvaez Navarrete"
+  },
+  "202033101": {
+    "Jueves": [
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00"
+    ],
+    "Lunes": [
+      "14:00",
+      "15:00",
+      "17:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "16:00",
+      "17:00"
+    ],
+    "Viernes": [
+      "15:00",
+      "16:00"
+    ],
+    "correo": "tugarte@utec.edu.pe",
+    "nombre": "Tito Ugarte Feijoo"
+  },
+  "202033103": {
+    "Jueves": [
+      "10:00",
+      "12:00",
+      "14:00",
+      "16:00"
+    ],
+    "Lunes": [],
+    "Martes": [],
+    "Miercoles": [
+      "17:00"
+    ],
+    "Viernes": [],
+    "correo": "cbarriga@utec.edu.pe",
+    "nombre": "Climaco Barriga Canales"
+  },
+  "202033142": {
+    "Jueves": [
+      "13:00",
+      "15:00",
+      "16:00"
+    ],
+    "Lunes": [
+      "11:00",
+      "13:00",
+      "15:00",
+      "17:00"
+    ],
+    "Martes": [
+      "15:00",
+      "17:00"
+    ],
+    "Miercoles": [
+      "13:00",
+      "14:00",
+      "16:00"
+    ],
+    "Viernes": [],
+    "correo": "cdalmau@utec.edu.pe",
+    "nombre": "Cristobal Mateo Dalmau Ferrero"
+  },
+  "202033144": {
+    "Jueves": [
+      "13:00",
+      "15:00",
+      "16:00"
+    ],
+    "Lunes": [
+      "12:00",
+      "15:00"
+    ],
+    "Martes": [],
+    "Miercoles": [
+      "10:00",
+      "12:00",
+      "13:00",
+      "15:00"
+    ],
+    "Viernes": [
+      "10:00",
+      "11:00",
+      "13:00",
+      "16:00"
+    ],
+    "correo": "bballester@utec.edu.pe",
+    "nombre": "Baudelio Ballester Giner"
+  },
+  "202233128": {
+    "Jueves": [],
+    "Lunes": [
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "17:00"
+    ],
+    "Martes": [
+      "11:00",
+      "12:00",
+      "14:00",
+      "15:00",
+      "17:00"
+    ],
+    "Miercoles": [
+      "17:00"
+    ],
+    "Viernes": [
+      "11:00",
+      "14:00",
+      "17:00"
+    ],
+    "correo": "lexposito@utec.edu.pe",
+    "nombre": "Lope Exposito Leon"
+  }
+}

@@ -3,17 +3,37 @@
   <div class="container" v-if="showWindow">
     <div id="container-modal">
 
-      <h3>Agende una cita de {{ $props.username }} con nuestros especialistas</h3>
-      <p>Send {{ $props.email }}</p>
+      <div id="text-aggent">
+        <h3>Agende una cita de {{ $props.username }} con nuestros especialistas</h3>
+        <p>Send email: {{ $props.email }}</p>
+      </div>
+      
 
       <div class="contact-form">
         <form ref="form" @submit.prevent="sendEmail">
           <div class="form-group">
-            <input v-model="psicologo" class="form-control" type="text" placeholder="Psicólogo *" />
-          </div>
-          <div class="form-group">
-            <input v-model="date" class="form-control" type="date" placeholder="Fecha de visita *" />
-          </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Horario</th>
+                  <th>Lunes</th><th>Martes</th>
+                  <th>Miercoles</th><th>Jueves</th>
+                  <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(horarios, code) in horariosPsico" :key="code">
+                <td > {{ horarios.nombre }}</td>
+                <td > {{ horarios["Lunes"]  }}</td>
+                <td > {{ horarios["Martes"]  }}</td>
+                <td > {{ horarios["Miercoles"]  }}</td>
+                <td > {{ horarios["Jueves"]  }}</td>
+                <td > {{ horarios["Viernes"]  }}</td>
+              </tr>
+            </tbody>
+          </table>
+            
+          </div>  
           <div class="form-group">
             <textarea v-model="message" class="form-control" placeholder="Mensaje *" cols="45" rows="8"></textarea>
           </div>
@@ -34,6 +54,8 @@
 </template>
   
 <script>
+import horariosPsico from '../utils/horariosPsico.json'
+
   export default {
     name: "Aggent",
     props: {
@@ -42,7 +64,8 @@
     },
     data() {
       return {
-        psicologo: "",
+        // psicologos: [],
+        horariosPsico: JSON.parse(JSON.stringify(horariosPsico)),
         date: "",
         message: "",
         isFormValid: true,
@@ -50,6 +73,10 @@
         showWindow: true
       };
     },
+    // created() {
+    //   this.horariosPsico = fetch('')
+    // },
+
     methods: {
         sendEmail() {
         // Validar que todas las casillas del formulario estén llenas

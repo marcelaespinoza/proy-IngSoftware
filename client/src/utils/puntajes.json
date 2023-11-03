@@ -1,0 +1,142 @@
+[
+    {
+    "codigo": "201602141",
+    "nombre": "Isidro Aragones Alcaraz",
+      "area": "Humanidades",
+      "correo": "iaragones@utec.edu.pe",
+      "puntaje": 61
+    },
+    {
+    "codigo": "202004116",
+    "nombre": "Leyre Maria Fernanda Iniesta Casanovas",
+      "area": "Ingenieria mecatronica",
+      "correo": "liniesta@utec.edu.pe",
+      "puntaje": 46
+    },
+    {
+    "codigo": "202202168",
+    "nombre": "Celestina Maristela Macias Rivero",
+      "area": "Humanidades",
+      "correo": "cmacias@utec.edu.pe",
+      "puntaje": 40
+    },
+    {
+    "codigo": "201705132",
+    "nombre": "Edelmiro Alvarez Pastor",
+      "area": "Ingenieria mecanica",
+      "correo": "ealvarez@utec.edu.pe",
+      "puntaje": 38
+    },
+    {
+    "codigo": "202120163",
+    "nombre": "Alejo Cornejo Mulet",
+      "area": "Ciencia de datos",
+      "correo": "alejo.cornejo@utec.edu.pe",
+      "puntaje": 35
+    },
+    {
+    "codigo": "202120758",
+    "nombre": "Fortunata Alonso Suarez",
+      "area": "Ingenieria mecatronica",
+      "correo": "fortunata.alonso@utec.edu.pe",
+      "puntaje": 35
+    },
+    {
+    "codigo": "202120372",
+    "nombre": "Emma Octavia Diaz Mendez",
+      "area": "Bioingenieria",
+      "correo": "emma.diaz@utec.edu.pe",
+      "puntaje": 34
+    },
+    {
+    "codigo": "202105101",
+    "nombre": "Manuela Barroso Benito",
+      "area": "Ingenieria mecanica",
+      "correo": "mbarroso@utec.edu.pe",
+      "puntaje": 33
+    },
+    {
+    "codigo": "201513117",
+    "nombre": "Cosme Tadeo Valero Acedo",
+      "area": "Ciencia de la computacion",
+      "correo": "cvalero@utec.edu.pe",
+      "puntaje": 32
+    },
+    {
+    "codigo": "201702115",
+    "nombre": "Alicia Cuadrado Diez",
+      "area": "Humanidades",
+      "correo": "acuadrado@utec.edu.pe",
+      "puntaje": 32
+    },
+    {
+    "codigo": "202120236",
+    "nombre": "Anunciacion Nino Huerta",
+      "area": "Ciencia de la computacion",
+      "correo": "anunciacion.nino@utec.edu.pe",
+      "puntaje": 32
+    },
+    {
+    "codigo": "202110653",
+    "nombre": "Encarnacion Elorza Chaves",
+      "area": "Ingenieria mecanica",
+      "correo": "encarnacion.elorza@utec.edu.pe",
+      "puntaje": 31
+    },
+    {
+    "codigo": "202110731",
+    "nombre": "Obdulia Pla Santamaria",
+      "area": "Ingenieria mecatronica",
+      "correo": "obdulia.pla@utec.edu.pe",
+      "puntaje": 31
+    },
+    {
+    "codigo": "202120521",
+    "nombre": "Ciriaco Cuenca Coronado",
+      "area": "Ingenieria civil",
+      "correo": "ciriaco.cuenca@utec.edu.pe",
+      "puntaje": 31
+    },
+    {
+    "codigo": "201703196",
+    "nombre": "Crescencia Lopez Verdugo",
+      "area": "Ingenieria quimica",
+      "correo": "clopez@utec.edu.pe",
+      "puntaje": 30
+    },
+    {
+    "codigo": "202112181",
+    "nombre": "Ruy Quintero Ferreras",
+      "area": "Bioingenieria",
+      "correo": "rquintero@utec.edu.pe",
+      "puntaje": 30
+    },
+    {
+    "codigo": "202120295",
+    "nombre": "Carmelo Nunez Moll",
+      "area": "Ciencia de la computacion",
+      "correo": "carmelo.nunez@utec.edu.pe",
+      "puntaje": 30
+    },
+    {
+    "codigo": "202120658",
+    "nombre": "Lucho Solis Palomar",
+      "area": "Ingenieria mecanica",
+      "correo": "lucho.solis@utec.edu.pe",
+      "puntaje": 30
+    },
+    {
+    "codigo": "202120676",
+    "nombre": "Nacho Anacleto Alberto Mendizabal",
+      "area": "Ingenieria mecanica",
+      "correo": "nacho.alberto@utec.edu.pe",
+      "puntaje": 30
+    },
+    {
+    "codigo": "201305140",
+    "nombre": "Lourdes Teruel Arevalo",
+      "area": "Ingenieria mecanica",
+      "correo": "lteruel@utec.edu.pe",
+      "puntaje": 29
+    }
+]
