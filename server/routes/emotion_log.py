@@ -8,7 +8,7 @@ routes_emotion_log = APIRouter()
 def create(emotion_log: EmotionLog):
     print(emotion_log.model_dump())
     return create_emotion_log(emotion_log.model_dump())
-
+    
 @routes_emotion_log.get("/get/{member_code}/{start_date}/{end_date}")
 def get_by_code(member_code: str, start_date: str, end_date: str):
     return get_emotion_logs_by_member(member_code, start_date, end_date)
