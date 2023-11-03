@@ -2,18 +2,14 @@
 import axios from 'axios'
 
 import Aggent from './Aggent.vue'
-import members from '../utils/members.json'
 import puntajes from '../utils/puntajes.json'
 
 export default {
   name: "Dashboard",
   data() {
     return {
-      members: JSON.parse(JSON.stringify(members)),
-      // members: axios.get('http://127.0.0.1:5000/api/Nmembers').then(res => res.data)
-
       featureEmotions: JSON.parse(JSON.stringify(puntajes)),
-      // featureEmotions: axios.get('http://127.0.0.1:5000/api/predominante').then(res => res.data)
+      // featureEmotions: axios.get('http://127.0.0.1:5000/api/Nmembers').then(res => res.data)
       
       showAgent: false,
       unDoneCheck: [],
@@ -29,7 +25,7 @@ export default {
   },
   created() {
       this.dominantEmotion = "Enojo"
-      // this.dominantEmotion = axios.get('http://127.0.0.1:5000/api/emocionDominante').then(res => res.data)
+      // this.dominantEmotion = axios.get('http://127.0.0.1:5000/emocion/predominante').then(res => res.data)
 
       // carga los estados checks de cada miembro por defecto
       for (let i = 0; i < this.featureEmotions.length; i++) {
@@ -55,7 +51,7 @@ export default {
           this.DoneCheck[index] = false;
         }
         const codeuser = this.featureEmotions[index-1].codigo
-        axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`)
+        // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`)
       },
       
     toNeanwhileCheck(index) {
@@ -64,7 +60,7 @@ export default {
         this.DoneCheck[index] = false;
       }
       const codeuser = this.featureEmotions[index-1].codigo
-      axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`)
+      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`)
     },
 
     toDoneCheck(index) {
@@ -73,7 +69,7 @@ export default {
         this.meanWhileCheck[index] = false;
       }
       const codeuser = this.featureEmotions[index-1].codigo
-      axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`)
+      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`)
     },
   },
 
