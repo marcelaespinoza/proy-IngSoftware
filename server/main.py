@@ -1,16 +1,11 @@
-from flask import Flask, jsonify
-from flask_cors import CORS
-from src import getData
+from fastapi import FastAPI
+from database.db import create_tables
+from routes.member import routes_member
+from routes.emotion_log import routes_emotion_log
 
-app = Flask(__name__)
-CORS(app)  
+app = FastAPI()
 
-@app.route('/api/Nmembers', methods=['GET'])
-def get_Nmembers():
-    members = getData.getNmembers()
-    return jsonify(members)
+app.include_router(routes_member, prefix="/member")
+app.include_router(routes_emotion_log, prefix="/emotion_log")
 
-if __name__ == '__main__':
-    app.run(debug=True)
-
-    
+create_tables()

@@ -1,9 +1,9 @@
 import boto3
 
 # Configura tus credenciales de AWS
-aws_access_key = 'ASIA6A6UW7LW4TLMESQN'
-aws_secret_key = '4q7974poi1j0Mftfz26DflqQC6qtcg/15FIS0rLG'
-aws_session_token = 'FwoGZXIvYXdzECQaDMU8mOf4H8lCTb96TSLNAZ38Eg3c5TLPid2dHW//boKOUJfP1F1Wx+tXe3dcY/YhwdpY4gbu+D/KU0ZbjYPIEPj2H0nkfpWqRisI//3GSMn6JghgzTdVQSfo5nPODLfbddoVeJs59R7IRC999DLG65Kp/ykeTzxdhSTJqqv3MuUBgFX2wnnq9s2YOLdV67QIaeAYRbHzuunB68p1q1kNoY0CGlA1BvLAss6VCkLcSXxd8KNINMkDkZRNQKJkG+PkJuE3TQmSqMlV+bfpHCddZCac6IubfkoUB9FWo+AoqYWVqgYyLQoFYtmxfzy7m8EHmgndmAZlYedUboWvyY0Nn9r6KtzDivM5SRdPI/gFH0PWHA=='
+aws_access_key = 'ASIA6A6UW7LW7IIPWSOR'
+aws_secret_key = 'OWTxQVJzevb4Ty1p5JJKN3mNvSw5iMwmtgZNxlsN'
+aws_session_token = 'FwoGZXIvYXdzECkaDFEifZj5vIV506SBaCLNAdOL+O4BGrCdvN6U/cLCux7cpaFKyH1MoDyGPVR15wc8iA+3sU+qI7OnVCea3/FHNQvV5YjCirVesKSSvY+7Us8ALye9vmFTKdyfYmtdkJUQ4rLt5Hv2TvHzwjYiDA85lVMffm0hFs5nSq8Kuz2v8WYN9vydgctCB/cKNLIg2xmHgOLU2I0YqjjBszJR8t52xz3IwcQmb+BW63cI/fV7OVIKeQsEYGDygeQUZ1I3VOUUlXjgzhu6nFoP2RTo8rN4lAgW4KE0cIqDHE5OWn8o7vyVqgYyLVP6/Q9jNOgxDgkBEWqKjzRFV3ag10CRYi0emqdgp+ahRQKWtgL7e8qS//fesQ=='
 region_name = 'us-east-1'
 
 # Inicializa el cliente de DynamoDB
