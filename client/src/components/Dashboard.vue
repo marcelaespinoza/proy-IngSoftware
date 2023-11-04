@@ -40,9 +40,8 @@ export default {
 
     getUserRow(index) {
       const infoUser = this.featureEmotions[index-1]
-      const UserData = this.members.find(member => member.id.toString() === infoUser.codigo)
-      this.userToCitar = UserData.nombre
-      this.emailToCitar = UserData.correo
+      this.userToCitar = infoUser.nombre
+      this.emailToCitar = infoUser.correo
     },
 
     tounDoneCheck(index) {
@@ -108,7 +107,7 @@ export default {
   <div id="section-emotion">
 
     <div id="dominant-emotion-b" class="box-info">
-      <div>Emocion dominante</div>
+      <div><h1>Emocion dominante</h1></div>
       <div id="get-dom-image">
           <!-- <h2>{{ dominantEmotion }}</h2> -->
           <img :src="`./public/images/` + dominantEmotion + '.jpg'" :alt="dominantEmotion" width="100">

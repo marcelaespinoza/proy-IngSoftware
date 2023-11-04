@@ -4,7 +4,7 @@ import router from "./routes/index.js";
 import './assets/content.css'
 import './assets/dashboard.css'
 import './assets/sidebar.css'
-import './assets/aggent.css'
+import './assets/agent.css'
 
 const app = createApp(App);
 
