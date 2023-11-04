@@ -96,7 +96,11 @@ select {
   border-radius: 10px;
   border: 4px solid orange;
   height: 50em;
+  display: flex;
   align-items: center;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 
 
