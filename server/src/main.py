@@ -50,6 +50,11 @@ def get_areas():
     areas = getData.getAreas()
     return jsonify(list(areas))
 
+@app.route('/mainGrafico', methods=['GET'])
+def get_mainGrafico():
+    diccionario = getData.getValuesMainGrafico()
+    return jsonify(diccionario)    
+
 
 if __name__ == '__main__':
     app.run(debug=True)

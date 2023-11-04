@@ -8,8 +8,8 @@ export default {
   name: "Dashboard",
   data() {
     return {
-      featureEmotions: JSON.parse(JSON.stringify(puntajes)),
-      // featureEmotions: axios.get('http://127.0.0.1:5000/api/Nmembers').then(res => res.data)
+      // featureEmotions: JSON.parse(JSON.stringify(puntajes)),
+      featureEmotions: axios.get('http://127.0.0.1:5000/api/Nmembers').then(res => res.data),
       
       showAgent: false,
       unDoneCheck: [],
@@ -24,9 +24,19 @@ export default {
     }
   },
   created() {
-      this.dominantEmotion = "Enojo"
+      // this.dominantEmotion = "Enojo"
       // this.dominantEmotion = axios.get('http://127.0.0.1:5000/emocion/predominante').then(res => res.data)
-
+      
+      axios.get('http://127.0.0.1:5000/emocion/predominante')
+      .then(res => {
+        this.dominantEmotion = res.data;
+        // Aquí puedes realizar cualquier otra operación que necesites con this.dominantEmotion
+      })
+      .catch(error => {
+        console.error('Error al obtener el dato:', error);
+      });
+      
+      console.log(this.dominantEmotion)
       // carga los estados checks de cada miembro por defecto
       for (let i = 0; i < this.featureEmotions.length; i++) {
         this.unDoneCheck[i] = false
@@ -50,7 +60,7 @@ export default {
           this.DoneCheck[index] = false;
         }
         const codeuser = this.featureEmotions[index-1].codigo
-        // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`)
+        // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`) //
       },
       
     toNeanwhileCheck(index) {
@@ -59,7 +69,7 @@ export default {
         this.DoneCheck[index] = false;
       }
       const codeuser = this.featureEmotions[index-1].codigo
-      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`)
+      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`) //
     },
 
     toDoneCheck(index) {
@@ -68,7 +78,7 @@ export default {
         this.meanWhileCheck[index] = false;
       }
       const codeuser = this.featureEmotions[index-1].codigo
-      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`)
+      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`) //
     },
   },
 
