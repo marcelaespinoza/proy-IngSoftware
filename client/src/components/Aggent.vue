@@ -24,11 +24,11 @@
             <tbody>
               <tr v-for="(horarios, code) in horariosPsico" :key="code">
                 <td > {{ horarios.nombre }}</td>
-                <td > {{ horarios["Lunes"]  }}</td>
-                <td > {{ horarios["Martes"]  }}</td>
-                <td > {{ horarios["Miercoles"]  }}</td>
-                <td > {{ horarios["Jueves"]  }}</td>
-                <td > {{ horarios["Viernes"]  }}</td>
+                <td > {{ horarios["Lunes"].join("\n")  }}</td>
+                <td > {{ horarios["Martes"].join("\n")  }}</td>
+                <td > {{ horarios["Miercoles"].join("\n")  }}</td>
+                <td > {{ horarios["Jueves"].join("\n")  }}</td>
+                <td > {{ horarios["Viernes"].join("\n")  }}</td>
               </tr>
             </tbody>
           </table>
@@ -55,6 +55,7 @@
 </template>
   
 <script>
+import axios from 'axios';
 import horariosPsico from '../utils/horariosPsico.json'
 
   export default {
@@ -65,8 +66,7 @@ import horariosPsico from '../utils/horariosPsico.json'
     },
     data() {
       return {
-        // psicologos: [],
-        horariosPsico: JSON.parse(JSON.stringify(horariosPsico)),
+        horariosPsico: [],
         date: "",
         message: "",
         isFormValid: true,
@@ -74,9 +74,17 @@ import horariosPsico from '../utils/horariosPsico.json'
         showWindow: true
       };
     },
-    // created() {
-    //   this.horariosPsico = fetch('')
-    // },
+    created() {
+      axios.get('http://127.0.0.1:5000/psychologist_schedule/all/details')
+      .then(res => {
+        this.horariosPsico = res.data;
+      })
+      .catch(error => {
+        console.error('Error al obtener el dato:', error);
+        this.horariosPsico = JSON.parse(JSON.stringify(horariosPsico))
+      });
+
+    },
 
     methods: {
         sendEmail() {

@@ -8,34 +8,7 @@ export default {
       return {
         collapsed: false,
         showNotifications: false,
-        screenWidth: window.innerWidth,
-        navData: [
-          {
-              routeLink: '/dashboard',
-              icon: "./src/svg/home.svg",
-              label: 'Dashboard'
-          },
-          {
-              routeLink: '/profile',
-              icon: './src/svg/user.svg',
-              label: 'User'
-          },
-          {
-              routeLink: '/recommendation',
-              icon: './src/svg/recommendation.svg',
-              label: 'Recommendation'
-          },
-          // {
-          //     routeLink: '/mail',
-          //     icon: '/svg/mail.png',
-          //     label: 'mail'
-          // },
-          // {
-          //     routeLink: '/settings',
-          //     icon: '/svg/settings.png',
-          //     label: 'settings'
-          // },
-        ],
+        screenWidth: window.innerWidth
       };
     },
     methods: {
@@ -76,49 +49,33 @@ export default {
         <i class="fal fa-times close-icon"></i>
       </button>
     </div>
+
     <ul class="sidenav-nav">
-    <!--
-      <li>
-        <ul><div ref="dashboard">
-           <router-link to="/dashboard">
-            <img src="./svg/home.svg" type="image/svg+xml" loading="lazy"/>
+        <li class="sidenav-nav-item">
+           <router-link class="sidenav-nav-link" to="/dashboard" exact>
+            <img src="../svg/home.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
             <span class="sidenav-link-text" v-if="collapsed">Dashboard</span>
           </router-link>
-        </div></ul>
+        </li>
         
-        <ul><div ref="user">
-          <router-link to="/profile">
-            <img src="./svg/user.svg" type="image/svg+xml" loading="lazy"/>
+        <li class="sidenav-nav-item">
+          <router-link class="sidenav-nav-link" to="/profile" exact>
+            <img src="../svg/user.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
             <span class="sidenav-link-text" v-if="collapsed">Profile</span>
           </router-link>
-        </div></ul>
+        </li>
   
-        <ul><div ref="recommendation">
-          <router-link to="/recommendation">
-            <img src="./svg/recommendation.svg" type="image/svg+xml" loading="lazy"/>
+        <li class="sidenav-nav-item">
+          <router-link class="sidenav-nav-link" to="/recommendation" exact>
+            <img src="../svg/recommendation.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
             <span class="sidenav-link-text" v-if="collapsed">Recommendation</span>
           </router-link>
-        </div></ul>
+        </li>
 
-        <ul><div ref="notification">
-          <router-link to="/notification">
-            <img src="./svg/notification.svg" type="image/svg+xml" loading="lazy"/>
-            <span class="sidenav-link-text" v-if="collapsed">Recommendation</span>
-          </router-link>
-        </div></ul> -->
-  
-        <!-- <ol></ol>
-      </li> -->
-      <li class="sidenav-nav-item" v-for="data in navData" :key="data.routeLink">
-        <router-link :to="data.routeLink" class="sidenav-nav-link" exact>
-          <img :src="data.icon" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
-          <span class="sidenav-link-text" v-if="collapsed">{{ data.label }}</span>
-        </router-link>
-      </li>
-      <li @click="viewNotifications" class="sidenav-nav-item">
-          <img src="../svg/notification.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
-          <span class="sidenav-link-text" v-if="collapsed">Notification</span>
-       </li>
+        <li @click="viewNotifications" class="sidenav-nav-item"><div class="sidenav-nav-link">
+            <img src="../svg/notification.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
+            <span class="sidenav-link-text" v-if="collapsed">Notification</span></div>
+        </li>
     </ul>
   </div>
 

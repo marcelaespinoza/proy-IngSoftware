@@ -8,7 +8,6 @@ export default {
   name: "Dashboard",
   data() {
     return {
-      // featureEmotions: JSON.parse(JSON.stringify(puntajes)),
       featureEmotions: [],
       
       showAgent: false,
@@ -33,14 +32,16 @@ export default {
       })
       .catch(error => {
         console.error('Error al obtener el dato:', error);
+        this.mainGrafico = [];
       });
-
+      
       axios.get('http://127.0.0.1:5000/api/Nmembers')
       .then(res => {
         this.featureEmotions = res.data;
       })
       .catch(error => {
         console.error('Error al obtener el dato:', error);
+        this.featureEmotions = JSON.parse(JSON.stringify(puntajes))
       });
 
       axios.get('http://127.0.0.1:5000/emocion/predominante')
@@ -49,13 +50,13 @@ export default {
       })
       .catch(error => {
         console.error('Error al obtener el dato:', error);
+        this.dominantEmotion = "satisfaccion"   // por defecto
       });
       
       console.log(this.dominantEmotion)
       // carga los estados checks de cada miembro por defecto
       for (let i = 0; i < this.featureEmotions.length; i++) {
-        this.unDoneCheck[i] = false
-        this.meanWhileCheck[i] = this.DoneCheck[i] = false;
+        this.unDoneCheck[i] = this.meanWhileCheck[i] = this.DoneCheck[i] = false;
       }
   },
 
@@ -76,17 +77,19 @@ export default {
           this.DoneCheck[index] = false;
         }
         const codeuser = this.featureEmotions[index-1].codigo
-        // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`) //
+        axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`) //
+        this.featureEmotions[index-1].puntaje -= 20;
       },
       
-    toNeanwhileCheck(index) {
-      if (this.meanWhileCheck[index]) {
-        this.unDoneCheck[index] = false;
-        this.DoneCheck[index] = false;
-      }
-      const codeuser = this.featureEmotions[index-1].codigo
-      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`) //
-    },
+      toNeanwhileCheck(index) {
+        if (this.meanWhileCheck[index]) {
+          this.unDoneCheck[index] = false;
+          this.DoneCheck[index] = false;
+        }
+        const codeuser = this.featureEmotions[index-1].codigo
+        axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`) //
+        this.featureEmotions[index-1].puntaje -= 50;
+      },
 
     toDoneCheck(index) {
       if (this.DoneCheck[index]) {
@@ -94,7 +97,8 @@ export default {
         this.meanWhileCheck[index] = false;
       }
       const codeuser = this.featureEmotions[index-1].codigo
-      // axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`) //
+      axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`) //
+      this.featureEmotions[index-1].puntaje -= 100;
     },
   },
 
@@ -141,14 +145,14 @@ export default {
     </div>
     
 
-    <div id="circular-graph-b">
+    <div id="circular-graph-b" class="box-info">
       
     </div>
     
   </div>
   
 
-  <div id="chart-emotion-area-b">
+  <div id="chart-emotion-area-b" class="box-info">
     {{ mainGrafico }}
   </div>
   
@@ -161,14 +165,17 @@ export default {
             <tr>
               <th>Código</th>
               <th>Nombre</th><th>Área</th>
-              <th>Edad</th><th>Puntaje</th>
+              <th>Puntaje</th>
               <th>Asistencia</th>
             </tr>
         </thead>
         <tbody>
           <!-- Los datos se cargan EN VUE -->
           <tr :id="`row-${index++}`" v-for="(row, index) in featureEmotions" :key="index">
-            <td v-for="cell in row">{{ cell }} </td>
+            <td> {{ row.codigo }} </td>
+            <td> {{ row.nombre }} </td>
+            <td> {{ row.area }} </td>
+            <td> {{ row.puntaje }} </td>
             <td id="state-cell">
               <div id="state-check">
                 <input type="checkbox" :class="`check-style n-undone`" v-model="unDoneCheck[index]" @change="tounDoneCheck(index)">
@@ -184,11 +191,9 @@ export default {
     
       <div id="agent-button">
         <h5>Citar</h5>
-        <ul>
-          <li :id="`li-${index-1}`" v-for="index in featureEmotions.length" :key="index">
+          <div :id="`li-${index-1}`" v-for="index in featureEmotions.length" :key="index">
             <div id="plus-env" @click="{getUserRow(index); viewAgenda()}"><h1>+</h1></div>
-          </li>
-        </ul>
+          </div>
       </div>
 
     </div>
@@ -206,6 +211,7 @@ export default {
   width: 100px;
   padding-top: 30px;
   height: 70px;
+  padding-bottom: 0;
   display: flex;
   align-items: center;
   vertical-align: middle;
