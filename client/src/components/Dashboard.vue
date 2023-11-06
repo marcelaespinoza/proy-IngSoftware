@@ -8,8 +8,13 @@ export default {
   name: "Dashboard",
   data() {
     return {
+<<<<<<< HEAD
       featureEmotions: JSON.parse(JSON.stringify(puntajes)),
       // featureEmotions: axios.get('http://127.0.0.1:5000/api/Nmembers').then(res => res.data),
+=======
+      // featureEmotions: JSON.parse(JSON.stringify(puntajes)),
+      featureEmotions: [],
+>>>>>>> refs/remotes/origin/main
       
       showAgent: false,
       unDoneCheck: [],
@@ -20,17 +25,38 @@ export default {
       imageDomEmotion: "",
       
       userToCitar: "",
-      emailToCitar: ""
+      emailToCitar: "",
+
+      mainGrafico: ""
     }
   },
   created() {
+<<<<<<< HEAD
       this.dominantEmotion = "enojo"
       // this.dominantEmotion = axios.get('http://127.0.0.1:5000/emocion/predominante').then(res => res.data)
       /*
+=======
+      // this.dominantEmotion = "Enojo"
+      axios.get('http://127.0.0.1:5000/mainGrafico')
+      .then(res => {
+        this.mainGrafico = res.data;
+      })
+      .catch(error => {
+        console.error('Error al obtener el dato:', error);
+      });
+
+      axios.get('http://127.0.0.1:5000/api/Nmembers')
+      .then(res => {
+        this.featureEmotions = res.data;
+      })
+      .catch(error => {
+        console.error('Error al obtener el dato:', error);
+      });
+
+>>>>>>> refs/remotes/origin/main
       axios.get('http://127.0.0.1:5000/emocion/predominante')
       .then(res => {
         this.dominantEmotion = res.data;
-        // Aquí puedes realizar cualquier otra operación que necesites con this.dominantEmotion
       })
       .catch(error => {
         console.error('Error al obtener el dato:', error);
@@ -43,6 +69,7 @@ export default {
         this.meanWhileCheck[i] = this.DoneCheck[i] = false;
       }
   },
+
   methods: {
     viewAgenda() {
       this.showAgent = !this.showAgent;
@@ -117,9 +144,9 @@ export default {
   <div id="section-emotion">
 
     <div id="dominant-emotion-b" class="box-info">
-      <div><h1>Emocion dominante</h1></div>
+      <div><h1>Emocion dominante:</h1></div>
       <div id="get-dom-image">
-          <!-- <h2>{{ dominantEmotion }}</h2> -->
+          <span><em>{{ dominantEmotion }}</em></span>
           <img :src="`./public/images/` + dominantEmotion + '.jpg'" :alt="dominantEmotion" width="100">
       </div>  
     </div>
@@ -133,7 +160,7 @@ export default {
   
 
   <div id="chart-emotion-area-b">
-    
+    {{ mainGrafico }}
   </div>
   
   <div id="feature-emotion-trend-b" class="box-info">
@@ -188,8 +215,18 @@ export default {
 
 #get-dom-image {
   width: 100px;
+  padding-top: 30px;
   height: 70px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-around;
   /* border: 1px solid black; */
+}
+
+#get-dom-image span {
+  padding-right: 30px;
+  font-size: 20px;
 }
 
 #state-check {

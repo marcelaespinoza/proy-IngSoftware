@@ -11,7 +11,7 @@
 
       <div class="contact-form">
         <form ref="form" @submit.prevent="sendEmail">
-          <div class="form-group">
+          <div class="form-group-table">
             <table>
               <thead>
                 <tr>
@@ -33,7 +33,8 @@
             </tbody>
           </table>
             
-          </div>  
+          </div> 
+           
           <div class="form-group">
             <textarea v-model="message" class="form-control" placeholder="Mensaje *" cols="45" rows="8"></textarea>
           </div>
