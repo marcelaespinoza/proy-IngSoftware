@@ -8,6 +8,7 @@ export default {
   name: "Dashboard",
   data() {
     return {
+
       featureEmotions: [],
       
       showAgent: false,
@@ -25,34 +26,16 @@ export default {
     }
   },
   created() {
-      // this.dominantEmotion = "Enojo"
-      axios.get('http://127.0.0.1:5000/mainGrafico')
-      .then(res => {
-        this.mainGrafico = res.data;
-      })
-      .catch(error => {
-        console.error('Error al obtener el dato:', error);
-        this.mainGrafico = [];
-      });
-      
-      axios.get('http://127.0.0.1:5000/api/Nmembers')
-      .then(res => {
-        this.featureEmotions = res.data;
-      })
-      .catch(error => {
-        console.error('Error al obtener el dato:', error);
-        this.featureEmotions = JSON.parse(JSON.stringify(puntajes))
-      });
-
+      /*
       axios.get('http://127.0.0.1:5000/emocion/predominante')
       .then(res => {
         this.dominantEmotion = res.data;
       })
       .catch(error => {
         console.error('Error al obtener el dato:', error);
-        this.dominantEmotion = "satisfaccion"   // por defecto
+        this.dominantEmotion = "enojo"   // por defecto
       });
-      
+      */
       console.log(this.dominantEmotion)
       // carga los estados checks de cada miembro por defecto
       for (let i = 0; i < this.featureEmotions.length; i++) {
