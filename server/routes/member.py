@@ -1,25 +1,17 @@
+from controllers.member_ctlr import get_member, update_member_state_score, get_members_top_negative
 from fastapi import APIRouter
-from models.member import Member
-from database.member import create_member, get_member, get_members, delete_member, update_member
+from typing import Optional
 
 routes_member = APIRouter()
 
-@routes_member.post("/create", response_model=Member)
-def create(member: Member):
-    return create_member(member.model_dump())
-
-@routes_member.get("/get/{code}")
-def get_by_code(code: str):
+@routes_member.get("/{code}")
+def get_by_code(code: str) -> Optional[dict]:
     return get_member(code)
 
-@routes_member.get("/all")
-def get_all():
-    return get_members()
+@routes_member.get("/all/top_negative/{limit}")
+def get_top_negative(limit: str) -> Optional[list]:
+    return get_members_top_negative(int(limit))
 
-@routes_member.delete("/delete")
-def delete(member: Member):
-    return delete_member(member.model_dump())
-
-@routes_member.put("/update")
-def update(member: Member):
-    return update_member(member.model_dump())
+@routes_member.put("/{code}/state/{state}/score")
+def update_state_score(code: str, state: str) -> Optional[dict]:
+    return update_member_state_score(code, int(state))
