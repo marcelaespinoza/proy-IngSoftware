@@ -8,7 +8,6 @@ export default {
   name: "Dashboard",
   data() {
     return {
-
       featureEmotions: [],
       
       showAgent: false,
@@ -26,7 +25,23 @@ export default {
     }
   },
   created() {
-      /*
+      axios.get('http://127.0.0.1:5000/mainGrafico')
+      .then(res => {
+        this.mainGrafico = res.data;
+      })
+      .catch(error => {
+        console.error('Error al obtener el dato:', error);
+      });
+      
+      axios.get('http://127.0.0.1:5000/api/Nmembers')
+      .then(res => {
+        this.featureEmotions = res.data;
+      })
+      .catch(error => {
+        console.error('Error al obtener el dato:', error);
+        this.featureEmotions = JSON.parse(JSON.stringify(puntajes))
+      });
+
       axios.get('http://127.0.0.1:5000/emocion/predominante')
       .then(res => {
         this.dominantEmotion = res.data;
@@ -35,7 +50,7 @@ export default {
         console.error('Error al obtener el dato:', error);
         this.dominantEmotion = "enojo"   // por defecto
       });
-      */
+      
       console.log(this.dominantEmotion)
       // carga los estados checks de cada miembro por defecto
       for (let i = 0; i < this.featureEmotions.length; i++) {
@@ -135,7 +150,7 @@ export default {
   </div>
   
 
-  <div id="chart-emotion-area-b" class="box-info">
+  <div id="chart-emotion-area-b" z>
     {{ mainGrafico }}
   </div>
   
@@ -174,9 +189,11 @@ export default {
     
       <div id="agent-button">
         <h5>Citar</h5>
-          <div :id="`li-${index-1}`" v-for="index in featureEmotions.length" :key="index">
+        <ul>
+          <li :id="`li-${index-1}`" v-for="index in featureEmotions.length" :key="index">
             <div id="plus-env" @click="{getUserRow(index); viewAgenda()}"><h1>+</h1></div>
-          </div>
+          </li>
+        </ul>
       </div>
 
     </div>
@@ -194,7 +211,6 @@ export default {
   width: 100px;
   padding-top: 30px;
   height: 70px;
-  padding-bottom: 0;
   display: flex;
   align-items: center;
   vertical-align: middle;
