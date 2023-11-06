@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from database.db import create_tables
-from routes.member import routes_member
+from routes.psychologist_schedule import routes_psychologist_schedule
 from routes.emotion_log import routes_emotion_log
 from routes.emotion import routes_emotion
-from routes.psychologist_schedule import routes_psychologist_schedule
+from routes.member import routes_member
 from routes.area import routes_area
+from database.db import create_tables
 
 app = FastAPI()
 
