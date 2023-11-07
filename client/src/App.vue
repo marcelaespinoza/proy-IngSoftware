@@ -11,7 +11,7 @@ export default {
     },
 
     in_dashboard() {
-      return this.$route.path === '/dashboard';
+      return this.$route.path === '/dashboard' || this.$route.path === '/';
     }
   },
   components: { Sidebar, Notification }

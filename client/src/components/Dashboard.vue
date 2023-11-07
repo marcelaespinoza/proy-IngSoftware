@@ -8,7 +8,7 @@ export default {
   name: "Dashboard",
   data() {
     return {
-      featureEmotions: [],
+      puntajeMembers: [],
       
       showAgent: false,
       unDoneCheck: [],
@@ -35,11 +35,11 @@ export default {
       
       axios.get('http://127.0.0.1:5000/api/Nmembers')
       .then(res => {
-        this.featureEmotions = res.data;
+        this.puntajeMembers = res.data;
       })
       .catch(error => {
         console.error('Error al obtener el dato:', error);
-        this.featureEmotions = JSON.parse(JSON.stringify(puntajes))
+        this.puntajeMembers = JSON.parse(JSON.stringify(puntajes))
       });
 
       axios.get('http://127.0.0.1:5000/emocion/predominante')
@@ -48,11 +48,11 @@ export default {
       })
       .catch(error => {
         console.error('Error al obtener el dato:', error);
-        this.dominantEmotion = "enojo"   // por defecto
+        this.dominantEmotion = "enojo"   // por defecto si no esta activa
       });
-      console.log(this.dominantEmotion)
+      
       // carga los estados checks de cada miembro por defecto
-      for (let i = 0; i < this.featureEmotions.length; i++) {
+      for (let i = 0; i < this.puntajeMembers.length; i++) {
         this.unDoneCheck[i] = this.meanWhileCheck[i] = this.DoneCheck[i] = false;
       }
   },
@@ -63,39 +63,43 @@ export default {
     },
 
     getUserRow(index) {
-      const infoUser = this.featureEmotions[index-1]
+      const infoUser = this.puntajeMembers[index-1]
       this.userToCitar = infoUser.nombre
       this.emailToCitar = infoUser.correo
     },
 
-    tounDoneCheck(index) {
+    // funciones asincronas sibre actualizar el puntaje
+    // en .then() ocurre si funciona la peticion POST
+
+    async tounDoneCheck(index) {
         if (this.unDoneCheck[index]) {
           this.meanWhileCheck[index] = false;
           this.DoneCheck[index] = false;
         }
-        const codeuser = this.featureEmotions[index-1].codigo
-        axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`) //
-        this.featureEmotions[index-1].puntaje -= 20;
+        const codeuser = this.puntajeMembers[index-1].codigo
+        await axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`)
+        .then(res => this.puntajeMembers[index-1].puntaje -= 20) //
       },
       
-      toNeanwhileCheck(index) {
+      async toNeanwhileCheck(index) {
         if (this.meanWhileCheck[index]) {
           this.unDoneCheck[index] = false;
           this.DoneCheck[index] = false;
         }
-        const codeuser = this.featureEmotions[index-1].codigo
-        axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`) //
-        this.featureEmotions[index-1].puntaje -= 50;
+        const codeuser = this.puntajeMembers[index-1].codigo
+        await axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`) //
+        .then(res => this.puntajeMembers[index-1].puntaje -= 50) //
+        
       },
 
-    toDoneCheck(index) {
+    async toDoneCheck(index) {
       if (this.DoneCheck[index]) {
         this.unDoneCheck[index] = false;
         this.meanWhileCheck[index] = false;
       }
-      const codeuser = this.featureEmotions[index-1].codigo
-      axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`) //
-      this.featureEmotions[index-1].puntaje -= 100;
+      const codeuser = this.puntajeMembers[index-1].codigo
+      await axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`) //
+      .then(res => this.puntajeMembers[index-1].puntaje -= 100) //
     },
   },
 
@@ -168,7 +172,7 @@ export default {
         </thead>
         <tbody>
           <!-- Los datos se cargan EN VUE -->
-          <tr :id="`row-${index++}`" v-for="(row, index) in featureEmotions" :key="index">
+          <tr :id="`row-${index++}`" v-for="(row, index) in puntajeMembers" :key="index">
             <td> {{ row.codigo }} </td>
             <td> {{ row.nombre }} </td>
             <td> {{ row.area }} </td>
@@ -188,11 +192,9 @@ export default {
     
       <div id="agent-button">
         <h5>Citar</h5>
-        <ul>
-          <li :id="`li-${index-1}`" v-for="index in featureEmotions.length" :key="index">
+          <div :id="`li-${index-1}`" v-for="index in puntajeMembers.length" :key="index">
             <div id="plus-env" @click="{getUserRow(index); viewAgenda()}"><h1>+</h1></div>
-          </li>
-        </ul>
+          </div>
       </div>
 
     </div>
