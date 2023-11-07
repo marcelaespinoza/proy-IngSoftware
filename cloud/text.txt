@@ -92,3 +92,72 @@ def delete(emotion_log: EmotionLog):
 @routes_emotion_log.put("/update")
 def update(emotion_log: EmotionLog):
     return update_emotion_log(emotion_log.model_dump())
+
+    
+
+
+
+
+{
+  "201033134": {
+    "Jueves": [
+      "14:00",
+      "16:00"
+    ],
+    "Lunes": [
+      "10:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "17:00"
+    ],
+    "Martes": [
+      "12:00",
+      "13:00",
+      "15:00",
+      "16:00",
+      "17:00"
+    ],
+    "Viernes": [
+      "13:00",
+      "15:00"
+    ],
+  },
+  "202033101": {
+    "Jueves": [
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00"
+    ],
+    "Lunes": [
+      "14:00",
+      "15:00",
+      "17:00"
+    ],
+    "Miercoles": [
+      "16:00",
+      "17:00"
+    ],
+    "Viernes": [
+      "15:00",
+      "16:00"
+    ]
+  }
+}
+
+[
+    {
+        'dia': 'Martes',
+        'horas': ['12:00', '16:00'],
+    },
+    {
+        'dia': 'Miercoles',
+        'horas': ['15:00', '17:00']
+    },
+    {
+        'dia': 'Lunes',
+        'horas': ['11:00', '12:00']
+    }
+]
