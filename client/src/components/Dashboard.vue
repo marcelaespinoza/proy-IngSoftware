@@ -50,7 +50,6 @@ export default {
         console.error('Error al obtener el dato:', error);
         this.dominantEmotion = "enojo"   // por defecto
       });
-      
       console.log(this.dominantEmotion)
       // carga los estados checks de cada miembro por defecto
       for (let i = 0; i < this.featureEmotions.length; i++) {

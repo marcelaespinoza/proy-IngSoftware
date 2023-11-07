@@ -20,6 +20,8 @@ a realizar en base a las estadísticas de las emociones de los miembros en una i
     <li><a href="#database">Database</a></li>
     <li><a href="#development">Development</a></li>
     <li><a href="#views">Views</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#annexes">Annexes</a></li>
   </ul>
 </details>
 
@@ -28,11 +30,10 @@ a realizar en base a las estadísticas de las emociones de los miembros en una i
 
 <div align="center">
 
-|    1    |    2    |    3    |    4    |    5    |    6    |    7    |
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-**Full-Stack**|**Back-end**|**Front-end**|**Full-Stack**|**Back-end**|**Full-Stack**|**Front-end**
-|Marcela <br>Espinoza <br>Herrera|José <br>Osnayo <br> Matos|Margiory<br>Alvarado<br>Chávez|Milloshy <br>Crisóstomo<br>Rodríguez|Kelvin<br>Cahuana<br>Condori|Adrian<br>Sandoval<br>Huamaní|Fabiola<br>Guardamino<br>Morales
-<!-- <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> | <img src="https://avatars.githubusercontent.com"/> -->
+|    1    |    2    |    3    |    4    |    5    |    6    |    7    |   8   |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+**Full-Stack**|**Back-end**|**Full-Stack**|**Front-end**|**Full-stack**|**Front-end**|**Front-end**|**Back-end**|
+|Marcela <br>Espinoza <br>Herrera|Kelvin<br>Cahuana<br>Condori|Adrian<br>Sandoval<br>Huamaní|Margiory<br>Alvarado<br>Chávez|Milloshy <br>Crisóstomo<br>Rodríguez|Fabián<br> Alvarado <br> Vargas|Fabiola<br>Guardamino<br>Morales|José <br>Osnayo <br> Matos
 
 </div>
 
@@ -52,24 +53,45 @@ a realizar en base a las estadísticas de las emociones de los miembros en una i
 
 ## Database
 
-[ tipo de base de datos ]
-[ las base de datos que se utilizan ]
+### _Mock Data_
+
+- Generado en Python con `Faker` y `random`
+- Datos previos en `/client/src/utils/`
+
+### _Access_
+
+- Utilizando Amazon DynamoDB de estilo Multitenancy con `"tenant_id": "UTEC"`
 
 ## Development
 
-[ explicación de la arquitectura y funcionamiento de la plataforma ]
+### _Environment_
+
+- **Server testing** con `Flask`
+
+```bash
+cd server/src
+python main.py
+```
+
+- **Frontend testing** con `pnpm` o `npm` en desarrollo
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### _Arquitecture_
 
 ## Views
 
-[ Secciones en que está distribuido la plataforma web ]
+- **`/dashboard`**: Contiene el reporte de las emociones predominantes en un periodo específico, gráficos estadísiticos de las emociones por área resumidas y el listado de las personas por prioridad de recibir recomendaciones.
 
-## Dataset
-
-[ fuente de los datos para las estimaciones ]
+- **`/recommendation`**: 
 
 ## Deployment
 
-[ despliegue de la plataforma web para pruebas de fetching e interacción con el usuario ]
+[ despliegue de la plataforma web ]
 
 ## Annexes
 
