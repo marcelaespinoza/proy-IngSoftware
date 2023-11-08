@@ -198,4 +198,3 @@ def lambda_handler(event, context):
     load_table_psychologist_schedule()
     load_table_emotion()
     load_table_rol()
-

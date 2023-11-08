@@ -5,5 +5,5 @@ from typing import Optional
 routes_area = APIRouter()
 
 @routes_area.get('/all')
-def get_all() -> Optional[list]:
+def get_all() -> Optional[dict]:
     return get_areas()

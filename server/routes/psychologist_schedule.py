@@ -1,4 +1,4 @@
-from controllers.psychologist_schedule_ctlr import get_psychologist_schedules_details
+from controllers.psychologist_schedule_ctrl import get_psychologist_schedules_details
 from fastapi import APIRouter
 from typing import Optional
 
