@@ -1,0 +1,1461 @@
+code,name,area,age,email,role
+202200136,Hugo Herminio Rojas Acedo,Ciencias,42,hrojas@utec.edu.pe,Docente
+201400142,Evelia Segovia Naranjo,Ciencias,55,esegovia@utec.edu.pe,Docente
+202100141,Gil Grau Molina,Ciencias,39,ggrau@utec.edu.pe,Docente
+201100148,Crescencia Barco Escudero,Ciencias,50,cbarco@utec.edu.pe,Docente
+201000120,Luisina Pera Coca,Ciencias,52,lpera@utec.edu.pe,Docente
+202000146,Vidal Haro Alberola,Ciencias,44,vharo@utec.edu.pe,Docente
+201000121,Priscila Bosch Arana,Ciencias,55,pbosch@utec.edu.pe,Docente
+202000102,Evangelina Menéndez Ocaña,Ciencias,25,emenendez@utec.edu.pe,Docente
+201500113,Merche Dominga Palacios Mancebo,Ciencias,38,mpalacios@utec.edu.pe,Docente
+201900112,Antonia Tenorio Duque,Ciencias,45,atenorio@utec.edu.pe,Docente
+202200144,Leopoldo Blazquez Roma,Ciencias,35,lblazquez@utec.edu.pe,Docente
+201100119,Anselma Barba Mir,Ciencias,37,abarba@utec.edu.pe,Docente
+202200116,Herberto Cleto Zabaleta Amaya,Ciencias,52,hzabaleta@utec.edu.pe,Docente
+201500143,Domitila España Vilanova,Ciencias,50,despana@utec.edu.pe,Docente
+201700101,Ofelia Ángel Roig,Ciencias,34,oangel@utec.edu.pe,Docente
+202300100,Reina Saturnina Manrique Manzano,Ciencias,46,rmanrique@utec.edu.pe,Docente
+201700127,Andrés Porta Tejedor,Ciencias,54,aporta@utec.edu.pe,Docente
+201100131,Adolfo Escudero Benito,Ciencias,49,aescudero@utec.edu.pe,Docente
+201600128,Felicidad Oliva Lobo,Ciencias,34,foliva@utec.edu.pe,Docente
+202000138,Nazaret Anguita Ródenas,Ciencias,40,nanguita@utec.edu.pe,Docente
+201700109,Che Durán Canet,Ciencias,41,cduran@utec.edu.pe,Docente
+202100182,Remigio Luz Figuerola,Ciencias,33,rluz@utec.edu.pe,Asistente
+202000167,Leonel Costa Chamorro,Ciencias,27,lcosta@utec.edu.pe,Asistente
+202300188,Tadeo Vendrell Marí,Ciencias,27,tvendrell@utec.edu.pe,Asistente
+202000185,Carmelo Oliver Uría,Ciencias,34,coliver@utec.edu.pe,Asistente
+201701117,Juan Manuel Merino Díez,Ingeniería Química,56,jmerino@utec.edu.pe,Docente
+202201140,Celso Monreal Herrera,Ingeniería Química,61,cmonreal@utec.edu.pe,Docente
+201601138,Damián Cañizares Terrón,Ingeniería Química,42,dcanizares@utec.edu.pe,Docente
+201601123,Máxima María Cristina Borrego Solsona,Ingeniería Química,61,mborrego@utec.edu.pe,Docente
+202001120,Plinio Abascal Pazos,Ingeniería Química,63,pabascal@utec.edu.pe,Docente
+201301148,Macaria Marti Caballero,Ingeniería Química,40,mmarti@utec.edu.pe,Docente
+202201108,Wálter Blazquez Bartolomé,Ingeniería Química,53,wblazquez@utec.edu.pe,Docente
+201901127,Manola Albero Tomé,Ingeniería Química,27,malbero@utec.edu.pe,Docente
+201701149,Joel Batalla Batalla,Ingeniería Química,39,jbatalla@utec.edu.pe,Docente
+202101136,Begoña Huertas Mendizábal,Ingeniería Química,29,bhuertas@utec.edu.pe,Docente
+201201107,Selena Alegre Malo,Ingeniería Química,41,salegre@utec.edu.pe,Docente
+201401113,Goyo Losada Bernat,Ingeniería Química,39,glosada@utec.edu.pe,Docente
+201601114,Anna Suarez Cuesta,Ingeniería Química,62,asuarez@utec.edu.pe,Docente
+201701103,Casandra Chelo Pellicer Raya,Ingeniería Química,36,cpellicer@utec.edu.pe,Docente
+201001139,Asunción Briones Pablo,Ingeniería Química,47,abriones@utec.edu.pe,Docente
+202301156,Mohamed Cózar Arana,Ingeniería Química,26,mcozar@utec.edu.pe,Asistente
+202001171,Espiridión Morera Beltran,Ingeniería Química,23,emorera@utec.edu.pe,Asistente
+201901160,Abigaíl Salgado Feliu,Ingeniería Química,29,asalgado@utec.edu.pe,Asistente
+202301164,Odalys Aznar Hernando,Ingeniería Química,29,oaznar@utec.edu.pe,Asistente
+201901183,Isa Beltrán Aguado,Ingeniería Química,26,ibeltran@utec.edu.pe,Asistente
+202001150,Ximena Cañas Valentín,Ingeniería Química,34,xcanas@utec.edu.pe,Asistente
+202201182,Amada Ileana Castrillo Catalá,Ingeniería Química,32,acastrillo@utec.edu.pe,Asistente
+201820218,Selena Carmina Toro Fábregas,Ingeniería Química,23,selena.toro@utec.edu.pe,Alumno
+201720209,Nerea Río Beltrán,Ingeniería Química,23,nerea.rio@utec.edu.pe,Alumno
+201820215,Vicente Caparrós Tovar,Ingeniería Química,30,vicente.caparros@utec.edu.pe,Alumno
+201810249,Diana Asensio Huguet,Ingeniería Química,25,diana.asensio@utec.edu.pe,Alumno
+201820216,Eli Tirado Nebot,Ingeniería Química,25,eli.tirado@utec.edu.pe,Alumno
+201720244,Ani Nogués Ávila,Ingeniería Química,23,ani.nogues@utec.edu.pe,Alumno
+201910232,Adrián Navas Serra,Ingeniería Química,30,adrian.navas@utec.edu.pe,Alumno
+201820224,Miriam Olivares Mosquera,Ingeniería Química,24,miriam.olivares@utec.edu.pe,Alumno
+201810236,Cleto Marco Elorza Belda,Ingeniería Química,22,cleto.elorza@utec.edu.pe,Alumno
+201820207,Fortunato Amo Alemany,Ingeniería Química,28,fortunato.amo@utec.edu.pe,Alumno
+201720211,Vera Yaiza Gallardo Cantero,Ingeniería Química,26,vera.gallardo@utec.edu.pe,Alumno
+201720230,Amalia Rosales Antón,Ingeniería Química,22,amalia.rosales@utec.edu.pe,Alumno
+201720212,Ruben Severino Cal Redondo,Ingeniería Química,29,ruben.cal@utec.edu.pe,Alumno
+201810226,Guiomar Gras Pérez,Ingeniería Química,27,guiomar.gras@utec.edu.pe,Alumno
+201820229,Toni Riera Haro,Ingeniería Química,25,toni.riera@utec.edu.pe,Alumno
+201720220,Álvaro Luján Daza,Ingeniería Química,22,alvaro.lujan@utec.edu.pe,Alumno
+201710202,Cintia Borja Belda,Ingeniería Química,29,cintia.borja@utec.edu.pe,Alumno
+201820233,Cristian Guillén Folch,Ingeniería Química,23,cristian.guillen@utec.edu.pe,Alumno
+201920225,Delfina Bejarano Muñoz,Ingeniería Química,21,delfina.bejarano@utec.edu.pe,Alumno
+201920238,Florencia Parra Tovar,Ingeniería Química,25,florencia.parra@utec.edu.pe,Alumno
+201810203,Eloísa Carballo Nebot,Ingeniería Química,28,eloisa.carballo@utec.edu.pe,Alumno
+201920237,Carla Cadenas Pla,Ingeniería Química,27,carla.cadenas@utec.edu.pe,Alumno
+201920242,Diana Macías Villalba,Ingeniería Química,30,diana.macias@utec.edu.pe,Alumno
+201710241,Yéssica Sevillano Uría,Ingeniería Química,22,yessica.sevillano@utec.edu.pe,Alumno
+201820235,Nazaret Vera Martínez,Ingeniería Química,21,nazaret.vera@utec.edu.pe,Alumno
+201910243,Armando Yáñez Huguet,Ingeniería Química,30,armando.yanez@utec.edu.pe,Alumno
+201720245,Amalia María Teresa Guerra Cabeza,Ingeniería Química,27,amalia.guerra@utec.edu.pe,Alumno
+201910204,Haroldo Bayona Malo,Ingeniería Química,27,haroldo.bayona@utec.edu.pe,Alumno
+201810227,Sandra Roman Mateo,Ingeniería Química,30,sandra.roman@utec.edu.pe,Alumno
+201910206,Carlos Domínguez Cervantes,Ingeniería Química,30,carlos.dominguez@utec.edu.pe,Alumno
+201910231,Brígida Ayala Blazquez,Ingeniería Química,26,brigida.ayala@utec.edu.pe,Alumno
+201720208,Eduardo Barragán Iñiguez,Ingeniería Química,25,eduardo.barragan@utec.edu.pe,Alumno
+201920200,Dionisio Arturo Llanos Lumbreras,Ingeniería Química,23,dionisio.llanos@utec.edu.pe,Alumno
+201910240,Severino Mate Osorio,Ingeniería Química,22,severino.mate@utec.edu.pe,Alumno
+201910222,Heriberto Pereira Granados,Ingeniería Química,23,heriberto.pereira@utec.edu.pe,Alumno
+201710205,Ámbar Mancebo Porras,Ingeniería Química,30,ambar.mancebo@utec.edu.pe,Alumno
+201710247,Emiliana Coll Coello,Ingeniería Química,27,emiliana.coll@utec.edu.pe,Alumno
+201720246,Delia Iniesta Fonseca,Ingeniería Química,23,delia.iniesta@utec.edu.pe,Alumno
+201820248,Álvaro Bas Ripoll,Ingeniería Química,25,alvaro.bas@utec.edu.pe,Alumno
+201720219,Juan Carlos Bravo Briones,Ingeniería Química,30,juan.bravo@utec.edu.pe,Alumno
+201820213,Leandro Rebollo Luján,Ingeniería Química,22,leandro.rebollo@utec.edu.pe,Alumno
+201810221,Leonardo Moll Lozano,Ingeniería Química,28,leonardo.moll@utec.edu.pe,Alumno
+201910228,Jesusa Noguera Galiano,Ingeniería Química,25,jesusa.noguera@utec.edu.pe,Alumno
+201820282,Bautista Bas Alvarado,Ingeniería Química,26,bautista.bas@utec.edu.pe,Alumno
+201910276,Lucas Enríquez Vergara,Ingeniería Química,25,lucas.enriquez@utec.edu.pe,Alumno
+201920294,Azucena Márquez Carretero,Ingeniería Química,23,azucena.marquez@utec.edu.pe,Alumno
+201810260,Griselda Torrents Ortiz,Ingeniería Química,25,griselda.torrents@utec.edu.pe,Alumno
+201910295,Reinaldo Villalobos Leiva,Ingeniería Química,27,reinaldo.villalobos@utec.edu.pe,Alumno
+201820298,Trini Valero Quintero,Ingeniería Química,22,trini.valero@utec.edu.pe,Alumno
+201920283,Eleuterio Nacio Santamaría Llorente,Ingeniería Química,27,eleuterio.santamaria@utec.edu.pe,Alumno
+201920252,Juan Francisco Dueñas Mármol,Ingeniería Química,27,juan.duenas@utec.edu.pe,Alumno
+201820287,Felicidad Montaña Barranco,Ingeniería Química,26,felicidad.montana@utec.edu.pe,Alumno
+201910290,Sebastián Suarez Sarabia,Ingeniería Química,23,sebastian.suarez@utec.edu.pe,Alumno
+201820253,Balduino Franch Morera,Ingeniería Química,24,balduino.franch@utec.edu.pe,Alumno
+201920251,Edmundo Valentín Millán Escrivá,Ingeniería Química,27,edmundo.millan@utec.edu.pe,Alumno
+201810296,Luciano Perez Bermudez,Ingeniería Química,26,luciano.perez@utec.edu.pe,Alumno
+201910292,Eloísa Palomares Ayala,Ingeniería Química,26,eloisa.palomares@utec.edu.pe,Alumno
+201820257,Benito Cuesta Silva,Ingeniería Química,24,benito.cuesta@utec.edu.pe,Alumno
+201910277,Carla Cabezas Sureda,Ingeniería Química,27,carla.cabezas@utec.edu.pe,Alumno
+201920270,Jose Luis Farré Baró,Ingeniería Química,23,jose.farre@utec.edu.pe,Alumno
+201820272,María Quevedo Ramirez,Ingeniería Química,22,maria.quevedo@utec.edu.pe,Alumno
+201910259,Francisco Jose Ferrán Cabañas,Ingeniería Química,25,francisco.ferran@utec.edu.pe,Alumno
+201820285,Griselda Zaragoza Valle,Ingeniería Química,27,griselda.zaragoza@utec.edu.pe,Alumno
+201810262,Natanael Águila Rodríguez,Ingeniería Química,22,natanael.aguila@utec.edu.pe,Alumno
+201810288,Calixta Daniela Hervás Alemán,Ingeniería Química,24,calixta.hervas@utec.edu.pe,Alumno
+201810280,Francisco Jose Ramis Ibáñez,Ingeniería Química,23,francisco.ramis@utec.edu.pe,Alumno
+201820263,Rosaura Puig Nicolau,Ingeniería Química,25,rosaura.puig@utec.edu.pe,Alumno
+201810268,Goyo Samu Jódar Ávila,Ingeniería Química,22,goyo.jodar@utec.edu.pe,Alumno
+201910264,Chus Santamaria Palomino,Ingeniería Química,23,chus.santamaria@utec.edu.pe,Alumno
+201920266,Fulgencio Tormo Alberdi,Ingeniería Química,27,fulgencio.tormo@utec.edu.pe,Alumno
+201920254,Aitor Manuel Giner,Ingeniería Química,27,aitor.manuel@utec.edu.pe,Alumno
+201920297,Hilda Álvarez Romeu,Ingeniería Química,24,hilda.alvarez@utec.edu.pe,Alumno
+201920275,Jose Ignacio Rafa Sanmartín Amorós,Ingeniería Química,22,jose.sanmartin@utec.edu.pe,Alumno
+201910267,Aureliano Pujadas Porcel,Ingeniería Química,23,aureliano.pujadas@utec.edu.pe,Alumno
+201810279,Albert Ortega Tena,Ingeniería Química,27,albert.ortega@utec.edu.pe,Alumno
+201810256,Olegario Nogueira Valenciano,Ingeniería Química,25,olegario.nogueira@utec.edu.pe,Alumno
+201820261,Ramona Román Toro,Ingeniería Química,25,ramona.roman@utec.edu.pe,Alumno
+201920286,Fátima Montero Sevilla,Ingeniería Química,24,fatima.montero@utec.edu.pe,Alumno
+201910258,Salud María Fernanda Ruano Coello,Ingeniería Química,24,salud.ruano@utec.edu.pe,Alumno
+201910278,Vasco Arnal Porras,Ingeniería Química,26,vasco.arnal@utec.edu.pe,Alumno
+201920274,Calixta Manzano Vilanova,Ingeniería Química,25,calixta.manzano@utec.edu.pe,Alumno
+201910265,Chita Hilda Donaire Sureda,Ingeniería Química,26,chita.donaire@utec.edu.pe,Alumno
+201920299,Venceslás Llamas Pi,Ingeniería Química,22,venceslas.llamas@utec.edu.pe,Alumno
+201910269,Abril Julián Gallart,Ingeniería Química,27,abril.julian@utec.edu.pe,Alumno
+201910289,Jenny Fuente Pla,Ingeniería Química,26,jenny.fuente@utec.edu.pe,Alumno
+201920346,Martina Nilda Roca Yáñez,Ingeniería Química,25,martina.roca@utec.edu.pe,Alumno
+201910315,Buenaventura Fabregat Morcillo,Ingeniería Química,21,buenaventura.fabregat@utec.edu.pe,Alumno
+201920300,Wilfredo Heraclio Caballero Coloma,Ingeniería Química,23,wilfredo.caballero@utec.edu.pe,Alumno
+201910334,Jesusa Visitación Montaña Corominas,Ingeniería Química,22,jesusa.montana@utec.edu.pe,Alumno
+201910345,Ana Sofía Cabello Pedrero,Ingeniería Química,23,ana.cabello@utec.edu.pe,Alumno
+202020320,Sarita Gisbert Cobos,Ingeniería Química,24,sarita.gisbert@utec.edu.pe,Alumno
+201920342,Arcelia Yolanda Rubio Arnau,Ingeniería Química,21,arcelia.rubio@utec.edu.pe,Alumno
+201910318,Jose Manuel Palomares,Ingeniería Química,23,jose.manuel@utec.edu.pe,Alumno
+202010347,Sofía Morillo Fiol,Ingeniería Química,23,sofia.morillo@utec.edu.pe,Alumno
+201920336,Benjamín Santamaria Mayoral,Ingeniería Química,25,benjamin.santamaria@utec.edu.pe,Alumno
+202020310,Alonso Robles Arroyo,Ingeniería Química,25,alonso.robles@utec.edu.pe,Alumno
+202020326,Ignacia Torrent Maldonado,Ingeniería Química,25,ignacia.torrent@utec.edu.pe,Alumno
+201910327,María Manuela Mariscal Barragán,Ingeniería Química,24,maria.mariscal@utec.edu.pe,Alumno
+201920343,Genoveva Trujillo Lluch,Ingeniería Química,22,genoveva.trujillo@utec.edu.pe,Alumno
+201910305,Julio César Azorin-Leal,Ingeniería Química,24,julio.cesar@utec.edu.pe,Alumno
+201910330,Berto Palma Barranco,Ingeniería Química,21,berto.palma@utec.edu.pe,Alumno
+202020331,Florentina Iriarte Cañas,Ingeniería Química,21,florentina.iriarte@utec.edu.pe,Alumno
+201910329,Guillermo Ros Conde,Ingeniería Química,24,guillermo.ros@utec.edu.pe,Alumno
+201910325,Trinidad Mateu Rovira,Ingeniería Química,25,trinidad.mateu@utec.edu.pe,Alumno
+201920311,Albert Ferrero Fabra,Ingeniería Química,22,albert.ferrero@utec.edu.pe,Alumno
+201920308,Tiburcio Quintana Boada,Ingeniería Química,25,tiburcio.quintana@utec.edu.pe,Alumno
+201920307,Jesús Olivares Contreras,Ingeniería Química,21,jesus.olivares@utec.edu.pe,Alumno
+201910304,Fabio Godoy Blázquez,Ingeniería Química,21,fabio.godoy@utec.edu.pe,Alumno
+202010338,Valeria Sáenz Patiño,Ingeniería Química,23,valeria.saenz@utec.edu.pe,Alumno
+201920322,Eustaquio Mendizábal Ordóñez,Ingeniería Química,24,eustaquio.mendizabal@utec.edu.pe,Alumno
+202010337,Nazario Benitez Cerezo,Ingeniería Química,24,nazario.benitez@utec.edu.pe,Alumno
+202020348,Febe Agustín Paredes,Ingeniería Química,21,febe.agustin@utec.edu.pe,Alumno
+201920314,Florentino Agudo Atienza,Ingeniería Química,25,florentino.agudo@utec.edu.pe,Alumno
+202020339,Angelino Isaías Macias Ruiz,Ingeniería Química,24,angelino.macias@utec.edu.pe,Alumno
+201920306,Catalina Abellán Rodrigo,Ingeniería Química,21,catalina.abellan@utec.edu.pe,Alumno
+202010309,Santos Andrés Felipe Gil Arias,Ingeniería Química,24,santos.gil@utec.edu.pe,Alumno
+201910302,María Carmen Carpio Belmonte,Ingeniería Química,25,maria.carpio@utec.edu.pe,Alumno
+201910319,Nayara Rosado Castañeda,Ingeniería Química,23,nayara.rosado@utec.edu.pe,Alumno
+201920333,Luís Varela Vila,Ingeniería Química,22,luis.varela@utec.edu.pe,Alumno
+202020316,Eladio Jáuregui Águila,Ingeniería Química,22,eladio.jauregui@utec.edu.pe,Alumno
+201910341,Samuel Torrecilla Ojeda,Ingeniería Química,23,samuel.torrecilla@utec.edu.pe,Alumno
+202020328,Vidal Ballesteros Navarrete,Ingeniería Química,22,vidal.ballesteros@utec.edu.pe,Alumno
+202020303,Candelas Soriano Peralta,Ingeniería Química,24,candelas.soriano@utec.edu.pe,Alumno
+202020344,Jordi Espada Diego,Ingeniería Química,21,jordi.espada@utec.edu.pe,Alumno
+201910323,Cristian Cabrero Porras,Ingeniería Química,21,cristian.cabrero@utec.edu.pe,Alumno
+201920317,Dionisio Lucas Quero,Ingeniería Química,25,dionisio.lucas@utec.edu.pe,Alumno
+201920335,Teresa Yuste Roma,Ingeniería Química,23,teresa.yuste@utec.edu.pe,Alumno
+202020321,Susana Elías Toro,Ingeniería Química,22,susana.elias@utec.edu.pe,Alumno
+202010301,Rebeca Maza Lobato,Ingeniería Química,22,rebeca.maza@utec.edu.pe,Alumno
+201920349,Luis Ángel Porras Almazán,Ingeniería Química,25,luis.porras@utec.edu.pe,Alumno
+202020312,Laura Navarro Alberola,Ingeniería Química,22,laura.navarro@utec.edu.pe,Alumno
+202010340,Fabio Fajardo Castilla,Ingeniería Química,24,fabio.fajardo@utec.edu.pe,Alumno
+202010313,Marita Cordero Franch,Ingeniería Química,22,marita.cordero@utec.edu.pe,Alumno
+202020332,Alberto Priego Cañete,Ingeniería Química,24,alberto.priego@utec.edu.pe,Alumno
+202010354,Amílcar Villar Cobo,Ingeniería Química,20,amilcar.villar@utec.edu.pe,Alumno
+202020368,Maricela Salom Alvarado,Ingeniería Química,20,maricela.salom@utec.edu.pe,Alumno
+201920371,Delia Capdevila Boada,Ingeniería Química,23,delia.capdevila@utec.edu.pe,Alumno
+201910370,Toni Díaz Guardia,Ingeniería Química,23,toni.diaz@utec.edu.pe,Alumno
+202010376,Desiderio Ibarra Tejada,Ingeniería Química,21,desiderio.ibarra@utec.edu.pe,Alumno
+201920360,Chus Clemente Piñol,Ingeniería Química,23,chus.clemente@utec.edu.pe,Alumno
+202010355,Herminia Exposito Piñeiro,Ingeniería Química,20,herminia.exposito@utec.edu.pe,Alumno
+202020382,Inocencio Fuente Carrasco,Ingeniería Química,23,inocencio.fuente@utec.edu.pe,Alumno
+201910392,Galo Rincón Asensio,Ingeniería Química,24,galo.rincon@utec.edu.pe,Alumno
+202010385,Donato Godoy Vega,Ingeniería Química,21,donato.godoy@utec.edu.pe,Alumno
+201920387,Nacho Garmendia Mayol,Ingeniería Química,23,nacho.garmendia@utec.edu.pe,Alumno
+202020394,Iván Amo Sancho,Ingeniería Química,22,ivan.amo@utec.edu.pe,Alumno
+201920384,Adán Vizcaíno Estrada,Ingeniería Química,20,adan.vizcaino@utec.edu.pe,Alumno
+201920362,Alcides Marin Toro,Ingeniería Química,21,alcides.marin@utec.edu.pe,Alumno
+202020388,Anselmo Gracia Español,Ingeniería Química,20,anselmo.gracia@utec.edu.pe,Alumno
+201920393,Mariana Sanmiguel Murillo,Ingeniería Química,21,mariana.sanmiguel@utec.edu.pe,Alumno
+201920359,Macario Saldaña Lamas,Ingeniería Química,24,macario.saldana@utec.edu.pe,Alumno
+202020374,Epifanio Ríos Barceló,Ingeniería Química,20,epifanio.rios@utec.edu.pe,Alumno
+201920379,Blanca Bustos Pera,Ingeniería Química,20,blanca.bustos@utec.edu.pe,Alumno
+201920352,José Antonio Cantón,Ingeniería Química,25,jose.antonio@utec.edu.pe,Alumno
+202010395,Loida Fajardo Olmedo,Ingeniería Química,22,loida.fajardo@utec.edu.pe,Alumno
+202020390,Fortunata Prieto Casado,Ingeniería Química,24,fortunata.prieto@utec.edu.pe,Alumno
+202020353,Delfina Campo Rivas,Ingeniería Química,21,delfina.campo@utec.edu.pe,Alumno
+201920365,Juanito Aureliano Juliá Pou,Ingeniería Química,21,juanito.julia@utec.edu.pe,Alumno
+201920372,Carlota Pastor Sevillano,Ingeniería Química,24,carlota.pastor@utec.edu.pe,Alumno
+201920386,Fortunata Amalia Castells Francisco,Ingeniería Química,20,fortunata.castells@utec.edu.pe,Alumno
+201910378,Herberto Téllez Nogués,Ingeniería Química,21,herberto.tellez@utec.edu.pe,Alumno
+201910367,Piedad Somoza Jove,Ingeniería Química,24,piedad.somoza@utec.edu.pe,Alumno
+202010350,Montserrat Ibáñez Herrera,Ingeniería Química,20,montserrat.ibanez@utec.edu.pe,Alumno
+201910369,Xavier Priego Gascón,Ingeniería Química,20,xavier.priego@utec.edu.pe,Alumno
+202020358,Isabel Mariscal Herrero,Ingeniería Química,20,isabel.mariscal@utec.edu.pe,Alumno
+201910373,Goyo Ferrán Alcalde,Ingeniería Química,20,goyo.ferran@utec.edu.pe,Alumno
+201910356,Mónica Calatayud Mariño,Ingeniería Química,24,monica.calatayud@utec.edu.pe,Alumno
+201910366,América Bou Galan,Ingeniería Química,22,america.bou@utec.edu.pe,Alumno
+202020380,Marcial Bartolomé Perales,Ingeniería Química,21,marcial.bartolome@utec.edu.pe,Alumno
+202020398,Eliana Lopez Castellanos,Ingeniería Química,24,eliana.lopez@utec.edu.pe,Alumno
+202010351,Isaac Aragón Falcó,Ingeniería Química,25,isaac.aragon@utec.edu.pe,Alumno
+201920391,Pelayo Solís Pol,Ingeniería Química,20,pelayo.solis@utec.edu.pe,Alumno
+201910363,Aránzazu Mate Mayo,Ingeniería Química,23,aranzazu.mate@utec.edu.pe,Alumno
+201910377,Olivia Ramos Barón,Ingeniería Química,22,olivia.ramos@utec.edu.pe,Alumno
+202020399,Ángeles Azucena Noguera Vidal,Ingeniería Química,23,angeles.noguera@utec.edu.pe,Alumno
+202010397,Saturnina Luna Beltran,Ingeniería Química,21,saturnina.luna@utec.edu.pe,Alumno
+201910357,Rosa María Quero,Ingeniería Química,24,rosa.maria@utec.edu.pe,Alumno
+201920364,Berto Chuy Iglesia García,Ingeniería Química,23,berto.iglesia@utec.edu.pe,Alumno
+202120429,Rosenda Agustín Leon,Ingeniería Química,22,rosenda.agustin@utec.edu.pe,Alumno
+202010408,Anacleto Guerra Garay,Ingeniería Química,20,anacleto.guerra@utec.edu.pe,Alumno
+202110407,Marcelo Talavera Cobo,Ingeniería Química,19,marcelo.talavera@utec.edu.pe,Alumno
+201910410,Aránzazu Bernal Sales,Ingeniería Química,19,aranzazu.bernal@utec.edu.pe,Alumno
+202120441,Irma Simó Suarez,Ingeniería Química,19,irma.simo@utec.edu.pe,Alumno
+201910431,Paz Pagès Sierra,Ingeniería Química,24,paz.pages@utec.edu.pe,Alumno
+202020437,Gastón Arévalo Lumbreras,Ingeniería Química,20,gaston.arevalo@utec.edu.pe,Alumno
+201920426,Cornelio Mas Cuéllar,Ingeniería Química,24,cornelio.mas@utec.edu.pe,Alumno
+201920446,Isabel Tamayo Canet,Ingeniería Química,24,isabel.tamayo@utec.edu.pe,Alumno
+202120424,Joaquín Roque Pozo Cadenas,Ingeniería Química,20,joaquin.pozo@utec.edu.pe,Alumno
+202010419,Elisa Febe Campillo Zorrilla,Ingeniería Química,22,elisa.campillo@utec.edu.pe,Alumno
+201910416,Lino Sandoval Soriano,Ingeniería Química,24,lino.sandoval@utec.edu.pe,Alumno
+202020443,Eloísa Garriga Ángel,Ingeniería Química,21,eloisa.garriga@utec.edu.pe,Alumno
+202010425,Carlito Iñiguez Iglesias,Ingeniería Química,21,carlito.iniguez@utec.edu.pe,Alumno
+202110432,Leticia Torralba Barral,Ingeniería Química,19,leticia.torralba@utec.edu.pe,Alumno
+201910415,Dionisio Juárez Aparicio,Ingeniería Química,24,dionisio.juarez@utec.edu.pe,Alumno
+202120414,Custodia Lola Garcés Aguilar,Ingeniería Química,24,custodia.garces@utec.edu.pe,Alumno
+202120423,Juan José Gil Cerdá,Ingeniería Química,20,juan.gil@utec.edu.pe,Alumno
+202010440,Sofía Arcos Gual,Ingeniería Química,20,sofia.arcos@utec.edu.pe,Alumno
+202110418,Manolo Segovia Aramburu,Ingeniería Química,23,manolo.segovia@utec.edu.pe,Alumno
+202010422,Encarnita Barrera Pablo,Ingeniería Química,22,encarnita.barrera@utec.edu.pe,Alumno
+201910444,Calista Caballero Calderon,Ingeniería Química,19,calista.caballero@utec.edu.pe,Alumno
+201920401,Ámbar Guardia Parejo,Ingeniería Química,19,ambar.guardia@utec.edu.pe,Alumno
+201910436,Eliseo Gárate Rey,Ingeniería Química,22,eliseo.garate@utec.edu.pe,Alumno
+201920412,Trinidad Suárez Bárcena,Ingeniería Química,22,trinidad.suarez@utec.edu.pe,Alumno
+202010417,Eugenio Barreda Valverde,Ingeniería Química,20,eugenio.barreda@utec.edu.pe,Alumno
+202120430,Reyna Maristela Terrón Quesada,Ingeniería Química,22,reyna.terron@utec.edu.pe,Alumno
+201910449,Alba Tania Benavides Palacios,Ingeniería Química,24,alba.benavides@utec.edu.pe,Alumno
+202010409,Luis Camino Llabrés,Ingeniería Química,24,luis.camino@utec.edu.pe,Alumno
+202110445,Paula Enríquez Salas,Ingeniería Química,19,paula.enriquez@utec.edu.pe,Alumno
+201910413,Pánfilo Andrés Dávila,Ingeniería Química,19,panfilo.andres@utec.edu.pe,Alumno
+201910447,Clara Enríquez Gómez,Ingeniería Química,22,clara.enriquez@utec.edu.pe,Alumno
+202110400,Celia Barreda Beltrán,Ingeniería Química,21,celia.barreda@utec.edu.pe,Alumno
+202010411,Clementina Malo Nadal,Ingeniería Química,21,clementina.malo@utec.edu.pe,Alumno
+202010421,Ildefonso Lumbreras Mateo,Ingeniería Química,21,ildefonso.lumbreras@utec.edu.pe,Alumno
+202120428,Priscila Torres Moll,Ingeniería Química,19,priscila.torres@utec.edu.pe,Alumno
+202120442,Vera Ignacia Larrea Tirado,Ingeniería Química,21,vera.larrea@utec.edu.pe,Alumno
+202020439,Fulgencio Catalán Bayo,Ingeniería Química,20,fulgencio.catalan@utec.edu.pe,Alumno
+202110406,Melisa Roldán Expósito,Ingeniería Química,22,melisa.roldan@utec.edu.pe,Alumno
+202020438,Victoriano Torrent Acosta,Ingeniería Química,22,victoriano.torrent@utec.edu.pe,Alumno
+201920402,Genoveva Castrillo Alfonso,Ingeniería Química,19,genoveva.castrillo@utec.edu.pe,Alumno
+201920405,Toni Puerta Bou,Ingeniería Química,24,toni.puerta@utec.edu.pe,Alumno
+202110420,Pascual Ayala Guardiola,Ingeniería Química,19,pascual.ayala@utec.edu.pe,Alumno
+201920448,Martirio Marin Cano,Ingeniería Química,19,martirio.marin@utec.edu.pe,Alumno
+201910403,Virgilio Antúnez Coello,Ingeniería Química,20,virgilio.antunez@utec.edu.pe,Alumno
+202110433,Desiderio Riquelme Pombo,Ingeniería Química,24,desiderio.riquelme@utec.edu.pe,Alumno
+202010427,Gabriel Gámez Fonseca,Ingeniería Química,21,gabriel.gamez@utec.edu.pe,Alumno
+202010404,Guadalupe Ibarra Guillen,Ingeniería Química,23,guadalupe.ibarra@utec.edu.pe,Alumno
+202110411,Guiomar Acero Tormo,Ingeniería Química,18,guiomar.acero@utec.edu.pe,Alumno
+202110417,Jose Ramón Perez Luz,Ingeniería Química,18,jose.perez@utec.edu.pe,Alumno
+202110428,Pepita Marti Porcel,Ingeniería Química,22,pepita.marti@utec.edu.pe,Alumno
+202120438,Leonardo Palmer Soriano,Ingeniería Química,20,leonardo.palmer@utec.edu.pe,Alumno
+202110416,Norberto Dan Fortuny Pinilla,Ingeniería Química,22,norberto.fortuny@utec.edu.pe,Alumno
+202110427,Carmelita Clementina Palomino Mendez,Ingeniería Química,23,carmelita.palomino@utec.edu.pe,Alumno
+202120423,Ramiro Redondo Palomino,Ingeniería Química,18,ramiro.redondo@utec.edu.pe,Alumno
+202110446,Almudena Ferrández Casals,Ingeniería Química,21,almudena.ferrandez@utec.edu.pe,Alumno
+202120400,Roxana Pallarès Gallardo,Ingeniería Química,22,roxana.pallares@utec.edu.pe,Alumno
+202120421,Zoraida Manso Corral,Ingeniería Química,23,zoraida.manso@utec.edu.pe,Alumno
+202120419,Omar Olivé Bárcena,Ingeniería Química,23,omar.olive@utec.edu.pe,Alumno
+202110425,Apolinar Ortega Núñez,Ingeniería Química,23,apolinar.ortega@utec.edu.pe,Alumno
+202120430,Alonso Daza Avilés,Ingeniería Química,18,alonso.daza@utec.edu.pe,Alumno
+202110435,Mar Juan Alcalá,Ingeniería Química,22,mar.juan@utec.edu.pe,Alumno
+202110444,Eva Bravo Roselló,Ingeniería Química,22,eva.bravo@utec.edu.pe,Alumno
+202120402,Jose Molina Bastida,Ingeniería Química,23,jose.molina@utec.edu.pe,Alumno
+202120443,Águeda Pont Palomino,Ingeniería Química,19,agueda.pont@utec.edu.pe,Alumno
+202110424,Cristóbal Saez Larrea,Ingeniería Química,23,cristobal.saez@utec.edu.pe,Alumno
+202110433,Manola Arana Lobo,Ingeniería Química,22,manola.arana@utec.edu.pe,Alumno
+202120412,Susanita Beltran Izaguirre,Ingeniería Química,23,susanita.beltran@utec.edu.pe,Alumno
+202120429,Isabela Arce Abascal,Ingeniería Química,21,isabela.arce@utec.edu.pe,Alumno
+202110445,Clímaco Pomares Busquets,Ingeniería Química,23,climaco.pomares@utec.edu.pe,Alumno
+202110434,Roxana Portero Valentín,Ingeniería Química,20,roxana.portero@utec.edu.pe,Alumno
+202110414,Ileana Alba Gimeno,Ingeniería Química,18,ileana.alba@utec.edu.pe,Alumno
+202110422,Desiderio Ballester Reguera,Ingeniería Química,20,desiderio.ballester@utec.edu.pe,Alumno
+202120447,Julie Mancebo Poza,Ingeniería Química,23,julie.mancebo@utec.edu.pe,Alumno
+202120448,Liliana Solé Ibáñez,Ingeniería Química,23,liliana.sole@utec.edu.pe,Alumno
+202110426,Lisandro Salas Tejada,Ingeniería Química,22,lisandro.salas@utec.edu.pe,Alumno
+202110440,Maxi Téllez Castelló,Ingeniería Química,22,maxi.tellez@utec.edu.pe,Alumno
+202110431,Víctor Palma Pedraza,Ingeniería Química,19,victor.palma@utec.edu.pe,Alumno
+202110408,Nereida María Jesús Corbacho Miralles,Ingeniería Química,18,nereida.corbacho@utec.edu.pe,Alumno
+202120410,Roberta Téllez Girón,Ingeniería Química,22,roberta.tellez@utec.edu.pe,Alumno
+202110403,Eloísa Escudero Rubio,Ingeniería Química,20,eloisa.escudero@utec.edu.pe,Alumno
+202110437,Anastasio Eric Cano Dávila,Ingeniería Química,20,anastasio.cano@utec.edu.pe,Alumno
+202120439,Adelardo Castro Maestre,Ingeniería Química,23,adelardo.castro@utec.edu.pe,Alumno
+202220567,Olimpia Valverde Calderón,Ingeniería Química,24,olimpia.valverde@utec.edu.pe,Alumno
+202210505,Lola Piñeiro Morell,Ingeniería Química,20,lola.pineiro@utec.edu.pe,Alumno
+202220534,Virginia Bermudez Puga,Ingeniería Química,26,virginia.bermudez@utec.edu.pe,Alumno
+202220506,Encarnita Tomás Rosell,Ingeniería Química,27,encarnita.tomas@utec.edu.pe,Alumno
+202220541,Tatiana Martín Cáceres,Ingeniería Química,19,tatiana.martin@utec.edu.pe,Alumno
+202210566,Marisol Chacón Barba,Ingeniería Química,22,marisol.chacon@utec.edu.pe,Alumno
+202210514,Urbano Bonilla Cañas,Ingeniería Química,23,urbano.bonilla@utec.edu.pe,Alumno
+202210589,Griselda Sevilla Corral,Ingeniería Química,19,griselda.sevilla@utec.edu.pe,Alumno
+202210580,Ámbar Pombo Segarra,Ingeniería Química,22,ambar.pombo@utec.edu.pe,Alumno
+202220565,Haroldo Macias Ramis,Ingeniería Química,23,haroldo.macias@utec.edu.pe,Alumno
+202210530,Bernardita Estrada Aragón,Ingeniería Química,18,bernardita.estrada@utec.edu.pe,Alumno
+202210550,Úrsula Pina Vicente,Ingeniería Química,28,ursula.pina@utec.edu.pe,Alumno
+202220597,Jose Ramón Múgica Verdugo,Ingeniería Química,28,jose.mugica@utec.edu.pe,Alumno
+202220549,Aurelia Fuente Crespo,Ingeniería Química,26,aurelia.fuente@utec.edu.pe,Alumno
+202210528,Irene Casanova Ribas,Ingeniería Química,20,irene.casanova@utec.edu.pe,Alumno
+202220598,Urbano Cortina Jiménez,Ingeniería Química,22,urbano.cortina@utec.edu.pe,Alumno
+202220538,Jenny Acero Samper,Ingeniería Química,26,jenny.acero@utec.edu.pe,Alumno
+202210576,Montserrat Díaz Crespi,Ingeniería Química,26,montserrat.diaz@utec.edu.pe,Alumno
+202220525,Reyes Jáuregui Sanmiguel,Ingeniería Química,20,reyes.jauregui@utec.edu.pe,Alumno
+202220590,Isabel Pomares Orozco,Ingeniería Química,19,isabel.pomares@utec.edu.pe,Alumno
+202210551,Severo Cuevas Cánovas,Ingeniería Química,19,severo.cuevas@utec.edu.pe,Alumno
+202210585,Régulo Egea Narváez,Ingeniería Química,24,regulo.egea@utec.edu.pe,Alumno
+202220584,Octavia Costa Bastida,Ingeniería Química,22,octavia.costa@utec.edu.pe,Alumno
+202210586,Andrea Rosselló Cano,Ingeniería Química,24,andrea.rossello@utec.edu.pe,Alumno
+202210552,Jose Miguel Vilar Iñiguez,Ingeniería Química,25,jose.vilar@utec.edu.pe,Alumno
+202220513,Ana Belén Cerro Bejarano,Ingeniería Química,20,ana.cerro@utec.edu.pe,Alumno
+202220520,Ana Sofía Coello Riquelme,Ingeniería Química,19,ana.coello@utec.edu.pe,Alumno
+202220588,Estrella Santamaría Soler,Ingeniería Química,25,estrella.santamaria@utec.edu.pe,Alumno
+202210536,Josefa Azeneth Alcázar Fortuny,Ingeniería Química,19,josefa.alcazar@utec.edu.pe,Alumno
+202210510,Pepita Escrivá Cózar,Ingeniería Química,22,pepita.escriva@utec.edu.pe,Alumno
+202210509,Pastor Gámez Pou,Ingeniería Química,22,pastor.gamez@utec.edu.pe,Alumno
+202210548,Marcos Rosales Pombo,Ingeniería Química,27,marcos.rosales@utec.edu.pe,Alumno
+202210507,Cristina Carbajo Prat,Ingeniería Química,24,cristina.carbajo@utec.edu.pe,Alumno
+202210545,María José Serrano Sans,Ingeniería Química,28,maria.serrano@utec.edu.pe,Alumno
+202210547,Eugenio Lucas Cerdán,Ingeniería Química,26,eugenio.lucas@utec.edu.pe,Alumno
+202210523,Ana Belén Parra-Almeida,Ingeniería Química,22,ana.belen@utec.edu.pe,Alumno
+202220554,Consuela Menéndez Cámara,Ingeniería Química,23,consuela.menendez@utec.edu.pe,Alumno
+202210527,Mateo Melero Juliá,Ingeniería Química,21,mateo.melero@utec.edu.pe,Alumno
+202220501,Jennifer Barranco Blazquez,Ingeniería Química,25,jennifer.barranco@utec.edu.pe,Alumno
+202210578,Joel Calderon Baños,Ingeniería Química,21,joel.calderon@utec.edu.pe,Alumno
+202210591,Inés María Carmen Girona Planas,Ingeniería Química,29,ines.girona@utec.edu.pe,Alumno
+202220542,Rafa Leon Salinas,Ingeniería Química,24,rafa.leon@utec.edu.pe,Alumno
+202210582,Íngrid Cid Cuenca,Ingeniería Química,18,ingrid.cid@utec.edu.pe,Alumno
+202220524,Marisa Gala Soler Calderon,Ingeniería Química,19,marisa.soler@utec.edu.pe,Alumno
+202220539,Claudia Español Gabaldón,Ingeniería Química,22,claudia.espanol@utec.edu.pe,Alumno
+202210599,Alfonso Édgar Garmendia Bou,Ingeniería Química,29,alfonso.garmendia@utec.edu.pe,Alumno
+202220511,Renato Solsona Santamaría,Ingeniería Química,19,renato.solsona@utec.edu.pe,Alumno
+202210587,Eduardo Castellanos Mayoral,Ingeniería Química,22,eduardo.castellanos@utec.edu.pe,Alumno
+202210535,Abigaíl Pinto Zamorano,Ingeniería Química,21,abigail.pinto@utec.edu.pe,Alumno
+202220581,Curro Menéndez Jove,Ingeniería Química,21,curro.menendez@utec.edu.pe,Alumno
+202220540,Sosimo Barrera Torre,Ingeniería Química,29,sosimo.barrera@utec.edu.pe,Alumno
+202220557,Candelas Morillo Pera,Ingeniería Química,26,candelas.morillo@utec.edu.pe,Alumno
+202220560,Griselda Puente Pérez,Ingeniería Química,25,griselda.puente@utec.edu.pe,Alumno
+202210564,Tomasa Rozas Alegria,Ingeniería Química,18,tomasa.rozas@utec.edu.pe,Alumno
+202220596,Timoteo Sosa Pavón,Ingeniería Química,23,timoteo.sosa@utec.edu.pe,Alumno
+202210517,Carlito Prado Falcó,Ingeniería Química,26,carlito.prado@utec.edu.pe,Alumno
+202210571,Rocío Cases Arana,Ingeniería Química,25,rocio.cases@utec.edu.pe,Alumno
+202220529,Lilia Lobato Ibañez,Ingeniería Química,20,lilia.lobato@utec.edu.pe,Alumno
+202210575,Selena Ballester Rincón,Ingeniería Química,19,selena.ballester@utec.edu.pe,Alumno
+202210502,José Manuel Lillo Izquierdo,Ingeniería Química,28,jose.lillo@utec.edu.pe,Alumno
+202220577,Jacinta Gargallo Requena,Ingeniería Química,20,jacinta.gargallo@utec.edu.pe,Alumno
+202220500,Felipa Madrid Cordero,Ingeniería Química,22,felipa.madrid@utec.edu.pe,Alumno
+202210579,Modesto Porta Galan,Ingeniería Química,26,modesto.porta@utec.edu.pe,Alumno
+202210594,Feliciana Herrera Pastor,Ingeniería Química,23,feliciana.herrera@utec.edu.pe,Alumno
+202210592,Valentín Plinio Agudo Barberá,Ingeniería Química,21,valentin.agudo@utec.edu.pe,Alumno
+202220531,Ileana Cervantes Salom,Ingeniería Química,23,ileana.cervantes@utec.edu.pe,Alumno
+202220562,Simón Rueda Dominguez,Ingeniería Química,19,simon.rueda@utec.edu.pe,Alumno
+202220546,Guiomar Uribe Montaña,Ingeniería Química,27,guiomar.uribe@utec.edu.pe,Alumno
+202220583,Alfredo Cózar Aparicio,Ingeniería Química,25,alfredo.cozar@utec.edu.pe,Alumno
+202210573,Segismundo Solé Azorin,Ingeniería Química,20,segismundo.sole@utec.edu.pe,Alumno
+202220559,Ruy Jáuregui Priego,Ingeniería Química,27,ruy.jauregui@utec.edu.pe,Alumno
+202220555,Griselda Ríos Ocaña,Ingeniería Química,18,griselda.rios@utec.edu.pe,Alumno
+202220522,Victorino Losada Carrasco,Ingeniería Química,18,victorino.losada@utec.edu.pe,Alumno
+202210503,Natanael Peinado Verdú,Ingeniería Química,28,natanael.peinado@utec.edu.pe,Alumno
+202210543,Alfredo Cáceres Bonilla,Ingeniería Química,23,alfredo.caceres@utec.edu.pe,Alumno
+202220556,Octavio Valdés Villar,Ingeniería Química,19,octavio.valdes@utec.edu.pe,Alumno
+202310663,Dan Carlos Checa,Ingeniería Química,17,dan.carlos@utec.edu.pe,Alumno
+202310627,Ruy Nadal Bartolomé,Ingeniería Química,23,ruy.nadal@utec.edu.pe,Alumno
+202310637,Jacobo Uribe Nogués,Ingeniería Química,18,jacobo.uribe@utec.edu.pe,Alumno
+202320666,Odalis Cintia Reig Pinilla,Ingeniería Química,22,odalis.reig@utec.edu.pe,Alumno
+202310669,Efraín Aguiló Camacho,Ingeniería Química,21,efrain.aguilo@utec.edu.pe,Alumno
+202310607,Vilma Tolosa Solana,Ingeniería Química,27,vilma.tolosa@utec.edu.pe,Alumno
+202320616,Raúl Baró Tenorio,Ingeniería Química,19,raul.baro@utec.edu.pe,Alumno
+202310654,Antonio Fiol Jiménez,Ingeniería Química,23,antonio.fiol@utec.edu.pe,Alumno
+202310636,Jose Carlos Quintero Téllez,Ingeniería Química,25,jose.quintero@utec.edu.pe,Alumno
+202310638,Gerardo Ríos Molina,Ingeniería Química,22,gerardo.rios@utec.edu.pe,Alumno
+202310680,Flavio Velázquez Soria,Ingeniería Química,16,flavio.velazquez@utec.edu.pe,Alumno
+202320696,Pastor Zaragoza Alcaraz,Ingeniería Química,25,pastor.zaragoza@utec.edu.pe,Alumno
+202320660,Sabas Navarrete Somoza,Ingeniería Química,17,sabas.navarrete@utec.edu.pe,Alumno
+202320645,Glauco Silvio Sanmartín Zabala,Ingeniería Química,21,glauco.sanmartin@utec.edu.pe,Alumno
+202320692,Julio Segarra Camacho,Ingeniería Química,22,julio.segarra@utec.edu.pe,Alumno
+202310697,Leyre Salinas Reig,Ingeniería Química,26,leyre.salinas@utec.edu.pe,Alumno
+202320648,Arsenio Eric Luján Arcos,Ingeniería Química,26,arsenio.lujan@utec.edu.pe,Alumno
+202310683,Guiomar Lázaro Gallego Ródenas,Ingeniería Química,27,guiomar.gallego@utec.edu.pe,Alumno
+202320667,Celestino Escrivá Leal,Ingeniería Química,17,celestino.escriva@utec.edu.pe,Alumno
+202320649,Darío Olmo Cuervo,Ingeniería Química,24,dario.olmo@utec.edu.pe,Alumno
+202310613,Tito Alcolea Díez,Ingeniería Química,17,tito.alcolea@utec.edu.pe,Alumno
+202320614,Juan Luis Crespo Cuenca,Ingeniería Química,20,juan.crespo@utec.edu.pe,Alumno
+202310659,Leocadia Valdés Pozo,Ingeniería Química,16,leocadia.valdes@utec.edu.pe,Alumno
+202320602,Ciriaco Luis Pascual Alcázar,Ingeniería Química,16,ciriaco.pascual@utec.edu.pe,Alumno
+202310629,Gracia Rosselló Casal,Ingeniería Química,26,gracia.rossello@utec.edu.pe,Alumno
+202320623,Fermín Pavón Cabello,Ingeniería Química,24,fermin.pavon@utec.edu.pe,Alumno
+202310679,María Jesús Mancebo Bernal,Ingeniería Química,23,maria.mancebo@utec.edu.pe,Alumno
+202320619,Fidela Ortega Navarro,Ingeniería Química,18,fidela.ortega@utec.edu.pe,Alumno
+202320672,Antonio Cerezo Múñiz,Ingeniería Química,23,antonio.cerezo@utec.edu.pe,Alumno
+202310611,Hermenegildo Fonseca Bauzà,Ingeniería Química,22,hermenegildo.fonseca@utec.edu.pe,Alumno
+202310630,África Casado Farré,Ingeniería Química,18,africa.casado@utec.edu.pe,Alumno
+202310668,Perlita Abella Tena,Ingeniería Química,22,perlita.abella@utec.edu.pe,Alumno
+202320618,Consuela Lina Casanova Pallarès,Ingeniería Química,20,consuela.casanova@utec.edu.pe,Alumno
+202320653,Teófila Puga Marco,Ingeniería Química,23,teofila.puga@utec.edu.pe,Alumno
+202320694,Odalys Soler Guijarro,Ingeniería Química,16,odalys.soler@utec.edu.pe,Alumno
+202310682,Damián Costa Priego,Ingeniería Química,19,damian.costa@utec.edu.pe,Alumno
+202320677,Julio Aparicio Ayala,Ingeniería Química,16,julio.aparicio@utec.edu.pe,Alumno
+202320652,Abril Colom Haro,Ingeniería Química,20,abril.colom@utec.edu.pe,Alumno
+202320691,Guadalupe Pellicer Vallés,Ingeniería Química,18,guadalupe.pellicer@utec.edu.pe,Alumno
+202320620,Agustín Belda Goicoechea,Ingeniería Química,28,agustin.belda@utec.edu.pe,Alumno
+202310698,Casandra Pedrosa Ramón,Ingeniería Química,27,casandra.pedrosa@utec.edu.pe,Alumno
+202310626,Jerónimo Trujillo Hidalgo,Ingeniería Química,18,jeronimo.trujillo@utec.edu.pe,Alumno
+202310690,Juan José Pulido Arranz,Ingeniería Química,18,juan.pulido@utec.edu.pe,Alumno
+202310641,Ibán Tovar Jiménez,Ingeniería Química,27,iban.tovar@utec.edu.pe,Alumno
+202310656,Chema Bayo Goñi,Ingeniería Química,23,chema.bayo@utec.edu.pe,Alumno
+202310601,Amado Ponce Vázquez,Ingeniería Química,24,amado.ponce@utec.edu.pe,Alumno
+202320676,Victor Manuel Sierra Castellanos,Ingeniería Química,16,victor.sierra@utec.edu.pe,Alumno
+202320617,Alonso Rincón Malo,Ingeniería Química,19,alonso.rincon@utec.edu.pe,Alumno
+202320678,Marc Huguet Portillo,Ingeniería Química,18,marc.huguet@utec.edu.pe,Alumno
+202320622,Isidoro Urrutia Coello,Ingeniería Química,16,isidoro.urrutia@utec.edu.pe,Alumno
+202320670,Jafet Mir Gabaldón,Ingeniería Química,21,jafet.mir@utec.edu.pe,Alumno
+202310671,Abril Otero Campo,Ingeniería Química,26,abril.otero@utec.edu.pe,Alumno
+202320684,Tristán Aguirre Cantero,Ingeniería Química,22,tristan.aguirre@utec.edu.pe,Alumno
+202320665,Lupe González Cuervo,Ingeniería Química,22,lupe.gonzalez@utec.edu.pe,Alumno
+202310673,Esmeralda Artigas Bolaños,Ingeniería Química,17,esmeralda.artigas@utec.edu.pe,Alumno
+202310675,Juan Pablo Urrutia Boada,Ingeniería Química,18,juan.urrutia@utec.edu.pe,Alumno
+202320664,Clara Roma Marin,Ingeniería Química,22,clara.roma@utec.edu.pe,Alumno
+202320644,Duilio Gómez Coll,Ingeniería Química,25,duilio.gomez@utec.edu.pe,Alumno
+202310610,Águeda Pi Pla,Ingeniería Química,19,agueda.pi@utec.edu.pe,Alumno
+202310643,Azahara Domingo Carpio,Ingeniería Química,17,azahara.domingo@utec.edu.pe,Alumno
+202320621,Joaquina Amorós Salgado,Ingeniería Química,25,joaquina.amoros@utec.edu.pe,Alumno
+202310609,Ema Puente Riera,Ingeniería Química,21,ema.puente@utec.edu.pe,Alumno
+202320640,Cirino Ferrández Llorente,Ingeniería Química,27,cirino.ferrandez@utec.edu.pe,Alumno
+202310647,Ximena Aroca Riquelme,Ingeniería Química,17,ximena.aroca@utec.edu.pe,Alumno
+202310661,Gerardo Blanes Hidalgo,Ingeniería Química,17,gerardo.blanes@utec.edu.pe,Alumno
+202310615,Ana Belén Palma-Leon,Ingeniería Química,25,ana.belen@utec.edu.pe,Alumno
+202310625,Imelda Dominguez Baena,Ingeniería Química,17,imelda.dominguez@utec.edu.pe,Alumno
+202310631,Agapito Ortiz Canals,Ingeniería Química,21,agapito.ortiz@utec.edu.pe,Alumno
+202310605,Haroldo Vilaplana Carbó,Ingeniería Química,24,haroldo.vilaplana@utec.edu.pe,Alumno
+202320633,Nicolás Font Camps,Ingeniería Química,24,nicolas.font@utec.edu.pe,Alumno
+202320639,Onofre Santana Cabrera,Ingeniería Química,19,onofre.santana@utec.edu.pe,Alumno
+202320695,Jorge Carpio Campos,Ingeniería Química,22,jorge.carpio@utec.edu.pe,Alumno
+202320612,Raimundo Higueras Lamas,Ingeniería Química,16,raimundo.higueras@utec.edu.pe,Alumno
+202320632,Estrella Cepeda Suarez,Ingeniería Química,22,estrella.cepeda@utec.edu.pe,Alumno
+202310635,Eulalia Español Tovar,Ingeniería Química,27,eulalia.espanol@utec.edu.pe,Alumno
+202310642,Lope Elías Andrade Cerezo,Ingeniería Química,21,lope.andrade@utec.edu.pe,Alumno
+202320688,Maximiano Villar Carballo,Ingeniería Química,21,maximiano.villar@utec.edu.pe,Alumno
+202320687,Armida Calvo Alcázar,Ingeniería Química,18,armida.calvo@utec.edu.pe,Alumno
+202320655,Eligio Fermín Navarrete Vargas,Ingeniería Química,25,eligio.navarrete@utec.edu.pe,Alumno
+202320657,Chelo Orozco Arévalo,Ingeniería Química,24,chelo.orozco@utec.edu.pe,Alumno
+202310362,Jorge Campos Mora,Ingeniería Mecatrónica,20,jorge.campos@utec.edu.pe,Alumno
+202320464,Emilia Zamora Castro,Ingeniería Mecatrónica,20,emilia.zamora@utec.edu.pe,Alumno
+202320365,Hernán Girón Castejón,Ingeniería Mecatrónica,16,hernan.giron@utec.edu.pe,Alumno
+202310309,Cándido García Morales,Ingeniería Mecatrónica,24,candido.garcia@utec.edu.pe,Alumno
+202320285,Caridad Barba Berrocal,Ingeniería Mecatrónica,24,caridad.barba@utec.edu.pe,Alumno
+202320432,Silvestre Jafet Castañeda Torrent,Ingeniería Mecatrónica,17,silvestre.castaneda@utec.edu.pe,Alumno
+202320271,Paulina Ribera Peinado,Ingeniería Mecatrónica,24,paulina.ribera@utec.edu.pe,Alumno
+202320484,Eleuterio Noriega Domínguez,Ingeniería Mecatrónica,18,eleuterio.noriega@utec.edu.pe,Alumno
+202320305,Jose Posada Elorza,Ingeniería Mecatrónica,18,jose.posada@utec.edu.pe,Alumno
+202310256,Diego Cadenas Guijarro,Ingeniería Mecatrónica,22,diego.cadenas@utec.edu.pe,Alumno
+202310455,Eduardo Jimenez Moles,Ingeniería Mecatrónica,26,eduardo.jimenez@utec.edu.pe,Alumno
+202310445,Eulalia Jaén Salas,Ingeniería Mecatrónica,18,eulalia.jaen@utec.edu.pe,Alumno
+202320278,Clarisa Alfonso Conde,Ingeniería Mecatrónica,20,clarisa.alfonso@utec.edu.pe,Alumno
+202320461,Enrique Farré Almansa,Ingeniería Mecatrónica,19,enrique.farre@utec.edu.pe,Alumno
+202310375,Aristides Narváez Nogués,Ingeniería Mecatrónica,18,aristides.narvaez@utec.edu.pe,Alumno
+202310476,Melchor Cruz Garriga Nieto,Ingeniería Mecatrónica,19,melchor.garriga@utec.edu.pe,Alumno
+202320430,Alberto Peral Belmonte,Ingeniería Mecatrónica,20,alberto.peral@utec.edu.pe,Alumno
+202320395,Micaela Luís Lopez,Ingeniería Mecatrónica,24,micaela.luis@utec.edu.pe,Alumno
+202320261,Begoña Villalobos Conde,Ingeniería Mecatrónica,21,begona.villalobos@utec.edu.pe,Alumno
+202310357,Pepito Baeza Juliá,Ingeniería Mecatrónica,17,pepito.baeza@utec.edu.pe,Alumno
+202310406,Hernando Soler Díaz,Ingeniería Mecatrónica,19,hernando.soler@utec.edu.pe,Alumno
+202310403,Nacio Bru Tomé,Ingeniería Mecatrónica,16,nacio.bru@utec.edu.pe,Alumno
+202310262,Lina Salmerón Vendrell,Ingeniería Mecatrónica,17,lina.salmeron@utec.edu.pe,Alumno
+202310237,Nicanor Heriberto Cañizares Fortuny,Ingeniería Mecatrónica,19,nicanor.canizares@utec.edu.pe,Alumno
+202320269,Cebrián López Antón,Ingeniería Mecatrónica,20,cebrian.lopez@utec.edu.pe,Alumno
+202310339,Reyna Aparicio Rivera,Ingeniería Mecatrónica,16,reyna.aparicio@utec.edu.pe,Alumno
+202310459,Jesusa Socorro Larrañaga Gelabert,Ingeniería Mecatrónica,18,jesusa.larranaga@utec.edu.pe,Alumno
+202320467,Araceli Guerrero Bernat,Ingeniería Mecatrónica,28,araceli.guerrero@utec.edu.pe,Alumno
+202320289,Cornelio Tejedor Calvet,Ingeniería Mecatrónica,22,cornelio.tejedor@utec.edu.pe,Alumno
+202320245,Aránzazu Teresita Vizcaíno Barrios,Ingeniería Mecatrónica,25,aranzazu.vizcaino@utec.edu.pe,Alumno
+202320443,Jovita Carbó Morillo,Ingeniería Mecatrónica,25,jovita.carbo@utec.edu.pe,Alumno
+202320424,Héctor Torrens Benito,Ingeniería Mecatrónica,22,hector.torrens@utec.edu.pe,Alumno
+202310469,Cloe Malo Caparrós,Ingeniería Mecatrónica,28,cloe.malo@utec.edu.pe,Alumno
+202310272,Aroa Lasa Prada,Ingeniería Mecatrónica,24,aroa.lasa@utec.edu.pe,Alumno
+202310336,Lorenzo Alfonso Saez,Ingeniería Mecatrónica,17,lorenzo.alfonso@utec.edu.pe,Alumno
+202310260,Ceferino Héctor Sáenz Canet,Ingeniería Mecatrónica,23,ceferino.saenz@utec.edu.pe,Alumno
+202320287,Albina Paula Antúnez Cordero,Ingeniería Mecatrónica,27,albina.antunez@utec.edu.pe,Alumno
+202310429,Miguela Raya Cerezo,Ingeniería Mecatrónica,16,miguela.raya@utec.edu.pe,Alumno
+202310368,Ariadna Cid Busquets,Ingeniería Mecatrónica,25,ariadna.cid@utec.edu.pe,Alumno
+202310407,Heriberto Azcona Cabanillas,Ingeniería Mecatrónica,20,heriberto.azcona@utec.edu.pe,Alumno
+202320366,Araceli Bermúdez Dueñas,Ingeniería Mecatrónica,19,araceli.bermudez@utec.edu.pe,Alumno
+202310364,Bernarda Amaya Puerta,Ingeniería Mecatrónica,25,bernarda.amaya@utec.edu.pe,Alumno
+202310480,Lorena Fuertes Escribano,Ingeniería Mecatrónica,26,lorena.fuertes@utec.edu.pe,Alumno
+202310270,Leonardo Hervás Pacheco,Ingeniería Mecatrónica,28,leonardo.hervas@utec.edu.pe,Alumno
+202310398,Íñigo Laguna Benavente,Ingeniería Mecatrónica,25,inigo.laguna@utec.edu.pe,Alumno
+202310426,Cayetano Josep Trillo Boada,Ingeniería Mecatrónica,18,cayetano.trillo@utec.edu.pe,Alumno
+202310481,Fátima Perea Quintana,Ingeniería Mecatrónica,27,fatima.perea@utec.edu.pe,Alumno
+202320343,Vanesa Giménez Menendez,Ingeniería Mecatrónica,19,vanesa.gimenez@utec.edu.pe,Alumno
+202320390,Amada Aliaga Morante,Ingeniería Mecatrónica,23,amada.aliaga@utec.edu.pe,Alumno
+202310386,Candelas Pujol Niño,Ingeniería Mecatrónica,18,candelas.pujol@utec.edu.pe,Alumno
+202320489,Cándida Quintanilla Hidalgo,Ingeniería Mecatrónica,17,candida.quintanilla@utec.edu.pe,Alumno
+202320283,Valentina Madrigal Torrent,Ingeniería Mecatrónica,21,valentina.madrigal@utec.edu.pe,Alumno
+202320359,Ildefonso Giralt Coll,Ingeniería Mecatrónica,18,ildefonso.giralt@utec.edu.pe,Alumno
+202310310,Ildefonso Company Acevedo,Ingeniería Mecatrónica,25,ildefonso.company@utec.edu.pe,Alumno
+202320442,Zaira Otero Giralt,Ingeniería Mecatrónica,23,zaira.otero@utec.edu.pe,Alumno
+202320388,Rolando Quique Marcos Clemente,Ingeniería Mecatrónica,26,rolando.marcos@utec.edu.pe,Alumno
+202310325,Bibiana Felipa Menéndez Cózar,Ingeniería Mecatrónica,23,bibiana.menendez@utec.edu.pe,Alumno
+202320280,Máxima Barbero Manzanares,Ingeniería Mecatrónica,18,maxima.barbero@utec.edu.pe,Alumno
+202310267,Liliana Ayllón Cañizares,Ingeniería Mecatrónica,28,liliana.ayllon@utec.edu.pe,Alumno
+202320486,Anselma Quevedo Coronado,Ingeniería Mecatrónica,28,anselma.quevedo@utec.edu.pe,Alumno
+202310350,Bernardita Agustín Bustos,Ingeniería Mecatrónica,19,bernardita.agustin@utec.edu.pe,Alumno
+202320281,Águeda Sureda Olivares,Ingeniería Mecatrónica,20,agueda.sureda@utec.edu.pe,Alumno
+202320242,Rebeca Cándida Segura Viñas,Ingeniería Mecatrónica,28,rebeca.segura@utec.edu.pe,Alumno
+202320238,Valentín Loreto Linares Cáceres,Ingeniería Mecatrónica,24,valentin.linares@utec.edu.pe,Alumno
+202310498,Maite Claudia Rivera Trujillo,Ingeniería Mecatrónica,19,maite.rivera@utec.edu.pe,Alumno
+202310246,Ximena Mariscal Pozuelo,Ingeniería Mecatrónica,25,ximena.mariscal@utec.edu.pe,Alumno
+202310224,Dora Diego Puig,Ingeniería Mecatrónica,23,dora.diego@utec.edu.pe,Alumno
+202310218,Gregorio Almeida Larrea,Ingeniería Mecatrónica,23,gregorio.almeida@utec.edu.pe,Alumno
+202310208,Bruno Lobo Gual,Ingeniería Mecatrónica,18,bruno.lobo@utec.edu.pe,Alumno
+202310363,Luz Sanmiguel Román,Ingeniería Mecatrónica,22,luz.sanmiguel@utec.edu.pe,Alumno
+202320448,Lucila Casals Corbacho,Ingeniería Mecatrónica,23,lucila.casals@utec.edu.pe,Alumno
+202310413,Mohamed Perelló Soria,Ingeniería Mecatrónica,25,mohamed.perello@utec.edu.pe,Alumno
+202310279,José Luis Ropero Merino,Ingeniería Mecatrónica,24,jose.ropero@utec.edu.pe,Alumno
+202320402,Adela Iborra Alvarez,Ingeniería Mecatrónica,26,adela.iborra@utec.edu.pe,Alumno
+202310338,Clímaco Roig Sola,Ingeniería Mecatrónica,25,climaco.roig@utec.edu.pe,Alumno
+202320479,Dionisia Pareja Santamaria,Ingeniería Mecatrónica,25,dionisia.pareja@utec.edu.pe,Alumno
+202320323,Cayetano Feijoo Mena,Ingeniería Mecatrónica,21,cayetano.feijoo@utec.edu.pe,Alumno
+202320385,Américo Carranza Batlle,Ingeniería Mecatrónica,21,americo.carranza@utec.edu.pe,Alumno
+202310288,Odalis Colomer Baquero,Ingeniería Mecatrónica,21,odalis.colomer@utec.edu.pe,Alumno
+202320466,Eliana Cruz Campoy,Ingeniería Mecatrónica,23,eliana.cruz@utec.edu.pe,Alumno
+202310499,Bárbara Gimeno Rocha,Ingeniería Mecatrónica,21,barbara.gimeno@utec.edu.pe,Alumno
+202320250,Armando Dionisio Aranda Andrés,Ingeniería Mecatrónica,21,armando.aranda@utec.edu.pe,Alumno
+202310399,Joaquín Salgado Ponce,Ingeniería Mecatrónica,18,joaquin.salgado@utec.edu.pe,Alumno
+202320340,Florina Navarro Gámez,Ingeniería Mecatrónica,27,florina.navarro@utec.edu.pe,Alumno
+202310230,Dimas Quintero Vives,Ingeniería Mecatrónica,20,dimas.quintero@utec.edu.pe,Alumno
+202310401,Angélica Garcés Sevilla,Ingeniería Mecatrónica,25,angelica.garces@utec.edu.pe,Alumno
+202310253,Fidel Talavera Roig,Ingeniería Mecatrónica,25,fidel.talavera@utec.edu.pe,Alumno
+202310372,Yésica Julián Acero,Ingeniería Mecatrónica,25,yesica.julian@utec.edu.pe,Alumno
+202310418,Odalys Menendez Castejón,Ingeniería Mecatrónica,20,odalys.menendez@utec.edu.pe,Alumno
+202310404,Zaira Guardiola Iriarte,Ingeniería Mecatrónica,21,zaira.guardiola@utec.edu.pe,Alumno
+202320240,Paca Roda Tovar,Ingeniería Mecatrónica,27,paca.roda@utec.edu.pe,Alumno
+202320411,Urbano Navas Cabrero,Ingeniería Mecatrónica,20,urbano.navas@utec.edu.pe,Alumno
+202310236,Paula Bárcena Peral,Ingeniería Mecatrónica,26,paula.barcena@utec.edu.pe,Alumno
+202310234,Tere Olivares Montesinos,Ingeniería Mecatrónica,21,tere.olivares@utec.edu.pe,Alumno
+202310321,Gonzalo Ignacio Peñalver Ferrero,Ingeniería Mecatrónica,25,gonzalo.penalver@utec.edu.pe,Alumno
+202320433,Asunción Rodríguez Pagès,Ingeniería Mecatrónica,19,asuncion.rodriguez@utec.edu.pe,Alumno
+202320324,Jacinta Bernad Cuéllar,Ingeniería Mecatrónica,23,jacinta.bernad@utec.edu.pe,Alumno
+202310393,Flavio Amílcar Cal Mosquera,Ingeniería Mecatrónica,19,flavio.cal@utec.edu.pe,Alumno
+202320297,Pepita Machado Santos,Ingeniería Mecatrónica,24,pepita.machado@utec.edu.pe,Alumno
+202310334,Nadia Lledó Prada,Ingeniería Mecatrónica,20,nadia.lledo@utec.edu.pe,Alumno
+202310291,Dani Mesa Blazquez,Ingeniería Mecatrónica,21,dani.mesa@utec.edu.pe,Alumno
+202320389,Segismundo Jose Francisco Pastor Redondo,Ingeniería Mecatrónica,28,segismundo.pastor@utec.edu.pe,Alumno
+202320302,Inmaculada Pavón Tomás,Ingeniería Mecatrónica,28,inmaculada.pavon@utec.edu.pe,Alumno
+202320447,Jose Antonio Navarro Diéguez,Ingeniería Mecatrónica,22,jose.navarro@utec.edu.pe,Alumno
+202320494,Pepita Florentina Villalobos Hervia,Ingeniería Mecatrónica,20,pepita.villalobos@utec.edu.pe,Alumno
+202310247,Eva María Griselda Sala Durán,Ingeniería Mecatrónica,24,eva.sala@utec.edu.pe,Alumno
+202310228,Benito Meléndez Ramón,Ingeniería Mecatrónica,25,benito.melendez@utec.edu.pe,Alumno
+202310284,Asunción Torrent Roig,Ingeniería Mecatrónica,17,asuncion.torrent@utec.edu.pe,Alumno
+202310446,Natanael Otero Armas,Ingeniería Mecatrónica,19,natanael.otero@utec.edu.pe,Alumno
+202320417,Socorro Fernandez Esteve,Ingeniería Mecatrónica,28,socorro.fernandez@utec.edu.pe,Alumno
+202320304,Reinaldo Leiva Pagès,Ingeniería Mecatrónica,28,reinaldo.leiva@utec.edu.pe,Alumno
+202310421,Iván Caparrós Cabo,Ingeniería Mecatrónica,27,ivan.caparros@utec.edu.pe,Alumno
+202310293,Heliodoro Lillo Ros,Ingeniería Mecatrónica,23,heliodoro.lillo@utec.edu.pe,Alumno
+202310266,Clarisa Daniela Huerta Bolaños,Ingeniería Mecatrónica,23,clarisa.huerta@utec.edu.pe,Alumno
+202320387,Calista Calatayud Villalonga,Ingeniería Mecatrónica,25,calista.calatayud@utec.edu.pe,Alumno
+202320313,Coral Núñez Torralba,Ingeniería Mecatrónica,18,coral.nunez@utec.edu.pe,Alumno
+202320454,Agustina Luque Aznar,Ingeniería Mecatrónica,22,agustina.luque@utec.edu.pe,Alumno
+202310345,Roxana María Manuela Aragón Chacón,Ingeniería Mecatrónica,19,roxana.aragon@utec.edu.pe,Alumno
+202320355,Coral Checa Huertas,Ingeniería Mecatrónica,18,coral.checa@utec.edu.pe,Alumno
+202310474,Eleuterio Aramburu Sevillano,Ingeniería Mecatrónica,25,eleuterio.aramburu@utec.edu.pe,Alumno
+202310485,Chucho Jordán Puga,Ingeniería Mecatrónica,28,chucho.jordan@utec.edu.pe,Alumno
+202320449,María Cristina Gras Duque,Ingeniería Mecatrónica,22,maria.gras@utec.edu.pe,Alumno
+202320320,María Luisa Polo Olivera,Ingeniería Mecatrónica,21,maria.polo@utec.edu.pe,Alumno
+202310241,Paola Céspedes Serra,Ingeniería Mecatrónica,26,paola.cespedes@utec.edu.pe,Alumno
+202320235,Isidro Bauzà Herrero,Ingeniería Mecatrónica,26,isidro.bauza@utec.edu.pe,Alumno
+202320264,Guillermo Mora Cobos,Ingeniería Mecatrónica,18,guillermo.mora@utec.edu.pe,Alumno
+202320331,José Virginia Chaparro Sanmartín,Ingeniería Mecatrónica,27,jose.chaparro@utec.edu.pe,Alumno
+202320275,Patricio Riquelme Benitez,Ingeniería Mecatrónica,27,patricio.riquelme@utec.edu.pe,Alumno
+202320244,Dorotea Adriana Gámez Querol,Ingeniería Mecatrónica,27,dorotea.gamez@utec.edu.pe,Alumno
+202310292,Severiano Pomares Gimeno,Ingeniería Mecatrónica,16,severiano.pomares@utec.edu.pe,Alumno
+202310299,Josefina Mayol Pacheco,Ingeniería Mecatrónica,22,josefina.mayol@utec.edu.pe,Alumno
+202320383,Mateo Felipe Páez Torrecilla,Ingeniería Mecatrónica,22,mateo.paez@utec.edu.pe,Alumno
+202320248,Calista Báez Angulo,Ingeniería Mecatrónica,24,calista.baez@utec.edu.pe,Alumno
+202320451,Lalo Salom Barrera,Ingeniería Mecatrónica,19,lalo.salom@utec.edu.pe,Alumno
+202310396,Estrella Cuéllar Valdés,Ingeniería Mecatrónica,17,estrella.cuellar@utec.edu.pe,Alumno
+202310255,Josefina Pol Feijoo,Ingeniería Mecatrónica,26,josefina.pol@utec.edu.pe,Alumno
+202320360,Isaías Aureliano Juárez Mínguez,Ingeniería Mecatrónica,24,isaias.juarez@utec.edu.pe,Alumno
+202310369,Perlita Oliva Navas,Ingeniería Mecatrónica,20,perlita.oliva@utec.edu.pe,Alumno
+202310294,Bárbara Vilanova Cózar,Ingeniería Mecatrónica,21,barbara.vilanova@utec.edu.pe,Alumno
+202310441,Leopoldo Méndez Corral,Ingeniería Mecatrónica,25,leopoldo.mendez@utec.edu.pe,Alumno
+202310206,Valerio Planas Cadenas,Ingeniería Mecatrónica,25,valerio.planas@utec.edu.pe,Alumno
+202310361,Isaías Verdú Soler,Ingeniería Mecatrónica,25,isaias.verdu@utec.edu.pe,Alumno
+202320373,Juana Gomila Domínguez,Ingeniería Mecatrónica,22,juana.gomila@utec.edu.pe,Alumno
+202320405,Jose Ignacio Varela Madrid,Ingeniería Mecatrónica,27,jose.varela@utec.edu.pe,Alumno
+202320300,Eli Lerma Molina,Ingeniería Mecatrónica,24,eli.lerma@utec.edu.pe,Alumno
+202310475,Asunción Amorós Gomila,Ingeniería Mecatrónica,27,asuncion.amoros@utec.edu.pe,Alumno
+202310394,Nieves Sans Robles,Ingeniería Mecatrónica,24,nieves.sans@utec.edu.pe,Alumno
+202320201,Ciro Amo Cuadrado,Ingeniería Mecatrónica,27,ciro.amo@utec.edu.pe,Alumno
+202310348,Anastasio Barreda Losada,Ingeniería Mecatrónica,16,anastasio.barreda@utec.edu.pe,Alumno
+202320367,Elisabet Chico Yáñez,Ingeniería Mecatrónica,17,elisabet.chico@utec.edu.pe,Alumno
+202310268,Amarilis Pelayo Segovia,Ingeniería Mecatrónica,16,amarilis.pelayo@utec.edu.pe,Alumno
+202320423,Estrella Juliá Roura,Ingeniería Mecatrónica,21,estrella.julia@utec.edu.pe,Alumno
+202320435,Paco Alcántara Fuentes,Ingeniería Mecatrónica,18,paco.alcantara@utec.edu.pe,Alumno
+202320471,Maite Madrigal Amorós,Ingeniería Mecatrónica,28,maite.madrigal@utec.edu.pe,Alumno
+202320408,Sancho Márquez Manrique,Ingeniería Mecatrónica,28,sancho.marquez@utec.edu.pe,Alumno
+202320382,Samu Sanchez Cabañas,Ingeniería Mecatrónica,20,samu.sanchez@utec.edu.pe,Alumno
+202310380,Jacinta Iñiguez Miranda,Ingeniería Mecatrónica,20,jacinta.iniguez@utec.edu.pe,Alumno
+202320374,Susanita Rocío Gabaldón Torrent,Ingeniería Mecatrónica,24,susanita.gabaldon@utec.edu.pe,Alumno
+202310222,Agustina Hoyos Blanca,Ingeniería Mecatrónica,25,agustina.hoyos@utec.edu.pe,Alumno
+202320317,Cruz Torrents Martí,Ingeniería Mecatrónica,26,cruz.torrents@utec.edu.pe,Alumno
+202320225,Olalla Múgica Álvaro,Ingeniería Mecatrónica,23,olalla.mugica@utec.edu.pe,Alumno
+202310226,Celestina Cuesta Jaume,Ingeniería Mecatrónica,28,celestina.cuesta@utec.edu.pe,Alumno
+202320276,Catalina Múñiz Oller,Ingeniería Mecatrónica,19,catalina.muniz@utec.edu.pe,Alumno
+202320490,José Manrique Diego,Ingeniería Mecatrónica,19,jose.manrique@utec.edu.pe,Alumno
+202310311,Encarnación Rivas Rocamora,Ingeniería Mecatrónica,20,encarnacion.rivas@utec.edu.pe,Alumno
+202320227,Maricela Redondo Martínez,Ingeniería Mecatrónica,16,maricela.redondo@utec.edu.pe,Alumno
+202310239,Tomás Quero Alfaro,Ingeniería Mecatrónica,25,tomas.quero@utec.edu.pe,Alumno
+202310434,Bernarda Cadenas Montaña,Ingeniería Mecatrónica,19,bernarda.cadenas@utec.edu.pe,Alumno
+202310458,Evelia Feijoo Soriano,Ingeniería Mecatrónica,16,evelia.feijoo@utec.edu.pe,Alumno
+202310207,Pánfilo Tejera Escribano,Ingeniería Mecatrónica,22,panfilo.tejera@utec.edu.pe,Alumno
+202320330,Saturnina Naranjo Aroca,Ingeniería Mecatrónica,24,saturnina.naranjo@utec.edu.pe,Alumno
+202310335,Donato Abellán Espada,Ingeniería Mecatrónica,20,donato.abellan@utec.edu.pe,Alumno
+202320203,Martina Galán Daza,Ingeniería Mecatrónica,23,martina.galan@utec.edu.pe,Alumno
+202320233,Eugenia Luque Viña,Ingeniería Mecatrónica,28,eugenia.luque@utec.edu.pe,Alumno
+202320306,Mateo Tena Bolaños,Ingeniería Mecatrónica,25,mateo.tena@utec.edu.pe,Alumno
+202310379,Luis Arroyo Ferrer,Ingeniería Mecatrónica,18,luis.arroyo@utec.edu.pe,Alumno
+202320200,Marino Belda Gárate,Ingeniería Mecatrónica,25,marino.belda@utec.edu.pe,Alumno
+202310308,Luís Reyes Colom Calvo,Ingeniería Mecatrónica,28,luis.colom@utec.edu.pe,Alumno
+202320478,Eugenio Tamarit Cazorla,Ingeniería Mecatrónica,25,eugenio.tamarit@utec.edu.pe,Alumno
+202320351,Paca Rojas Uriarte,Ingeniería Mecatrónica,25,paca.rojas@utec.edu.pe,Alumno
+202310341,Nadia Natalia Valderrama Cerdá,Ingeniería Mecatrónica,19,nadia.valderrama@utec.edu.pe,Alumno
+202220471,Eva Solsona Mata,Ingeniería Mecatrónica,21,eva.solsona@utec.edu.pe,Alumno
+202210211,Emigdio Héctor Pulido Díez,Ingeniería Mecatrónica,20,emigdio.pulido@utec.edu.pe,Alumno
+202220296,Nicolás Fernández Barba,Ingeniería Mecatrónica,20,nicolas.fernandez@utec.edu.pe,Alumno
+202220217,Gabriel Soto Pelayo,Ingeniería Mecatrónica,20,gabriel.soto@utec.edu.pe,Alumno
+202220223,Claudia Segovia Gras,Ingeniería Mecatrónica,24,claudia.segovia@utec.edu.pe,Alumno
+202220318,Plinio Jove Cardona,Ingeniería Mecatrónica,23,plinio.jove@utec.edu.pe,Alumno
+202220234,Felix Martin Borja,Ingeniería Mecatrónica,18,felix.martin@utec.edu.pe,Alumno
+202210335,Américo Vicente Galindo,Ingeniería Mecatrónica,23,americo.vicente@utec.edu.pe,Alumno
+202220393,Vera Adadia Bas,Ingeniería Mecatrónica,21,vera.adadia@utec.edu.pe,Alumno
+202220453,Buenaventura Trinidad Ribera Vaquero,Ingeniería Mecatrónica,20,buenaventura.ribera@utec.edu.pe,Alumno
+202220346,Chema España Arias,Ingeniería Mecatrónica,21,chema.espana@utec.edu.pe,Alumno
+202220368,José Luis Cañete Naranjo,Ingeniería Mecatrónica,19,jose.canete@utec.edu.pe,Alumno
+202210442,Humberto Bru Alsina,Ingeniería Mecatrónica,18,humberto.bru@utec.edu.pe,Alumno
+202220315,Berta Ferrera Puga,Ingeniería Mecatrónica,17,berta.ferrera@utec.edu.pe,Alumno
+202210330,Heliodoro Chamorro Isern,Ingeniería Mecatrónica,25,heliodoro.chamorro@utec.edu.pe,Alumno
+202220257,Cornelio Manuel Alemán,Ingeniería Mecatrónica,20,cornelio.manuel@utec.edu.pe,Alumno
+202210445,Juan Antonio Barceló Nevado,Ingeniería Mecatrónica,24,juan.barcelo@utec.edu.pe,Alumno
+202220366,Aarón Larrañaga Aguilar,Ingeniería Mecatrónica,25,aaron.larranaga@utec.edu.pe,Alumno
+202210422,Felipa Fonseca Giralt,Ingeniería Mecatrónica,23,felipa.fonseca@utec.edu.pe,Alumno
+202210249,Maximiliano Tovar Niño,Ingeniería Mecatrónica,20,maximiliano.tovar@utec.edu.pe,Alumno
+202220287,Victor Cueto Vallejo,Ingeniería Mecatrónica,25,victor.cueto@utec.edu.pe,Alumno
+202220377,Vito Sabater Asensio,Ingeniería Mecatrónica,23,vito.sabater@utec.edu.pe,Alumno
+202220390,Perla Solsona Machado,Ingeniería Mecatrónica,19,perla.solsona@utec.edu.pe,Alumno
+202210464,Lucas Andrade Leon,Ingeniería Mecatrónica,23,lucas.andrade@utec.edu.pe,Alumno
+202210226,Julieta Vidal Gallart,Ingeniería Mecatrónica,20,julieta.vidal@utec.edu.pe,Alumno
+202220430,Leonardo Criado Pou,Ingeniería Mecatrónica,17,leonardo.criado@utec.edu.pe,Alumno
+202210232,Dan Juan Bautista Jove Ibañez,Ingeniería Mecatrónica,20,dan.jove@utec.edu.pe,Alumno
+202220271,Amílcar Rubio Mateos,Ingeniería Mecatrónica,22,amilcar.rubio@utec.edu.pe,Alumno
+202220424,Lupe Urrutia Ramón,Ingeniería Mecatrónica,23,lupe.urrutia@utec.edu.pe,Alumno
+202210383,Berta Concha Gomez Martínez,Ingeniería Mecatrónica,19,berta.gomez@utec.edu.pe,Alumno
+202220364,Purificación Casas Bejarano,Ingeniería Mecatrónica,21,purificacion.casas@utec.edu.pe,Alumno
+202220310,Carmelo Aguiló Benavent,Ingeniería Mecatrónica,23,carmelo.aguilo@utec.edu.pe,Alumno
+202220265,Juan Manuel Rivera Alberdi,Ingeniería Mecatrónica,24,juan.rivera@utec.edu.pe,Alumno
+202220477,Alfredo Leopoldo Quirós Chamorro,Ingeniería Mecatrónica,18,alfredo.quiros@utec.edu.pe,Alumno
+202210404,Selena Alcaraz Arana,Ingeniería Mecatrónica,18,selena.alcaraz@utec.edu.pe,Alumno
+202220297,Geraldo Manzano Pla,Ingeniería Mecatrónica,25,geraldo.manzano@utec.edu.pe,Alumno
+202220474,José Manuel Briones Francisco,Ingeniería Mecatrónica,17,jose.briones@utec.edu.pe,Alumno
+202210278,Mateo Pera Baena,Ingeniería Mecatrónica,24,mateo.pera@utec.edu.pe,Alumno
+202210255,Consuelo Gaya Almeida,Ingeniería Mecatrónica,17,consuelo.gaya@utec.edu.pe,Alumno
+202220441,Imelda Rivera Toledo,Ingeniería Mecatrónica,19,imelda.rivera@utec.edu.pe,Alumno
+202210260,Roque Larrañaga Valera,Ingeniería Mecatrónica,23,roque.larranaga@utec.edu.pe,Alumno
+202220462,Loida Delgado Corral,Ingeniería Mecatrónica,22,loida.delgado@utec.edu.pe,Alumno
+202220444,Francisco Clavero Barrios,Ingeniería Mecatrónica,21,francisco.clavero@utec.edu.pe,Alumno
+202210398,Mercedes Godoy Reguera,Ingeniería Mecatrónica,23,mercedes.godoy@utec.edu.pe,Alumno
+202210356,Elena Cazorla Fortuny,Ingeniería Mecatrónica,23,elena.cazorla@utec.edu.pe,Alumno
+202220263,Olegario Mena Serra,Ingeniería Mecatrónica,20,olegario.mena@utec.edu.pe,Alumno
+202210421,Narciso Ariel Rosado Barrio,Ingeniería Mecatrónica,24,narciso.rosado@utec.edu.pe,Alumno
+202210321,Cristóbal Nieto Bonilla,Ingeniería Mecatrónica,22,cristobal.nieto@utec.edu.pe,Alumno
+202220288,Andrés Blanch Toro,Ingeniería Mecatrónica,21,andres.blanch@utec.edu.pe,Alumno
+202210325,Ambrosio Álvaro Vazquez,Ingeniería Mecatrónica,20,ambrosio.alvaro@utec.edu.pe,Alumno
+202220355,Carmen Molina Uribe,Ingeniería Mecatrónica,18,carmen.molina@utec.edu.pe,Alumno
+202220314,Narcisa Barrena Bayona,Ingeniería Mecatrónica,17,narcisa.barrena@utec.edu.pe,Alumno
+202220420,Andrés Felipe Ballesteros Pinedo,Ingeniería Mecatrónica,19,andres.ballesteros@utec.edu.pe,Alumno
+202210434,Jovita Abril Amat,Ingeniería Mecatrónica,22,jovita.abril@utec.edu.pe,Alumno
+202210209,Aurelio Bautista Talavera,Ingeniería Mecatrónica,22,aurelio.bautista@utec.edu.pe,Alumno
+202210349,Álvaro Cuesta Ferrando,Ingeniería Mecatrónica,17,alvaro.cuesta@utec.edu.pe,Alumno
+202220468,Pía Casal Guitart,Ingeniería Mecatrónica,19,pia.casal@utec.edu.pe,Alumno
+202220428,Maximiano Gustavo Céspedes Rivero,Ingeniería Mecatrónica,25,maximiano.cespedes@utec.edu.pe,Alumno
+202220470,Felix Rosa Vicens,Ingeniería Mecatrónica,25,felix.rosa@utec.edu.pe,Alumno
+202220379,Ciro Arias Cuadrado,Ingeniería Mecatrónica,24,ciro.arias@utec.edu.pe,Alumno
+202220369,Rómulo Porta Rivas,Ingeniería Mecatrónica,22,romulo.porta@utec.edu.pe,Alumno
+202220362,Ana Pi Carmona,Ingeniería Mecatrónica,23,ana.pi@utec.edu.pe,Alumno
+202210240,Fermín Garrido Manso,Ingeniería Mecatrónica,19,fermin.garrido@utec.edu.pe,Alumno
+202210374,Georgina Hernandez Jordán,Ingeniería Mecatrónica,23,georgina.hernandez@utec.edu.pe,Alumno
+202220414,Reina Santiago Campo,Ingeniería Mecatrónica,24,reina.santiago@utec.edu.pe,Alumno
+202220451,Sarita Aitana Colom Blázquez,Ingeniería Mecatrónica,17,sarita.colom@utec.edu.pe,Alumno
+202220359,Clara Martorell Palacios,Ingeniería Mecatrónica,19,clara.martorell@utec.edu.pe,Alumno
+202210486,Balduino Bellido Arias,Ingeniería Mecatrónica,19,balduino.bellido@utec.edu.pe,Alumno
+202210497,Araceli Robles Barreda,Ingeniería Mecatrónica,17,araceli.robles@utec.edu.pe,Alumno
+202220241,Sancho Gilabert Sanabria,Ingeniería Mecatrónica,18,sancho.gilabert@utec.edu.pe,Alumno
+202210247,María Manuela Isern Colom,Ingeniería Mecatrónica,17,maria.isern@utec.edu.pe,Alumno
+202210235,Danilo Iglesia Ponce,Ingeniería Mecatrónica,22,danilo.iglesia@utec.edu.pe,Alumno
+202220481,Ani Córdoba Montaña,Ingeniería Mecatrónica,25,ani.cordoba@utec.edu.pe,Alumno
+202210212,Primitiva Martorell Sanmiguel,Ingeniería Mecatrónica,23,primitiva.martorell@utec.edu.pe,Alumno
+202220358,Dolores Ema Zaragoza Capdevila,Ingeniería Mecatrónica,17,dolores.zaragoza@utec.edu.pe,Alumno
+202220403,Leonor Quintero Valverde,Ingeniería Mecatrónica,17,leonor.quintero@utec.edu.pe,Alumno
+202220487,Nilo Maximino Amaya Serrano,Ingeniería Mecatrónica,25,nilo.amaya@utec.edu.pe,Alumno
+202220459,Delia Hernandez Segovia,Ingeniería Mecatrónica,24,delia.hernandez@utec.edu.pe,Alumno
+202210407,Lalo Ortega Sedano,Ingeniería Mecatrónica,24,lalo.ortega@utec.edu.pe,Alumno
+202220365,Julie Mateu Barbero,Ingeniería Mecatrónica,24,julie.mateu@utec.edu.pe,Alumno
+202220455,Jose Ignacio Blanco Piñol,Ingeniería Mecatrónica,21,jose.blanco@utec.edu.pe,Alumno
+202220463,Benito Beltrán Casares,Ingeniería Mecatrónica,20,benito.beltran@utec.edu.pe,Alumno
+202210233,Felipe Lobato Rojas,Ingeniería Mecatrónica,25,felipe.lobato@utec.edu.pe,Alumno
+202220242,Andrés Felipe Alcántara Ariño,Ingeniería Mecatrónica,21,andres.alcantara@utec.edu.pe,Alumno
+202210427,Virginia Barón Luque,Ingeniería Mecatrónica,17,virginia.baron@utec.edu.pe,Alumno
+202220210,Belen Machado Cervantes,Ingeniería Mecatrónica,24,belen.machado@utec.edu.pe,Alumno
+202220429,Curro Jaume Asenjo,Ingeniería Mecatrónica,24,curro.jaume@utec.edu.pe,Alumno
+202210492,Pancho Gimenez Montserrat,Ingeniería Mecatrónica,17,pancho.gimenez@utec.edu.pe,Alumno
+202220360,Olivia Tomas Rosell,Ingeniería Mecatrónica,21,olivia.tomas@utec.edu.pe,Alumno
+202210437,Liliana Suarez Avilés,Ingeniería Mecatrónica,21,liliana.suarez@utec.edu.pe,Alumno
+202220254,Espiridión Quiroga Bustamante,Ingeniería Mecatrónica,24,espiridion.quiroga@utec.edu.pe,Alumno
+202220396,Gloria Bou Quevedo,Ingeniería Mecatrónica,23,gloria.bou@utec.edu.pe,Alumno
+202210401,Angelino Huertas Antúnez,Ingeniería Mecatrónica,19,angelino.huertas@utec.edu.pe,Alumno
+202220277,Hugo Arnau Seguí,Ingeniería Mecatrónica,18,hugo.arnau@utec.edu.pe,Alumno
+202220285,Emilio Mancebo Redondo,Ingeniería Mecatrónica,25,emilio.mancebo@utec.edu.pe,Alumno
+202220320,Griselda Mariana López Acevedo,Ingeniería Mecatrónica,25,griselda.lopez@utec.edu.pe,Alumno
+202210308,Ángel Palma Manuel,Ingeniería Mecatrónica,25,angel.palma@utec.edu.pe,Alumno
+202210389,Andrés Felipe Montenegro-Ribera,Ingeniería Mecatrónica,24,andres.felipe@utec.edu.pe,Alumno
+202220367,Bárbara Melero Alegre,Ingeniería Mecatrónica,23,barbara.melero@utec.edu.pe,Alumno
+202210381,Edelmiro Llobet Vendrell,Ingeniería Mecatrónica,18,edelmiro.llobet@utec.edu.pe,Alumno
+202220317,Lidia Clarisa Cerdán Escrivá,Ingeniería Mecatrónica,20,lidia.cerdan@utec.edu.pe,Alumno
+202220237,Guillermo Olmedo Pardo,Ingeniería Mecatrónica,17,guillermo.olmedo@utec.edu.pe,Alumno
+202220397,Geraldo Andres Castells,Ingeniería Mecatrónica,25,geraldo.andres@utec.edu.pe,Alumno
+202220228,Tadeo Jáuregui Enríquez,Ingeniería Mecatrónica,22,tadeo.jauregui@utec.edu.pe,Alumno
+202210220,Cirino Piquer Monreal,Ingeniería Mecatrónica,24,cirino.piquer@utec.edu.pe,Alumno
+202210326,Loreto Arias Andreu,Ingeniería Mecatrónica,19,loreto.arias@utec.edu.pe,Alumno
+202220262,Andrés Espinosa Valls,Ingeniería Mecatrónica,25,andres.espinosa@utec.edu.pe,Alumno
+202220305,Adelardo Montes Losa,Ingeniería Mecatrónica,19,adelardo.montes@utec.edu.pe,Alumno
+202220245,Hilda Benavides Pombo,Ingeniería Mecatrónica,23,hilda.benavides@utec.edu.pe,Alumno
+202210384,Pepe Nando Guerra Cueto,Ingeniería Mecatrónica,21,pepe.guerra@utec.edu.pe,Alumno
+202220347,Loreto Pascual Perales,Ingeniería Mecatrónica,25,loreto.pascual@utec.edu.pe,Alumno
+202220352,Amaro Ocaña Juárez,Ingeniería Mecatrónica,25,amaro.ocana@utec.edu.pe,Alumno
+202210431,Gonzalo Cantón Robles,Ingeniería Mecatrónica,21,gonzalo.canton@utec.edu.pe,Alumno
+202220225,Jose Ignacio Blanes Montaña,Ingeniería Mecatrónica,22,jose.blanes@utec.edu.pe,Alumno
+202220215,Victoria Aguirre Baeza,Ingeniería Mecatrónica,21,victoria.aguirre@utec.edu.pe,Alumno
+202220286,Macarena Campillo Rosado,Ingeniería Mecatrónica,23,macarena.campillo@utec.edu.pe,Alumno
+202220281,Ana Sofía Múgica,Ingeniería Mecatrónica,23,ana.sofia@utec.edu.pe,Alumno
+202220238,Bernardita Castro Duran,Ingeniería Mecatrónica,21,bernardita.castro@utec.edu.pe,Alumno
+202220417,Luis Miguel Villanueva Rocha,Ingeniería Mecatrónica,20,luis.villanueva@utec.edu.pe,Alumno
+202210266,Encarnación Cañete Castilla,Ingeniería Mecatrónica,19,encarnacion.canete@utec.edu.pe,Alumno
+202220457,Julie Peñas Cervantes,Ingeniería Mecatrónica,22,julie.penas@utec.edu.pe,Alumno
+202210213,Gabino Boada Lobo,Ingeniería Mecatrónica,23,gabino.boada@utec.edu.pe,Alumno
+202210373,Yéssica Agudo Hervia,Ingeniería Mecatrónica,21,yessica.agudo@utec.edu.pe,Alumno
+202220448,Hector Caro Gallardo,Ingeniería Mecatrónica,19,hector.caro@utec.edu.pe,Alumno
+202220478,Selena Yuste Arnau,Ingeniería Mecatrónica,18,selena.yuste@utec.edu.pe,Alumno
+202210230,Arcelia Gárate Hernandez,Ingeniería Mecatrónica,25,arcelia.garate@utec.edu.pe,Alumno
+202210496,Prudencia Morata Doménech,Ingeniería Mecatrónica,23,prudencia.morata@utec.edu.pe,Alumno
+202220329,Amor Contreras Urrutia,Ingeniería Mecatrónica,21,amor.contreras@utec.edu.pe,Alumno
+202210253,Dorotea Madrid Nebot,Ingeniería Mecatrónica,17,dorotea.madrid@utec.edu.pe,Alumno
+202220236,Álvaro Sandoval Pastor,Ingeniería Mecatrónica,18,alvaro.sandoval@utec.edu.pe,Alumno
+202210342,Encarnación Trillo Terrón,Ingeniería Mecatrónica,25,encarnacion.trillo@utec.edu.pe,Alumno
+202220380,Lucila Alvarez Guardia,Ingeniería Mecatrónica,25,lucila.alvarez@utec.edu.pe,Alumno
+202210280,Loreto Moraleda Esparza,Ingeniería Mecatrónica,17,loreto.moraleda@utec.edu.pe,Alumno
+202210258,Adrián Faustino Uribe Franco,Ingeniería Mecatrónica,23,adrian.uribe@utec.edu.pe,Alumno
+202210311,Belén Ángela Real Monreal,Ingeniería Mecatrónica,17,belen.real@utec.edu.pe,Alumno
+202210252,Esmeralda Pont Salom,Ingeniería Mecatrónica,19,esmeralda.pont@utec.edu.pe,Alumno
+202210489,Eleuterio Herranz Arroyo,Ingeniería Mecatrónica,17,eleuterio.herranz@utec.edu.pe,Alumno
+202210272,Miguel Plinio Losa Ballesteros,Ingeniería Mecatrónica,20,miguel.losa@utec.edu.pe,Alumno
+202210222,Nerea Baena Vazquez,Ingeniería Mecatrónica,20,nerea.baena@utec.edu.pe,Alumno
+202210275,Anastasio Solano Bueno,Ingeniería Mecatrónica,24,anastasio.solano@utec.edu.pe,Alumno
+202210357,Manu Manzano Burgos,Ingeniería Mecatrónica,19,manu.manzano@utec.edu.pe,Alumno
+202210219,Candela Elías Noriega,Ingeniería Mecatrónica,19,candela.elias@utec.edu.pe,Alumno
+202210426,Jovita Bas Alsina,Ingeniería Mecatrónica,17,jovita.bas@utec.edu.pe,Alumno
+202210491,Leonardo Velasco Montaña,Ingeniería Mecatrónica,25,leonardo.velasco@utec.edu.pe,Alumno
+202210450,Jose Luis Cortina,Ingeniería Mecatrónica,19,jose.luis@utec.edu.pe,Alumno
+202210499,Reyes Sancho Vallés,Ingeniería Mecatrónica,17,reyes.sancho@utec.edu.pe,Alumno
+202210327,Luna Ribera Lluch,Ingeniería Mecatrónica,17,luna.ribera@utec.edu.pe,Alumno
+202210449,Felipa Zamora Morillo,Ingeniería Mecatrónica,19,felipa.zamora@utec.edu.pe,Alumno
+202220201,Joan Nadal Pujol,Ingeniería Mecatrónica,19,joan.nadal@utec.edu.pe,Alumno
+202210336,Leandra Benet Armengol,Ingeniería Mecatrónica,19,leandra.benet@utec.edu.pe,Alumno
+202220269,Nidia Rosa Ayuso,Ingeniería Mecatrónica,23,nidia.rosa@utec.edu.pe,Alumno
+202220344,Juan Manuel Julio Pou Serna,Ingeniería Mecatrónica,21,juan.pou@utec.edu.pe,Alumno
+202210415,Eliseo Cámara Leon,Ingeniería Mecatrónica,22,eliseo.camara@utec.edu.pe,Alumno
+202220291,Leticia Zorrilla Castellanos,Ingeniería Mecatrónica,25,leticia.zorrilla@utec.edu.pe,Alumno
+202220433,Lidia Nereida Pedrero Vaquero,Ingeniería Mecatrónica,24,lidia.pedrero@utec.edu.pe,Alumno
+202210400,José María Palomo-Nadal,Ingeniería Mecatrónica,18,jose.maria@utec.edu.pe,Alumno
+202210475,Odalys Canals Gálvez,Ingeniería Mecatrónica,25,odalys.canals@utec.edu.pe,Alumno
+202220283,Pía Benitez Huguet,Ingeniería Mecatrónica,18,pia.benitez@utec.edu.pe,Alumno
+202220340,Leandra Cantón Vara,Ingeniería Mecatrónica,21,leandra.canton@utec.edu.pe,Alumno
+202220354,María Fernanda Pinedo-Pol,Ingeniería Mecatrónica,24,maria.fernanda@utec.edu.pe,Alumno
+202210270,Galo Amaya Almeida,Ingeniería Mecatrónica,24,galo.amaya@utec.edu.pe,Alumno
+202220436,Leire Izquierdo Quintana,Ingeniería Mecatrónica,19,leire.izquierdo@utec.edu.pe,Alumno
+202210438,Jordi Prat Benito,Ingeniería Mecatrónica,22,jordi.prat@utec.edu.pe,Alumno
+202220309,Fabiola Salcedo Clavero,Ingeniería Mecatrónica,23,fabiola.salcedo@utec.edu.pe,Alumno
+202220378,Daniel Ayllón Corbacho,Ingeniería Mecatrónica,18,daniel.ayllon@utec.edu.pe,Alumno
+202220322,Prudencia Puente Osorio,Ingeniería Mecatrónica,19,prudencia.puente@utec.edu.pe,Alumno
+202210246,Rosa Casanova Angulo,Ingeniería Mecatrónica,19,rosa.casanova@utec.edu.pe,Alumno
+202210341,Jose Antonio Pedro,Ingeniería Mecatrónica,22,jose.antonio@utec.edu.pe,Alumno
+202220392,Dani Dueñas Arnal,Ingeniería Mecatrónica,18,dani.duenas@utec.edu.pe,Alumno
+202210410,Onofre Jose Angel Roselló Paz,Ingeniería Mecatrónica,17,onofre.rosello@utec.edu.pe,Alumno
+202220375,Jose Ochoa Galvez,Ingeniería Mecatrónica,17,jose.ochoa@utec.edu.pe,Alumno
+202210446,Reyes Franch Solera,Ingeniería Mecatrónica,25,reyes.franch@utec.edu.pe,Alumno
+202220498,Nydia Ordóñez Pino,Ingeniería Mecatrónica,17,nydia.ordonez@utec.edu.pe,Alumno
+202220432,Florentina Sanz Sarabia,Ingeniería Mecatrónica,21,florentina.sanz@utec.edu.pe,Alumno
+202220412,Ciriaco Fajardo Aparicio,Ingeniería Mecatrónica,19,ciriaco.fajardo@utec.edu.pe,Alumno
+202220267,Brígida Arana Rico,Ingeniería Mecatrónica,23,brigida.arana@utec.edu.pe,Alumno
+202210425,Amor Galvez Roca,Ingeniería Mecatrónica,23,amor.galvez@utec.edu.pe,Alumno
+202210301,Bautista Fortuny Bernal,Ingeniería Mecatrónica,18,bautista.fortuny@utec.edu.pe,Alumno
+202210231,Rosaura Vallés Flores,Ingeniería Mecatrónica,20,rosaura.valles@utec.edu.pe,Alumno
+202220372,Urbano Salvà Sevilla,Ingeniería Mecatrónica,22,urbano.salva@utec.edu.pe,Alumno
+202220493,Alicia Malo Agullo,Ingeniería Mecatrónica,25,alicia.malo@utec.edu.pe,Alumno
+202220200,Águeda Bru Alfaro,Ingeniería Mecatrónica,25,agueda.bru@utec.edu.pe,Alumno
+202220452,Maxi Mancebo Dávila,Ingeniería Mecatrónica,19,maxi.mancebo@utec.edu.pe,Alumno
+202220204,Mirta Costa Granados,Ingeniería Mecatrónica,25,mirta.costa@utec.edu.pe,Alumno
+202220251,Óscar Pánfilo Escamilla Bernat,Ingeniería Mecatrónica,17,oscar.escamilla@utec.edu.pe,Alumno
+202210324,Pelayo Diego Caro Rosselló,Ingeniería Mecatrónica,18,pelayo.caro@utec.edu.pe,Alumno
+202220208,Julio Nogueira Gómez,Ingeniería Mecatrónica,20,julio.nogueira@utec.edu.pe,Alumno
+202220227,Constanza Valentín Jordán,Ingeniería Mecatrónica,25,constanza.valentin@utec.edu.pe,Alumno
+202220214,Chema Oliver Vicens,Ingeniería Mecatrónica,19,chema.oliver@utec.edu.pe,Alumno
+202220473,Yolanda Gomez Arce,Ingeniería Mecatrónica,22,yolanda.gomez@utec.edu.pe,Alumno
+202210239,Otilia Samanta Adadia Sans,Ingeniería Mecatrónica,18,otilia.adadia@utec.edu.pe,Alumno
+202220411,Óscar Azorin Alsina,Ingeniería Mecatrónica,20,oscar.azorin@utec.edu.pe,Alumno
+202220292,Pascual Contreras Elorza,Ingeniería Mecatrónica,24,pascual.contreras@utec.edu.pe,Alumno
+202220313,Agustín Pinedo Revilla,Ingeniería Mecatrónica,22,agustin.pinedo@utec.edu.pe,Alumno
+202220484,Jose Ignacio Alberto Gaya Saura,Ingeniería Mecatrónica,19,jose.gaya@utec.edu.pe,Alumno
+202210331,Amalia Pedrero Oliveras,Ingeniería Mecatrónica,25,amalia.pedrero@utec.edu.pe,Alumno
+202220483,Encarnacion Trillo Villalobos,Ingeniería Mecatrónica,17,encarnacion.trillo@utec.edu.pe,Alumno
+202220443,Rosa María Cueto Perez,Ingeniería Mecatrónica,25,rosa.cueto@utec.edu.pe,Alumno
+202210264,Martirio Vila Frutos,Ingeniería Mecatrónica,18,martirio.vila@utec.edu.pe,Alumno
+202210353,Octavio Sastre Guerrero,Ingeniería Mecatrónica,18,octavio.sastre@utec.edu.pe,Alumno
+202220300,María Fernanda Benavent Romero,Ingeniería Mecatrónica,20,maria.benavent@utec.edu.pe,Alumno
+202210469,Alba Lloret Cantero,Ingeniería Mecatrónica,18,alba.lloret@utec.edu.pe,Alumno
+202210294,Ruy Pino Cabello,Ingeniería Mecatrónica,20,ruy.pino@utec.edu.pe,Alumno
+202210229,Kike Quintana Canales,Ingeniería Mecatrónica,25,kike.quintana@utec.edu.pe,Alumno
+202220250,Clarisa Casal Poza,Ingeniería Mecatrónica,19,clarisa.casal@utec.edu.pe,Alumno
+202220435,León Mendez Pastor,Ingeniería Mecatrónica,24,leon.mendez@utec.edu.pe,Alumno
+202220224,Soraya Rodriguez Crespi,Ingeniería Mecatrónica,18,soraya.rodriguez@utec.edu.pe,Alumno
+202220409,Matilde Alarcón Peiró,Ingeniería Mecatrónica,18,matilde.alarcon@utec.edu.pe,Alumno
+202210328,Zoraida Bustamante Lillo,Ingeniería Mecatrónica,19,zoraida.bustamante@utec.edu.pe,Alumno
+202210248,Teófila Berrocal León,Ingeniería Mecatrónica,17,teofila.berrocal@utec.edu.pe,Alumno
+202220268,Daniel Rivas Clavero,Ingeniería Mecatrónica,24,daniel.rivas@utec.edu.pe,Alumno
+202210261,María Dolores Hortensia Pujol Alegria,Ingeniería Mecatrónica,23,maria.pujol@utec.edu.pe,Alumno
+202120378,Soledad Galván Tejero,Ingeniería Mecatrónica,25,soledad.galvan@utec.edu.pe,Alumno
+202120307,Wálter Sandoval Carbó,Ingeniería Mecatrónica,20,walter.sandoval@utec.edu.pe,Alumno
+202120299,Nazaret Baños Figueroa,Ingeniería Mecatrónica,20,nazaret.banos@utec.edu.pe,Alumno
+202110314,Emperatriz Viñas Ibañez,Ingeniería Mecatrónica,22,emperatriz.vinas@utec.edu.pe,Alumno
+202110269,Bernardino Valdés Ortuño,Ingeniería Mecatrónica,24,bernardino.valdes@utec.edu.pe,Alumno
+202120238,Pedro Danilo Puga Ayala,Ingeniería Mecatrónica,23,pedro.puga@utec.edu.pe,Alumno
+202120266,Victor Manuel Clavero Landa,Ingeniería Mecatrónica,26,victor.clavero@utec.edu.pe,Alumno
+202120543,Aristides Natalio Ramos Quero,Ingeniería Mecatrónica,26,aristides.ramos@utec.edu.pe,Alumno
+202110493,Domitila Teruel Saavedra,Ingeniería Mecatrónica,19,domitila.teruel@utec.edu.pe,Alumno
+202120534,María Fernanda Posada Feijoo,Ingeniería Mecatrónica,23,maria.posada@utec.edu.pe,Alumno
+202110593,Noa Calvo Palmer,Ingeniería Mecatrónica,20,noa.calvo@utec.edu.pe,Alumno
+202120478,Cecilio Pellicer Porcel,Ingeniería Mecatrónica,20,cecilio.pellicer@utec.edu.pe,Alumno
+202110563,Lola Cañas Mármol,Ingeniería Mecatrónica,22,lola.canas@utec.edu.pe,Alumno
+202110462,Jaime Pereira Lamas,Ingeniería Mecatrónica,25,jaime.pereira@utec.edu.pe,Alumno
+202120309,Ruben Campos Arce,Ingeniería Mecatrónica,20,ruben.campos@utec.edu.pe,Alumno
+202110545,Mayte Páez Carrión,Ingeniería Mecatrónica,19,mayte.paez@utec.edu.pe,Alumno
+202110210,Paula Galan Pinilla,Ingeniería Mecatrónica,22,paula.galan@utec.edu.pe,Alumno
+202110295,Victor Agullo Maestre,Ingeniería Mecatrónica,26,victor.agullo@utec.edu.pe,Alumno
+202120213,Felicia Samper Huguet,Ingeniería Mecatrónica,18,felicia.samper@utec.edu.pe,Alumno
+202120403,Aarón Pedrosa Lasa,Ingeniería Mecatrónica,21,aaron.pedrosa@utec.edu.pe,Alumno
+202110514,Cecilia Morell Bejarano,Ingeniería Mecatrónica,20,cecilia.morell@utec.edu.pe,Alumno
+202120517,Anselma Rosado Ribas,Ingeniería Mecatrónica,24,anselma.rosado@utec.edu.pe,Alumno
+202120412,Gabriel Andrade Castelló,Ingeniería Mecatrónica,21,gabriel.andrade@utec.edu.pe,Alumno
+202110222,Modesto Becerra Bonilla,Ingeniería Mecatrónica,22,modesto.becerra@utec.edu.pe,Alumno
+202120393,Fidela Riera Peralta,Ingeniería Mecatrónica,23,fidela.riera@utec.edu.pe,Alumno
+202120385,Josefa Gallego Múñiz,Ingeniería Mecatrónica,22,josefa.gallego@utec.edu.pe,Alumno
+202110311,Edgardo Lillo Soria,Ingeniería Mecatrónica,18,edgardo.lillo@utec.edu.pe,Alumno
+202110211,Nacio Asenjo Aragonés,Ingeniería Mecatrónica,21,nacio.asenjo@utec.edu.pe,Alumno
+202110368,Gustavo Feliciano Verdugo Peláez,Ingeniería Mecatrónica,22,gustavo.verdugo@utec.edu.pe,Alumno
+202110405,Jose Manuel Muro Luís,Ingeniería Mecatrónica,22,jose.muro@utec.edu.pe,Alumno
+202110274,Ángeles Yésica Bellido Vázquez,Ingeniería Mecatrónica,21,angeles.bellido@utec.edu.pe,Alumno
+202110571,Leonardo Barco Céspedes,Ingeniería Mecatrónica,26,leonardo.barco@utec.edu.pe,Alumno
+202120489,Florentino Segismundo Goicoechea Mayoral,Ingeniería Mecatrónica,23,florentino.goicoechea@utec.edu.pe,Alumno
+202120572,Dora Escalona Bernad,Ingeniería Mecatrónica,25,dora.escalona@utec.edu.pe,Alumno
+202120426,Rafa Villalba Cuesta,Ingeniería Mecatrónica,26,rafa.villalba@utec.edu.pe,Alumno
+202110401,Valerio Haro Perez,Ingeniería Mecatrónica,18,valerio.haro@utec.edu.pe,Alumno
+202120318,Isabela Rodriguez Vallejo,Ingeniería Mecatrónica,24,isabela.rodriguez@utec.edu.pe,Alumno
+202120456,Marcela Rebollo Garay,Ingeniería Mecatrónica,23,marcela.rebollo@utec.edu.pe,Alumno
+202110574,Eliseo Sancho Daza,Ingeniería Mecatrónica,25,eliseo.sancho@utec.edu.pe,Alumno
+202120487,Ale Hernandez Alarcón,Ingeniería Mecatrónica,26,ale.hernandez@utec.edu.pe,Alumno
+202110351,Fortunato Alba Pareja,Ingeniería Mecatrónica,25,fortunato.alba@utec.edu.pe,Alumno
+202110596,Jeremías Rincón Chaves,Ingeniería Mecatrónica,25,jeremias.rincon@utec.edu.pe,Alumno
+202110411,Olga Giner Torrent,Ingeniería Mecatrónica,22,olga.giner@utec.edu.pe,Alumno
+202110319,Abel Montaña Osorio,Ingeniería Mecatrónica,21,abel.montana@utec.edu.pe,Alumno
+202120389,Isidoro Alfaro Sanabria,Ingeniería Mecatrónica,26,isidoro.alfaro@utec.edu.pe,Alumno
+202120284,Evangelina Bauzà Orozco,Ingeniería Mecatrónica,22,evangelina.bauza@utec.edu.pe,Alumno
+202110465,Celso Ortiz Ayala,Ingeniería Mecatrónica,18,celso.ortiz@utec.edu.pe,Alumno
+202120438,Natanael Mohamed Romeu Priego,Ingeniería Mecatrónica,21,natanael.romeu@utec.edu.pe,Alumno
+202110414,Bernabé Alejandro Muro Carmona,Ingeniería Mecatrónica,20,bernabe.muro@utec.edu.pe,Alumno
+202110494,Rómulo Asensio Villalonga,Ingeniería Mecatrónica,19,romulo.asensio@utec.edu.pe,Alumno
+202120300,Lucho Miró Blanch,Ingeniería Mecatrónica,26,lucho.miro@utec.edu.pe,Alumno
+202110214,Ana Sofía Ramos Nebot,Ingeniería Mecatrónica,26,ana.ramos@utec.edu.pe,Alumno
+202120584,Alejo Armengol Carpio,Ingeniería Mecatrónica,23,alejo.armengol@utec.edu.pe,Alumno
+202120508,Juan Antonio Mascaró Camino,Ingeniería Mecatrónica,18,juan.mascaro@utec.edu.pe,Alumno
+202120437,Dionisia Botella Gaya,Ingeniería Mecatrónica,22,dionisia.botella@utec.edu.pe,Alumno
+202120329,Fabricio Donoso Leon,Ingeniería Mecatrónica,23,fabricio.donoso@utec.edu.pe,Alumno
+202120305,Jose Antonio Isern Diéguez,Ingeniería Mecatrónica,18,jose.isern@utec.edu.pe,Alumno
+202110364,Juliana Artigas Bello,Ingeniería Mecatrónica,23,juliana.artigas@utec.edu.pe,Alumno
+202110587,Encarnacion Pino Roca,Ingeniería Mecatrónica,23,encarnacion.pino@utec.edu.pe,Alumno
+202110553,Gervasio Cases Vera,Ingeniería Mecatrónica,22,gervasio.cases@utec.edu.pe,Alumno
+202110217,Edu Girón Garay,Ingeniería Mecatrónica,21,edu.giron@utec.edu.pe,Alumno
+202110353,Ernesto Morcillo Piquer,Ingeniería Mecatrónica,23,ernesto.morcillo@utec.edu.pe,Alumno
+202120578,Concha Arrieta Sanchez,Ingeniería Mecatrónica,26,concha.arrieta@utec.edu.pe,Alumno
+202110262,Mateo Martín Torralba,Ingeniería Mecatrónica,26,mateo.martin@utec.edu.pe,Alumno
+202120360,Juan Bautista Noguera Domingo,Ingeniería Mecatrónica,26,juan.noguera@utec.edu.pe,Alumno
+202110498,Francisco Jose Aguado-Almazán,Ingeniería Mecatrónica,21,francisco.jose@utec.edu.pe,Alumno
+202120207,Encarna Checa Roura,Ingeniería Mecatrónica,21,encarna.checa@utec.edu.pe,Alumno
+202110419,Paco Marino Ripoll Galán,Ingeniería Mecatrónica,20,paco.ripoll@utec.edu.pe,Alumno
+202120429,Xiomara Campo Manso,Ingeniería Mecatrónica,26,xiomara.campo@utec.edu.pe,Alumno
+202110324,Rolando Figueras Diaz,Ingeniería Mecatrónica,18,rolando.figueras@utec.edu.pe,Alumno
+202120206,Paz Ochoa Calderón,Ingeniería Mecatrónica,24,paz.ochoa@utec.edu.pe,Alumno
+202110203,Bernarda Luján Cal,Ingeniería Mecatrónica,19,bernarda.lujan@utec.edu.pe,Alumno
+202120566,María Jesús Carreño Rocha,Ingeniería Mecatrónica,18,maria.carreno@utec.edu.pe,Alumno
+202110547,Casemiro Orozco Arellano,Ingeniería Mecatrónica,25,casemiro.orozco@utec.edu.pe,Alumno
+202120420,Áurea Marquez Palacios,Ingeniería Mecatrónica,26,aurea.marquez@utec.edu.pe,Alumno
+202120282,Chuy Pacheco Rozas,Ingeniería Mecatrónica,19,chuy.pacheco@utec.edu.pe,Alumno
+202110218,Aroa Aragón Leon,Ingeniería Mecatrónica,23,aroa.aragon@utec.edu.pe,Alumno
+202110418,Javiera Ugarte Lara,Ingeniería Mecatrónica,25,javiera.ugarte@utec.edu.pe,Alumno
+202110276,Reyes Coello Artigas,Ingeniería Mecatrónica,18,reyes.coello@utec.edu.pe,Alumno
+202120345,Godofredo Alarcón Piñeiro,Ingeniería Mecatrónica,20,godofredo.alarcon@utec.edu.pe,Alumno
+202120445,Etelvina Sanmiguel Piquer,Ingeniería Mecatrónica,21,etelvina.sanmiguel@utec.edu.pe,Alumno
+202120523,Sofía Alondra Salom Villanueva,Ingeniería Mecatrónica,18,sofia.salom@utec.edu.pe,Alumno
+202120486,Perlita Amo Serra,Ingeniería Mecatrónica,26,perlita.amo@utec.edu.pe,Alumno
+202120359,Leonardo Zabala Múñiz,Ingeniería Mecatrónica,23,leonardo.zabala@utec.edu.pe,Alumno
+202110366,Coral Peña Sola,Ingeniería Mecatrónica,20,coral.pena@utec.edu.pe,Alumno
+202110347,Alberto Sotelo Vélez,Ingeniería Mecatrónica,25,alberto.sotelo@utec.edu.pe,Alumno
+202110573,Luis Sastre Cano,Ingeniería Mecatrónica,21,luis.sastre@utec.edu.pe,Alumno
+202110562,Joel Ojeda Camacho,Ingeniería Mecatrónica,21,joel.ojeda@utec.edu.pe,Alumno
+202110340,Eligio Valera Raya,Ingeniería Mecatrónica,23,eligio.valera@utec.edu.pe,Alumno
+202120409,Sergio Pío Madrid Dalmau,Ingeniería Mecatrónica,18,sergio.madrid@utec.edu.pe,Alumno
+202110336,José Luis Marí Machado,Ingeniería Mecatrónica,21,jose.mari@utec.edu.pe,Alumno
+202110504,Fidel Graciano Cortes Moreno,Ingeniería Mecatrónica,24,fidel.cortes@utec.edu.pe,Alumno
+202110246,Lázaro Quintero Montes,Ingeniería Mecatrónica,25,lazaro.quintero@utec.edu.pe,Alumno
+202120595,Desiderio Pablo Benavent Hernando,Ingeniería Mecatrónica,24,desiderio.benavent@utec.edu.pe,Alumno
+202120248,Tatiana Trini Águila Arnau,Ingeniería Mecatrónica,22,tatiana.aguila@utec.edu.pe,Alumno
+202120427,Alonso Danilo Macías Rubio,Ingeniería Mecatrónica,25,alonso.macias@utec.edu.pe,Alumno
+202110268,Nieves Flores Espinosa,Ingeniería Mecatrónica,22,nieves.flores@utec.edu.pe,Alumno
+202110278,Violeta Neira Cuevas,Ingeniería Mecatrónica,23,violeta.neira@utec.edu.pe,Alumno
+202110243,Onofre Lledó Roselló,Ingeniería Mecatrónica,22,onofre.lledo@utec.edu.pe,Alumno
+202110492,Isidro Montalbán Morcillo,Ingeniería Mecatrónica,25,isidro.montalban@utec.edu.pe,Alumno
+202120440,Carlota Sastre Coloma,Ingeniería Mecatrónica,26,carlota.sastre@utec.edu.pe,Alumno
+202110475,Fátima Muro Benavent,Ingeniería Mecatrónica,18,fatima.muro@utec.edu.pe,Alumno
+202120220,Mariano Salamanca Caro,Ingeniería Mecatrónica,22,mariano.salamanca@utec.edu.pe,Alumno
+202120335,Marcio Téllez Losa,Ingeniería Mecatrónica,22,marcio.tellez@utec.edu.pe,Alumno
+202110510,Joan Telmo Castells Bonilla,Ingeniería Mecatrónica,23,joan.castells@utec.edu.pe,Alumno
+202120447,Sandalio Guzman Carrillo,Ingeniería Mecatrónica,18,sandalio.guzman@utec.edu.pe,Alumno
+202110453,Lupe Gallart Barroso,Ingeniería Mecatrónica,20,lupe.gallart@utec.edu.pe,Alumno
+202120537,Héctor Ibañez Barreda,Ingeniería Mecatrónica,21,hector.ibanez@utec.edu.pe,Alumno
+202110395,Florencia Acero Valencia,Ingeniería Mecatrónica,18,florencia.acero@utec.edu.pe,Alumno
+202110430,Máximo Ballester Casado,Ingeniería Mecatrónica,23,maximo.ballester@utec.edu.pe,Alumno
+202120428,Joaquina Pinilla Casals,Ingeniería Mecatrónica,24,joaquina.pinilla@utec.edu.pe,Alumno
+202110575,Graciela Andrade Gomez,Ingeniería Mecatrónica,19,graciela.andrade@utec.edu.pe,Alumno
+202120536,Virgilio Bernardino Galán Calvet,Ingeniería Mecatrónica,18,virgilio.galan@utec.edu.pe,Alumno
+202120273,Eulalia Donoso Fuentes,Ingeniería Mecatrónica,25,eulalia.donoso@utec.edu.pe,Alumno
+202110212,Bernarda Salas Pedrosa,Ingeniería Mecatrónica,26,bernarda.salas@utec.edu.pe,Alumno
+202110227,Morena Figuerola Cabo,Ingeniería Mecatrónica,21,morena.figuerola@utec.edu.pe,Alumno
+202120548,Angelina Eli Aguilera Nicolás,Ingeniería Mecatrónica,20,angelina.aguilera@utec.edu.pe,Alumno
+202120505,Dolores Clotilde Estevez Meléndez,Ingeniería Mecatrónica,19,dolores.estevez@utec.edu.pe,Alumno
+202110559,Iker Darío Alcalá Montes,Ingeniería Mecatrónica,19,iker.alcala@utec.edu.pe,Alumno
+202110591,Leopoldo Checa Herrera,Ingeniería Mecatrónica,22,leopoldo.checa@utec.edu.pe,Alumno
+202110289,Espiridión Blanca Prat,Ingeniería Mecatrónica,20,espiridion.blanca@utec.edu.pe,Alumno
+202120290,Olimpia Real Sandoval,Ingeniería Mecatrónica,20,olimpia.real@utec.edu.pe,Alumno
+202110233,Mireia Vara Cabello,Ingeniería Mecatrónica,26,mireia.vara@utec.edu.pe,Alumno
+202120463,Severino Guardia Estévez,Ingeniería Mecatrónica,19,severino.guardia@utec.edu.pe,Alumno
+202110375,Benito Marín Matas,Ingeniería Mecatrónica,25,benito.marin@utec.edu.pe,Alumno
+202120232,Maricela Ibarra Ortiz,Ingeniería Mecatrónica,26,maricela.ibarra@utec.edu.pe,Alumno
+202110539,Ruperto Félix Jaume Robledo,Ingeniería Mecatrónica,20,ruperto.jaume@utec.edu.pe,Alumno
+202110589,Régulo Bonilla Lucas,Ingeniería Mecatrónica,26,regulo.bonilla@utec.edu.pe,Alumno
+202110310,Leocadia Bustos Cañete,Ingeniería Mecatrónica,24,leocadia.bustos@utec.edu.pe,Alumno
+202110251,Fidel Taboada Llopis,Ingeniería Mecatrónica,24,fidel.taboada@utec.edu.pe,Alumno
+202110287,Filomena Garriga Carpio,Ingeniería Mecatrónica,23,filomena.garriga@utec.edu.pe,Alumno
+202110281,Inmaculada Peiró Gallart,Ingeniería Mecatrónica,20,inmaculada.peiro@utec.edu.pe,Alumno
+202120560,Gervasio Tolosa Falcó,Ingeniería Mecatrónica,24,gervasio.tolosa@utec.edu.pe,Alumno
+202110495,Chita Peláez Gonzalo,Ingeniería Mecatrónica,22,chita.pelaez@utec.edu.pe,Alumno
+202110436,Luciana Viana Parejo,Ingeniería Mecatrónica,19,luciana.viana@utec.edu.pe,Alumno
+202120390,Juliana Robles Alonso,Ingeniería Mecatrónica,23,juliana.robles@utec.edu.pe,Alumno
+202110225,Ricardo Batlle Torralba,Ingeniería Mecatrónica,23,ricardo.batlle@utec.edu.pe,Alumno
+202110294,Marcia Mariño Madrigal,Ingeniería Mecatrónica,21,marcia.marino@utec.edu.pe,Alumno
+202120528,Ana Sofía Royo Menéndez,Ingeniería Mecatrónica,22,ana.royo@utec.edu.pe,Alumno
+202110531,Adelia Tamarit Salcedo,Ingeniería Mecatrónica,21,adelia.tamarit@utec.edu.pe,Alumno
+202120481,Esperanza Fuente Lladó,Ingeniería Mecatrónica,22,esperanza.fuente@utec.edu.pe,Alumno
+202120484,Bautista Franco Coello,Ingeniería Mecatrónica,18,bautista.franco@utec.edu.pe,Alumno
+202120485,Íñigo Ordóñez Larrañaga,Ingeniería Mecatrónica,19,inigo.ordonez@utec.edu.pe,Alumno
+202110260,Estrella Rincón Mateu,Ingeniería Mecatrónica,24,estrella.rincon@utec.edu.pe,Alumno
+202110358,Tamara Heredia Guardia,Ingeniería Mecatrónica,19,tamara.heredia@utec.edu.pe,Alumno
+202120244,Blanca Arrieta Ruiz,Ingeniería Mecatrónica,22,blanca.arrieta@utec.edu.pe,Alumno
+202110525,Goyo Gil Echeverría,Ingeniería Mecatrónica,20,goyo.gil@utec.edu.pe,Alumno
+202120516,Sancho Ferrán Esparza,Ingeniería Mecatrónica,22,sancho.ferran@utec.edu.pe,Alumno
+202120361,Ramón Castejón Cobo,Ingeniería Mecatrónica,20,ramon.castejon@utec.edu.pe,Alumno
+202110219,Maite Gaya Pineda,Ingeniería Mecatrónica,25,maite.gaya@utec.edu.pe,Alumno
+202120356,Purificación Alegre Hidalgo,Ingeniería Mecatrónica,20,purificacion.alegre@utec.edu.pe,Alumno
+202120328,Lidia Martin Calleja,Ingeniería Mecatrónica,23,lidia.martin@utec.edu.pe,Alumno
+202120474,Américo Demetrio Exposito Aguilar,Ingeniería Mecatrónica,22,americo.exposito@utec.edu.pe,Alumno
+202120306,Alba Pastor Díaz,Ingeniería Mecatrónica,24,alba.pastor@utec.edu.pe,Alumno
+202120240,Che Alemany Verdugo,Ingeniería Mecatrónica,25,che.alemany@utec.edu.pe,Alumno
+202120350,Elías Franch Cases,Ingeniería Mecatrónica,24,elias.franch@utec.edu.pe,Alumno
+202110417,Estela Oriana Mate Donoso,Ingeniería Mecatrónica,18,estela.mate@utec.edu.pe,Alumno
+202110333,Adelia Gimenez Blanca,Ingeniería Mecatrónica,24,adelia.gimenez@utec.edu.pe,Alumno
+202110397,Violeta Roldán Quiroga,Ingeniería Mecatrónica,20,violeta.roldan@utec.edu.pe,Alumno
+202120499,Rosario Tamarit Llamas,Ingeniería Mecatrónica,24,rosario.tamarit@utec.edu.pe,Alumno
+202120570,Amador Ferrer Ibáñez,Ingeniería Mecatrónica,21,amador.ferrer@utec.edu.pe,Alumno
+202110515,Bautista Barrio Dávila,Ingeniería Mecatrónica,20,bautista.barrio@utec.edu.pe,Alumno
+202110467,Prudencio Pavón Gallardo,Ingeniería Mecatrónica,22,prudencio.pavon@utec.edu.pe,Alumno
+202110544,Edelmira Hidalgo Vaquero,Ingeniería Mecatrónica,22,edelmira.hidalgo@utec.edu.pe,Alumno
+202120344,David Puig Cuéllar,Ingeniería Mecatrónica,18,david.puig@utec.edu.pe,Alumno
+202110442,Isidora Mir Corbacho,Ingeniería Mecatrónica,20,isidora.mir@utec.edu.pe,Alumno
+202110434,Eva María Rovira Villegas,Ingeniería Mecatrónica,25,eva.rovira@utec.edu.pe,Alumno
+202110423,Nicodemo Castilla Boada,Ingeniería Mecatrónica,23,nicodemo.castilla@utec.edu.pe,Alumno
+202120527,Ámbar Criado Andreu,Ingeniería Mecatrónica,18,ambar.criado@utec.edu.pe,Alumno
+202120413,Buenaventura Bernal Rosado,Ingeniería Mecatrónica,18,buenaventura.bernal@utec.edu.pe,Alumno
+202110568,Custodia Cantón Feliu,Ingeniería Mecatrónica,25,custodia.canton@utec.edu.pe,Alumno
+202110301,Eutropio Sales Pozuelo,Ingeniería Mecatrónica,20,eutropio.sales@utec.edu.pe,Alumno
+202120582,Trinidad Nogueira Patiño,Ingeniería Mecatrónica,26,trinidad.nogueira@utec.edu.pe,Alumno
+202120518,Manu Solís Olivera,Ingeniería Mecatrónica,25,manu.solis@utec.edu.pe,Alumno
+202120373,Paz Cordero Baeza,Ingeniería Mecatrónica,26,paz.cordero@utec.edu.pe,Alumno
+202110449,Nadia Soler Maldonado,Ingeniería Mecatrónica,26,nadia.soler@utec.edu.pe,Alumno
+202120439,Luz Pujadas Pi,Ingeniería Mecatrónica,20,luz.pujadas@utec.edu.pe,Alumno
+202110577,Eustaquio Narváez Cerdán,Ingeniería Mecatrónica,26,eustaquio.narvaez@utec.edu.pe,Alumno
+202110461,Encarna Clemente Menéndez,Ingeniería Mecatrónica,24,encarna.clemente@utec.edu.pe,Alumno
+202110391,Tania Angulo Barroso,Ingeniería Mecatrónica,19,tania.angulo@utec.edu.pe,Alumno
+202110550,Baudelio Pacheco Chaparro,Ingeniería Mecatrónica,23,baudelio.pacheco@utec.edu.pe,Alumno
+202110491,Cayetano Buendía Ochoa,Ingeniería Mecatrónica,22,cayetano.buendia@utec.edu.pe,Alumno
+202110215,Delia Mendoza Garrido,Ingeniería Mecatrónica,24,delia.mendoza@utec.edu.pe,Alumno
+202110520,Jose Manuel Figuerola Aguado,Ingeniería Mecatrónica,19,jose.figuerola@utec.edu.pe,Alumno
+202020560,Pelayo Pellicer Pedro,Ingeniería Mecatrónica,26,pelayo.pellicer@utec.edu.pe,Alumno
+202010564,Emma Galván Muro,Ingeniería Mecatrónica,20,emma.galvan@utec.edu.pe,Alumno
+202020227,Luisina Adriana Marco Sastre,Ingeniería Mecatrónica,22,luisina.marco@utec.edu.pe,Alumno
+202010578,Gabino Valenzuela Fuertes,Ingeniería Mecatrónica,23,gabino.valenzuela@utec.edu.pe,Alumno
+202010364,Santiago Chico Seguí,Ingeniería Mecatrónica,23,santiago.chico@utec.edu.pe,Alumno
+202010550,Rafa Múgica Bauzà,Ingeniería Mecatrónica,25,rafa.mugica@utec.edu.pe,Alumno
+202010511,Julieta Cámara Montes,Ingeniería Mecatrónica,22,julieta.camara@utec.edu.pe,Alumno
+202010319,Noé Fuente Pont,Ingeniería Mecatrónica,22,noe.fuente@utec.edu.pe,Alumno
+202020316,Gregorio Canals Gomez,Ingeniería Mecatrónica,20,gregorio.canals@utec.edu.pe,Alumno
+202010462,Tania Pedro Izaguirre,Ingeniería Mecatrónica,24,tania.pedro@utec.edu.pe,Alumno
+202010266,Flavio Vázquez Corbacho,Ingeniería Mecatrónica,21,flavio.vazquez@utec.edu.pe,Alumno
+202020205,Dalila Velázquez Tejera,Ingeniería Mecatrónica,25,dalila.velazquez@utec.edu.pe,Alumno
+202020530,Prudencio Gracia Vila,Ingeniería Mecatrónica,21,prudencio.gracia@utec.edu.pe,Alumno
+202020508,Salvador Agapito Castejón Valverde,Ingeniería Mecatrónica,25,salvador.castejon@utec.edu.pe,Alumno
+202020437,Paulino Montenegro Ramis,Ingeniería Mecatrónica,26,paulino.montenegro@utec.edu.pe,Alumno
+202010288,Viviana Graciela Vara Bayona,Ingeniería Mecatrónica,19,viviana.vara@utec.edu.pe,Alumno
+202020346,Jose Manuel González Carretero,Ingeniería Mecatrónica,22,jose.gonzalez@utec.edu.pe,Alumno
+202020541,Rogelio Naranjo Ballesteros,Ingeniería Mecatrónica,27,rogelio.naranjo@utec.edu.pe,Alumno
+202010256,Teófilo Jonatan Diez Jáuregui,Ingeniería Mecatrónica,27,teofilo.diez@utec.edu.pe,Alumno
+202020537,Segismundo Mir Sabater,Ingeniería Mecatrónica,24,segismundo.mir@utec.edu.pe,Alumno
+202010350,Florencio Campo Moreno,Ingeniería Mecatrónica,25,florencio.campo@utec.edu.pe,Alumno
+202020576,Isabela Fuentes Pardo,Ingeniería Mecatrónica,22,isabela.fuentes@utec.edu.pe,Alumno
+202020393,Baldomero Becerra Amat,Ingeniería Mecatrónica,19,baldomero.becerra@utec.edu.pe,Alumno
+202020555,Tecla Silvia Hierro Ríos,Ingeniería Mecatrónica,21,tecla.hierro@utec.edu.pe,Alumno
+202020399,Gloria Amelia Rosales Solís,Ingeniería Mecatrónica,20,gloria.rosales@utec.edu.pe,Alumno
+202010516,Candela Malo Goñi,Ingeniería Mecatrónica,19,candela.malo@utec.edu.pe,Alumno
+202010282,Paco Alcántara Ripoll,Ingeniería Mecatrónica,21,paco.alcantara@utec.edu.pe,Alumno
+202020489,Cristian Verdejo Tamarit,Ingeniería Mecatrónica,21,cristian.verdejo@utec.edu.pe,Alumno
+202020526,Herminia Acero Salvà,Ingeniería Mecatrónica,21,herminia.acero@utec.edu.pe,Alumno
+202010277,Claudia Larrea Tomé,Ingeniería Mecatrónica,27,claudia.larrea@utec.edu.pe,Alumno
+202020324,Renato Echeverría Márquez,Ingeniería Mecatrónica,27,renato.echeverria@utec.edu.pe,Alumno
+202020547,Roque Pinto Crespo,Ingeniería Mecatrónica,23,roque.pinto@utec.edu.pe,Alumno
+202010304,Rosario Diego Vall,Ingeniería Mecatrónica,19,rosario.diego@utec.edu.pe,Alumno
+202010389,Ignacio Barrio Amigó,Ingeniería Mecatrónica,27,ignacio.barrio@utec.edu.pe,Alumno
+202010518,Tatiana Carrillo Colomer,Ingeniería Mecatrónica,27,tatiana.carrillo@utec.edu.pe,Alumno
+202020287,Chema Saez Barba,Ingeniería Mecatrónica,27,chema.saez@utec.edu.pe,Alumno
+202020460,Alma Miriam Noguera Bueno,Ingeniería Mecatrónica,24,alma.noguera@utec.edu.pe,Alumno
+202010242,Nilda Ordóñez Carnero,Ingeniería Mecatrónica,19,nilda.ordonez@utec.edu.pe,Alumno
+202020577,Efraín Tormo Coello,Ingeniería Mecatrónica,20,efrain.tormo@utec.edu.pe,Alumno
+202010289,Saturnino Vergara Ropero,Ingeniería Mecatrónica,25,saturnino.vergara@utec.edu.pe,Alumno
+202010228,Domitila Bolaños Palmer,Ingeniería Mecatrónica,25,domitila.bolanos@utec.edu.pe,Alumno
+202020589,María Pilar Rocha-Diez,Ingeniería Mecatrónica,20,maria.pilar@utec.edu.pe,Alumno
+202020353,Moisés Quesada Barranco,Ingeniería Mecatrónica,22,moises.quesada@utec.edu.pe,Alumno
+202020355,Mohamed Ramiro Marcos Riba,Ingeniería Mecatrónica,25,mohamed.marcos@utec.edu.pe,Alumno
+202020356,Nydia Reig Sanabria,Ingeniería Mecatrónica,26,nydia.reig@utec.edu.pe,Alumno
+202020303,Paula Puga Landa,Ingeniería Mecatrónica,25,paula.puga@utec.edu.pe,Alumno
+202020570,Gabino Gálvez Castilla,Ingeniería Mecatrónica,27,gabino.galvez@utec.edu.pe,Alumno
+202020479,Ruben Villaverde Valverde,Ingeniería Mecatrónica,22,ruben.villaverde@utec.edu.pe,Alumno
+202010313,Maxi Leocadio Sandoval Arnal,Ingeniería Mecatrónica,22,maxi.sandoval@utec.edu.pe,Alumno
+202020438,Marisa Flavia Trillo Oliver,Ingeniería Mecatrónica,22,marisa.trillo@utec.edu.pe,Alumno
+202020592,Maura Arias Pozo,Ingeniería Mecatrónica,26,maura.arias@utec.edu.pe,Alumno
+202010292,Miguela Pastor Villegas,Ingeniería Mecatrónica,22,miguela.pastor@utec.edu.pe,Alumno
+202020230,Ileana Pulido Canals,Ingeniería Mecatrónica,27,ileana.pulido@utec.edu.pe,Alumno
+202020322,Candela Conde Juan,Ingeniería Mecatrónica,26,candela.conde@utec.edu.pe,Alumno
+202020454,Marc Becerra Montes,Ingeniería Mecatrónica,24,marc.becerra@utec.edu.pe,Alumno
+202020463,Hortensia Lara Rivera,Ingeniería Mecatrónica,26,hortensia.lara@utec.edu.pe,Alumno
+202020361,Lucila Andres Herrera,Ingeniería Mecatrónica,20,lucila.andres@utec.edu.pe,Alumno
+202010222,Fulgencio Rodriguez Samper,Ingeniería Mecatrónica,23,fulgencio.rodriguez@utec.edu.pe,Alumno
+202010571,Diana Gomis Quero,Ingeniería Mecatrónica,21,diana.gomis@utec.edu.pe,Alumno
+202020391,Iván Ciro Sandoval Moles,Ingeniería Mecatrónica,24,ivan.sandoval@utec.edu.pe,Alumno
+202020552,Luisa Villa Espinosa,Ingeniería Mecatrónica,22,luisa.villa@utec.edu.pe,Alumno
+202020451,Luis Villalba Codina,Ingeniería Mecatrónica,27,luis.villalba@utec.edu.pe,Alumno
+202020220,Cirino Nogués Clavero,Ingeniería Mecatrónica,21,cirino.nogues@utec.edu.pe,Alumno
+202010431,Encarnacion Infante Cobos,Ingeniería Mecatrónica,24,encarnacion.infante@utec.edu.pe,Alumno
+202020510,María Belén Alcalde Puig,Ingeniería Mecatrónica,19,maria.alcalde@utec.edu.pe,Alumno
+202010269,Marco Alegre Rey,Ingeniería Mecatrónica,25,marco.alegre@utec.edu.pe,Alumno
+202010239,Noé Cabo Gallart,Ingeniería Mecatrónica,23,noe.cabo@utec.edu.pe,Alumno
+202010231,José María Español Guerra,Ingeniería Mecatrónica,19,jose.espanol@utec.edu.pe,Alumno
+202010258,Purificación Ferrera Orozco,Ingeniería Mecatrónica,20,purificacion.ferrera@utec.edu.pe,Alumno
+202010400,Elodia Bermudez Sales,Ingeniería Mecatrónica,21,elodia.bermudez@utec.edu.pe,Alumno
+202020481,Soledad Isidora Valera Alsina,Ingeniería Mecatrónica,27,soledad.valera@utec.edu.pe,Alumno
+202010379,Mar Palma Sarmiento,Ingeniería Mecatrónica,22,mar.palma@utec.edu.pe,Alumno
+202010465,Chuy Diaz Olmo,Ingeniería Mecatrónica,23,chuy.diaz@utec.edu.pe,Alumno
+202010267,Corona Cintia Sarmiento Ropero,Ingeniería Mecatrónica,27,corona.sarmiento@utec.edu.pe,Alumno
+202020374,Lupe Mena Martinez,Ingeniería Mecatrónica,27,lupe.mena@utec.edu.pe,Alumno
+202010390,María Belén Mateo Roura,Ingeniería Mecatrónica,22,maria.mateo@utec.edu.pe,Alumno
+202020584,Nico Adán Alberola Baeza,Ingeniería Mecatrónica,20,nico.alberola@utec.edu.pe,Alumno
+202010416,Silvio Uribe Montalbán,Ingeniería Mecatrónica,22,silvio.uribe@utec.edu.pe,Alumno
+202010440,Leonel Sandoval Alonso,Ingeniería Mecatrónica,19,leonel.sandoval@utec.edu.pe,Alumno
+202020201,Leticia Anastasia Valentín Marqués,Ingeniería Mecatrónica,26,leticia.valentin@utec.edu.pe,Alumno
+202010371,Pedro Ibáñez Serrano,Ingeniería Mecatrónica,27,pedro.ibanez@utec.edu.pe,Alumno
+202020582,Fabián Bertrán Aznar,Ingeniería Mecatrónica,27,fabian.bertran@utec.edu.pe,Alumno
+202010285,María Dolores Sevilla Marti,Ingeniería Mecatrónica,24,maria.sevilla@utec.edu.pe,Alumno
+202010254,Ligia Cañas Núñez,Ingeniería Mecatrónica,19,ligia.canas@utec.edu.pe,Alumno
+202010333,Roberta Galván Azorin,Ingeniería Mecatrónica,24,roberta.galvan@utec.edu.pe,Alumno
+202020485,Adalberto Espada Contreras,Ingeniería Mecatrónica,24,adalberto.espada@utec.edu.pe,Alumno
+202010366,Felipe Oliveras Guzman,Ingeniería Mecatrónica,27,felipe.oliveras@utec.edu.pe,Alumno
+202020581,Jose Manuel Narváez Moles,Ingeniería Mecatrónica,21,jose.narvaez@utec.edu.pe,Alumno
+202010591,Severino Vélez Zabaleta,Ingeniería Mecatrónica,27,severino.velez@utec.edu.pe,Alumno
+202020268,Kike Santamaría Águila,Ingeniería Mecatrónica,21,kike.santamaria@utec.edu.pe,Alumno
+202020598,Lupita Lastra Saez,Ingeniería Mecatrónica,22,lupita.lastra@utec.edu.pe,Alumno
+202020327,Andrés Felipe Cerro Nadal,Ingeniería Mecatrónica,20,andres.cerro@utec.edu.pe,Alumno
+202020426,Georgina Galiano Yuste,Ingeniería Mecatrónica,21,georgina.galiano@utec.edu.pe,Alumno
+202020447,Claudia Serna Collado,Ingeniería Mecatrónica,19,claudia.serna@utec.edu.pe,Alumno
+202020354,Ariadna Nilda Pomares Villalobos,Ingeniería Mecatrónica,25,ariadna.pomares@utec.edu.pe,Alumno
+202020574,Curro Ochoa Piquer,Ingeniería Mecatrónica,27,curro.ochoa@utec.edu.pe,Alumno
+202020249,Iker Caro Bello,Ingeniería Mecatrónica,26,iker.caro@utec.edu.pe,Alumno
+202020427,Hugo Carreño Acedo,Ingeniería Mecatrónica,21,hugo.carreno@utec.edu.pe,Alumno
+202020271,Adolfo Emiliano Adán Porcel,Ingeniería Mecatrónica,23,adolfo.adan@utec.edu.pe,Alumno
+202020480,Celia Rafaela Morell Asensio,Ingeniería Mecatrónica,27,celia.morell@utec.edu.pe,Alumno
+202020380,Zacarías Marino Rozas Iñiguez,Ingeniería Mecatrónica,20,zacarias.rozas@utec.edu.pe,Alumno
+202020452,Reyes Nadal Villar,Ingeniería Mecatrónica,22,reyes.nadal@utec.edu.pe,Alumno
+202010381,Florencia Ferrández Solsona,Ingeniería Mecatrónica,24,florencia.ferrandez@utec.edu.pe,Alumno
+202020209,Cayetana Piedad Plana Acevedo,Ingeniería Mecatrónica,26,cayetana.plana@utec.edu.pe,Alumno
+202010300,Timoteo Corominas Laguna,Ingeniería Mecatrónica,25,timoteo.corominas@utec.edu.pe,Alumno
+202020493,Roldán Nebot Madrigal,Ingeniería Mecatrónica,22,roldan.nebot@utec.edu.pe,Alumno
+202010334,Rubén Salvà Asensio,Ingeniería Mecatrónica,25,ruben.salva@utec.edu.pe,Alumno
+202010512,Heriberto Vilanova Castejón,Ingeniería Mecatrónica,22,heriberto.vilanova@utec.edu.pe,Alumno
+202020417,Claudia Guitart Pedrosa,Ingeniería Mecatrónica,21,claudia.guitart@utec.edu.pe,Alumno
+202010469,Nico Camino Pedrosa,Ingeniería Mecatrónica,21,nico.camino@utec.edu.pe,Alumno
+202020507,Alejandro Jerez Diéguez,Ingeniería Mecatrónica,27,alejandro.jerez@utec.edu.pe,Alumno
+202020432,Sabas Arana Torrent,Ingeniería Mecatrónica,27,sabas.arana@utec.edu.pe,Alumno
+202020311,Sabas Colom Plana,Ingeniería Mecatrónica,21,sabas.colom@utec.edu.pe,Alumno
+202020498,Olimpia Emperatriz Molins Francisco,Ingeniería Mecatrónica,25,olimpia.molins@utec.edu.pe,Alumno
+202020229,Nazario Amat Palau,Ingeniería Mecatrónica,20,nazario.amat@utec.edu.pe,Alumno
+202020339,Sancho Juan Luis Carrillo Torrents,Ingeniería Mecatrónica,20,sancho.carrillo@utec.edu.pe,Alumno
+202020434,Reynaldo Rocha Iñiguez,Ingeniería Mecatrónica,21,reynaldo.rocha@utec.edu.pe,Alumno
+202020301,Francisco Javier Ropero Borrás,Ingeniería Mecatrónica,24,francisco.ropero@utec.edu.pe,Alumno
+202010470,Olivia Sánchez Moll,Ingeniería Mecatrónica,19,olivia.sanchez@utec.edu.pe,Alumno
+202010375,Valero Casanova Pino,Ingeniería Mecatrónica,23,valero.casanova@utec.edu.pe,Alumno
+202020527,Mario Baeza Fernández,Ingeniería Mecatrónica,25,mario.baeza@utec.edu.pe,Alumno
+202010557,Angelina Conesa Cerezo,Ingeniería Mecatrónica,21,angelina.conesa@utec.edu.pe,Alumno
+202010405,Lourdes Bustos Fernández,Ingeniería Mecatrónica,21,lourdes.bustos@utec.edu.pe,Alumno
+202010262,Fabián Mayoral Rico,Ingeniería Mecatrónica,25,fabian.mayoral@utec.edu.pe,Alumno
+202020588,Odalis Rubio Manzano,Ingeniería Mecatrónica,26,odalis.rubio@utec.edu.pe,Alumno
+202010456,Félix Mesa Pallarès,Ingeniería Mecatrónica,22,felix.mesa@utec.edu.pe,Alumno
+202020214,Fidela Lorena Trujillo Sandoval,Ingeniería Mecatrónica,22,fidela.trujillo@utec.edu.pe,Alumno
+202020338,Juanita Aznar Riquelme,Ingeniería Mecatrónica,26,juanita.aznar@utec.edu.pe,Alumno
+202020587,Salomé Múgica Melero,Ingeniería Mecatrónica,23,salome.mugica@utec.edu.pe,Alumno
+202020590,Perlita Dafne Ayuso Sobrino,Ingeniería Mecatrónica,22,perlita.ayuso@utec.edu.pe,Alumno
+202010244,David Olmo Marí,Ingeniería Mecatrónica,25,david.olmo@utec.edu.pe,Alumno
+202020436,Francisco Javier Toledo Corral,Ingeniería Mecatrónica,23,francisco.toledo@utec.edu.pe,Alumno
+202020494,Juan Bautista Aliaga Peñalver,Ingeniería Mecatrónica,23,juan.aliaga@utec.edu.pe,Alumno
+202020343,Eligio Santana Téllez,Ingeniería Mecatrónica,20,eligio.santana@utec.edu.pe,Alumno
+202010317,Emelina Marta Uriarte Amat,Ingeniería Mecatrónica,22,emelina.uriarte@utec.edu.pe,Alumno
+202020298,Valero Ricardo Iglesia Casas,Ingeniería Mecatrónica,24,valero.iglesia@utec.edu.pe,Alumno
+202010370,Andrés Bonet Nadal,Ingeniería Mecatrónica,27,andres.bonet@utec.edu.pe,Alumno
+202020477,Evelia Morena Zorrilla Meléndez,Ingeniería Mecatrónica,27,evelia.zorrilla@utec.edu.pe,Alumno
+202010347,Beatriz Millán Noriega,Ingeniería Mecatrónica,22,beatriz.millan@utec.edu.pe,Alumno
+202020203,María Del Carmen Alcalde Fábregas,Ingeniería Mecatrónica,20,maria.alcalde@utec.edu.pe,Alumno
+202020279,Manolo Olmo Montoya,Ingeniería Mecatrónica,21,manolo.olmo@utec.edu.pe,Alumno
+202020270,Manolo Lozano Olivera,Ingeniería Mecatrónica,25,manolo.lozano@utec.edu.pe,Alumno
+202010344,Noemí Herrero Mayo,Ingeniería Mecatrónica,26,noemi.herrero@utec.edu.pe,Alumno
+202010325,Aránzazu Talavera Sanchez,Ingeniería Mecatrónica,26,aranzazu.talavera@utec.edu.pe,Alumno
+202020299,Noelia Galán Luna,Ingeniería Mecatrónica,19,noelia.galan@utec.edu.pe,Alumno
+202020473,Emma Núñez Sola,Ingeniería Mecatrónica,27,emma.nunez@utec.edu.pe,Alumno
+202010573,Luis Carretero Ortiz,Ingeniería Mecatrónica,23,luis.carretero@utec.edu.pe,Alumno
+202020272,María Teresa Lamas,Ingeniería Mecatrónica,22,maria.teresa@utec.edu.pe,Alumno
+202020265,Vanesa Sonia Diez Berenguer,Ingeniería Mecatrónica,21,vanesa.diez@utec.edu.pe,Alumno
+202010430,Clímaco Samper Ortuño,Ingeniería Mecatrónica,19,climaco.samper@utec.edu.pe,Alumno
+202010245,Roberta Pulido Llamas,Ingeniería Mecatrónica,21,roberta.pulido@utec.edu.pe,Alumno
+202010551,Iris Bou Vaquero,Ingeniería Mecatrónica,22,iris.bou@utec.edu.pe,Alumno
+202010446,José Antonio Ramirez,Ingeniería Mecatrónica,21,jose.antonio@utec.edu.pe,Alumno
+202010533,Bernardita Isabela Becerra Alcolea,Ingeniería Mecatrónica,22,bernardita.becerra@utec.edu.pe,Alumno
+202020362,Chucho Cuadrado Barberá,Ingeniería Mecatrónica,26,chucho.cuadrado@utec.edu.pe,Alumno
+202010558,Paz Pera Rocamora,Ingeniería Mecatrónica,23,paz.pera@utec.edu.pe,Alumno
+202020525,Heriberto Diego Cañizares,Ingeniería Mecatrónica,25,heriberto.diego@utec.edu.pe,Alumno
+202010579,Marc Nacho Madrigal Catalá,Ingeniería Mecatrónica,27,marc.madrigal@utec.edu.pe,Alumno
+202010424,Rubén Leandro Heras Arias,Ingeniería Mecatrónica,19,ruben.heras@utec.edu.pe,Alumno
+202010457,Goyo Moreno Serna,Ingeniería Mecatrónica,20,goyo.moreno@utec.edu.pe,Alumno
+202010369,Alondra Prieto Salazar,Ingeniería Mecatrónica,25,alondra.prieto@utec.edu.pe,Alumno
+202010202,Adela Gordillo Jáuregui,Ingeniería Mecatrónica,20,adela.gordillo@utec.edu.pe,Alumno
+202010297,Benita Villena Barroso,Ingeniería Mecatrónica,25,benita.villena@utec.edu.pe,Alumno
+202010492,África Alsina Morata,Ingeniería Mecatrónica,24,africa.alsina@utec.edu.pe,Alumno
+202020273,Visitación Encarna Salcedo Sotelo,Ingeniería Mecatrónica,20,visitacion.salcedo@utec.edu.pe,Alumno
+202020236,Paca Arenas Rincón,Ingeniería Mecatrónica,23,paca.arenas@utec.edu.pe,Alumno
+202010402,Nacio Domingo Egea Torrents,Ingeniería Mecatrónica,20,nacio.egea@utec.edu.pe,Alumno
+202010585,Lucho Serrano Domingo,Ingeniería Mecatrónica,27,lucho.serrano@utec.edu.pe,Alumno
+202020241,Heliodoro Soriano Miró,Ingeniería Mecatrónica,27,heliodoro.soriano@utec.edu.pe,Alumno
+202010248,Marta Collado Alcántara,Ingeniería Mecatrónica,19,marta.collado@utec.edu.pe,Alumno
+202020208,Marcio Raya Toro,Ingeniería Mecatrónica,19,marcio.raya@utec.edu.pe,Alumno
+202020286,Débora Niño Arellano,Ingeniería Mecatrónica,23,debora.nino@utec.edu.pe,Alumno
+202020471,Amalia Escamilla Bustos,Ingeniería Mecatrónica,27,amalia.escamilla@utec.edu.pe,Alumno
+202020549,Isabela Bolaños Torrijos,Ingeniería Mecatrónica,19,isabela.bolanos@utec.edu.pe,Alumno
+202020335,Felipa Goicoechea Cisneros,Ingeniería Mecatrónica,20,felipa.goicoechea@utec.edu.pe,Alumno
+202010448,Teófila Campo Pinto,Ingeniería Mecatrónica,23,teofila.campo@utec.edu.pe,Alumno
+202020326,Arsenio Pedrosa Verdugo,Ingeniería Mecatrónica,23,arsenio.pedrosa@utec.edu.pe,Alumno
+202010523,Reyna Pomares Gimeno,Ingeniería Mecatrónica,23,reyna.pomares@utec.edu.pe,Alumno
+202020314,Felix Torrijos Silva,Ingeniería Mecatrónica,26,felix.torrijos@utec.edu.pe,Alumno
+202020206,Crescencia Piñeiro Salinas,Ingeniería Mecatrónica,19,crescencia.pineiro@utec.edu.pe,Alumno
+202020225,Selena Capdevila Mateos,Ingeniería Mecatrónica,25,selena.capdevila@utec.edu.pe,Alumno
+202020444,Noé Gustavo Redondo Cañellas,Ingeniería Mecatrónica,25,noe.redondo@utec.edu.pe,Alumno
+202020562,Leopoldo Pedrero Arévalo,Ingeniería Mecatrónica,24,leopoldo.pedrero@utec.edu.pe,Alumno
+202020496,Olimpia Galindo Vicente,Ingeniería Mecatrónica,20,olimpia.galindo@utec.edu.pe,Alumno
+202010377,Vilma Tamayo Meléndez,Ingeniería Mecatrónica,25,vilma.tamayo@utec.edu.pe,Alumno
+202020595,Eric Gonzalo Aparicio,Ingeniería Mecatrónica,22,eric.gonzalo@utec.edu.pe,Alumno
+202020540,Inocencio Bustamante Gomila,Ingeniería Mecatrónica,22,inocencio.bustamante@utec.edu.pe,Alumno
+202020459,Florencio Fidel Uriarte Jáuregui,Ingeniería Mecatrónica,27,florencio.uriarte@utec.edu.pe,Alumno
+202020221,Alejandra Valderrama Rosselló,Ingeniería Mecatrónica,22,alejandra.valderrama@utec.edu.pe,Alumno
+202010411,Florentino Urrutia Calvo,Ingeniería Mecatrónica,26,florentino.urrutia@utec.edu.pe,Alumno
+202020409,Leonel Álvaro Rosales,Ingeniería Mecatrónica,19,leonel.alvaro@utec.edu.pe,Alumno
+202010340,Prudencia Eulalia Roig Barros,Ingeniería Mecatrónica,19,prudencia.roig@utec.edu.pe,Alumno
+202020568,Geraldo Águila Bayona,Ingeniería Mecatrónica,20,geraldo.aguila@utec.edu.pe,Alumno
+202010351,Silvia Arana Naranjo,Ingeniería Mecatrónica,19,silvia.arana@utec.edu.pe,Alumno
+202010246,Jose Antonio Granados Porras,Ingeniería Mecatrónica,21,jose.granados@utec.edu.pe,Alumno
+202010331,Luciano Alba Saez,Ingeniería Mecatrónica,19,luciano.alba@utec.edu.pe,Alumno
+202010538,Maxi Palomares Rocha,Ingeniería Mecatrónica,22,maxi.palomares@utec.edu.pe,Alumno
+202020556,Guillermo Somoza Mulet,Ingeniería Mecatrónica,23,guillermo.somoza@utec.edu.pe,Alumno
+202020373,Baltasar Báez Vigil,Ingeniería Mecatrónica,24,baltasar.baez@utec.edu.pe,Alumno
+202020408,Alcides Manso Godoy,Ingeniería Mecatrónica,25,alcides.manso@utec.edu.pe,Alumno
+202010386,Perla Aroa Carlos Garzón,Ingeniería Mecatrónica,24,perla.carlos@utec.edu.pe,Alumno
+202010260,Máxima Flores Valcárcel,Ingeniería Mecatrónica,26,maxima.flores@utec.edu.pe,Alumno
+202020217,Leticia Santiago Marin,Ingeniería Mecatrónica,19,leticia.santiago@utec.edu.pe,Alumno
+202010243,Ariadna Vilalta Rocha,Ingeniería Mecatrónica,21,ariadna.vilalta@utec.edu.pe,Alumno
+201920287,Isa Ribas Valencia,Ingeniería Mecatrónica,21,isa.ribas@utec.edu.pe,Alumno
+201910536,Cebrián Ferrera Casado,Ingeniería Mecatrónica,27,cebrian.ferrera@utec.edu.pe,Alumno
+201910522,Angelita Mascaró Cuadrado,Ingeniería Mecatrónica,20,angelita.mascaro@utec.edu.pe,Alumno
+201910253,María Borrás Llobet,Ingeniería Mecatrónica,24,maria.borras@utec.edu.pe,Alumno
+201920293,Haroldo Porcel Cabrero,Ingeniería Mecatrónica,21,haroldo.porcel@utec.edu.pe,Alumno
+201920477,Federico Martorell Arellano,Ingeniería Mecatrónica,20,federico.martorell@utec.edu.pe,Alumno
+201910211,Albina Ojeda Roldan,Ingeniería Mecatrónica,21,albina.ojeda@utec.edu.pe,Alumno
+201920443,Ricarda Úrsula Escolano Maestre,Ingeniería Mecatrónica,25,ricarda.escolano@utec.edu.pe,Alumno
+201910380,Andrea Gargallo Coloma,Ingeniería Mecatrónica,24,andrea.gargallo@utec.edu.pe,Alumno
+201920429,Alberto Font Sevilla,Ingeniería Mecatrónica,24,alberto.font@utec.edu.pe,Alumno
+201920528,Adriana Gimeno Arrieta,Ingeniería Mecatrónica,27,adriana.gimeno@utec.edu.pe,Alumno
+201910345,Renata Giralt Diez,Ingeniería Mecatrónica,25,renata.giralt@utec.edu.pe,Alumno
+201920599,Amado Sales Castellanos,Ingeniería Mecatrónica,22,amado.sales@utec.edu.pe,Alumno
+201920341,Emperatriz Frías Ferrán,Ingeniería Mecatrónica,21,emperatriz.frias@utec.edu.pe,Alumno
+201910563,Judith Quero Guzmán,Ingeniería Mecatrónica,20,judith.quero@utec.edu.pe,Alumno
+201920463,Pancho Efraín Vallés Martin,Ingeniería Mecatrónica,22,pancho.valles@utec.edu.pe,Alumno
+201910492,Ángel Gonzalez Coloma,Ingeniería Mecatrónica,25,angel.gonzalez@utec.edu.pe,Alumno
+201920371,Modesta Uriarte Lastra,Ingeniería Mecatrónica,22,modesta.uriarte@utec.edu.pe,Alumno
+201910412,Inmaculada Amanda Ibarra Albero,Ingeniería Mecatrónica,21,inmaculada.ibarra@utec.edu.pe,Alumno
+201920233,Remigio Andrés Felipe Jáuregui Garriga,Ingeniería Mecatrónica,24,remigio.jauregui@utec.edu.pe,Alumno
+201910471,Reyes Toro Vilaplana,Ingeniería Mecatrónica,23,reyes.toro@utec.edu.pe,Alumno
+201920530,Amparo Estrella Borrell Bru,Ingeniería Mecatrónica,24,amparo.borrell@utec.edu.pe,Alumno
+201910280,Anita Pardo Jaume,Ingeniería Mecatrónica,27,anita.pardo@utec.edu.pe,Alumno
+201910304,Graciano Fabra Jara,Ingeniería Mecatrónica,25,graciano.fabra@utec.edu.pe,Alumno
+201920504,Reina Arrieta Mendizábal,Ingeniería Mecatrónica,28,reina.arrieta@utec.edu.pe,Alumno
+201920370,Consuelo Carrión Varela,Ingeniería Mecatrónica,24,consuelo.carrion@utec.edu.pe,Alumno
+201920583,Petrona Angélica Bauzà Galindo,Ingeniería Mecatrónica,24,petrona.bauza@utec.edu.pe,Alumno
+201920359,Ignacio Gallart Solé,Ingeniería Mecatrónica,21,ignacio.gallart@utec.edu.pe,Alumno
+201920237,Pepita Porras Ferrán,Ingeniería Mecatrónica,23,pepita.porras@utec.edu.pe,Alumno
+201920255,Isabela Fiol Alberto,Ingeniería Mecatrónica,27,isabela.fiol@utec.edu.pe,Alumno
+201920596,Angélica Murillo Verdú,Ingeniería Mecatrónica,21,angelica.murillo@utec.edu.pe,Alumno
+201910327,Daniel Mayoral Llano,Ingeniería Mecatrónica,22,daniel.mayoral@utec.edu.pe,Alumno
+201920449,Amada Puerta Prats,Ingeniería Mecatrónica,21,amada.puerta@utec.edu.pe,Alumno
+201910270,Miguel Ángel Taboada Hervás,Ingeniería Mecatrónica,28,miguel.taboada@utec.edu.pe,Alumno
+201920485,Florencia Sedano Padilla,Ingeniería Mecatrónica,21,florencia.sedano@utec.edu.pe,Alumno
+201910540,Chucho Barriga Montaña,Ingeniería Mecatrónica,21,chucho.barriga@utec.edu.pe,Alumno
+201920512,Pelayo Fernández Mosquera,Ingeniería Mecatrónica,23,pelayo.fernandez@utec.edu.pe,Alumno
+201920496,Artemio Abella Carpio,Ingeniería Mecatrónica,22,artemio.abella@utec.edu.pe,Alumno
+201910396,Edgardo Amor Nadal,Ingeniería Mecatrónica,21,edgardo.amor@utec.edu.pe,Alumno
+201920224,Noé Clemente Oliver Fernandez,Ingeniería Mecatrónica,26,noe.oliver@utec.edu.pe,Alumno
+201910394,Cintia Blasco Bonet,Ingeniería Mecatrónica,20,cintia.blasco@utec.edu.pe,Alumno
+201910351,Dorotea Benavente Cortes,Ingeniería Mecatrónica,28,dorotea.benavente@utec.edu.pe,Alumno
+201910377,Tiburcio Molins Olivares,Ingeniería Mecatrónica,22,tiburcio.molins@utec.edu.pe,Alumno
+201910582,Mayte Arregui Salinas,Ingeniería Mecatrónica,26,mayte.arregui@utec.edu.pe,Alumno
+201910272,Salud Madrid Vidal,Ingeniería Mecatrónica,21,salud.madrid@utec.edu.pe,Alumno
+201910267,Pili Gómez Hernandez,Ingeniería Mecatrónica,28,pili.gomez@utec.edu.pe,Alumno
+201910439,Emilia León Pinto,Ingeniería Mecatrónica,20,emilia.leon@utec.edu.pe,Alumno
+201920502,Ciro Conde Ramírez,Ingeniería Mecatrónica,26,ciro.conde@utec.edu.pe,Alumno
+201920585,Armando Martorell Andrade,Ingeniería Mecatrónica,28,armando.martorell@utec.edu.pe,Alumno
+201910444,Emiliana Juárez Río,Ingeniería Mecatrónica,21,emiliana.juarez@utec.edu.pe,Alumno
+201910581,Arturo Cabello Céspedes,Ingeniería Mecatrónica,28,arturo.cabello@utec.edu.pe,Alumno
+201920401,Valerio Orozco Escalona,Ingeniería Mecatrónica,22,valerio.orozco@utec.edu.pe,Alumno
+201920554,Luciano Coll Doménech,Ingeniería Mecatrónica,25,luciano.coll@utec.edu.pe,Alumno
+201920239,Máximo Caballero Escolano,Ingeniería Mecatrónica,25,maximo.caballero@utec.edu.pe,Alumno
+201910588,Miguel Ángel Campo Saavedra,Ingeniería Mecatrónica,20,miguel.campo@utec.edu.pe,Alumno
+201920298,Pastora Macarena Chico Armengol,Ingeniería Mecatrónica,23,pastora.chico@utec.edu.pe,Alumno
+201910516,Mercedes Leonor Ariza Medina,Ingeniería Mecatrónica,25,mercedes.ariza@utec.edu.pe,Alumno
+201920205,Piedad Planas Lobato,Ingeniería Mecatrónica,25,piedad.planas@utec.edu.pe,Alumno
+201920390,Olalla Maza Barba,Ingeniería Mecatrónica,27,olalla.maza@utec.edu.pe,Alumno
+201920264,Jessica Frías Ricart,Ingeniería Mecatrónica,26,jessica.frias@utec.edu.pe,Alumno
+201920404,Ainara Páez Infante,Ingeniería Mecatrónica,23,ainara.paez@utec.edu.pe,Alumno
+201920212,Gala Jaume Torrents,Ingeniería Mecatrónica,27,gala.jaume@utec.edu.pe,Alumno
+201920295,María Pilar Llobet Martí,Ingeniería Mecatrónica,24,maria.llobet@utec.edu.pe,Alumno
+201920580,Fermín Mata Esteve,Ingeniería Mecatrónica,22,fermin.mata@utec.edu.pe,Alumno
+201920586,Elodia Real Velasco,Ingeniería Mecatrónica,25,elodia.real@utec.edu.pe,Alumno
+201910208,Édgar Catalá Angulo,Ingeniería Mecatrónica,27,edgar.catala@utec.edu.pe,Alumno
+201920458,Obdulia Oliva Vallés,Ingeniería Mecatrónica,27,obdulia.oliva@utec.edu.pe,Alumno
+201910329,Joel Pol Calzada,Ingeniería Mecatrónica,26,joel.pol@utec.edu.pe,Alumno
+201920505,Elba Tamara Poza Figueras,Ingeniería Mecatrónica,20,elba.poza@utec.edu.pe,Alumno
+201920592,Máximo Baeza Córdoba,Ingeniería Mecatrónica,27,maximo.baeza@utec.edu.pe,Alumno
+201910568,Inés Baena Barriga,Ingeniería Mecatrónica,23,ines.baena@utec.edu.pe,Alumno
+201910409,Inmaculada Pujol Nicolau,Ingeniería Mecatrónica,25,inmaculada.pujol@utec.edu.pe,Alumno
+201910367,Esmeralda Albero Paniagua,Ingeniería Mecatrónica,24,esmeralda.albero@utec.edu.pe,Alumno
+201920279,María Luisa Nebot-Porcel,Ingeniería Mecatrónica,23,maria.luisa@utec.edu.pe,Alumno
+201920544,Aitana Lorenzo Guerrero,Ingeniería Mecatrónica,22,aitana.lorenzo@utec.edu.pe,Alumno
+201910483,Emperatriz Menendez Beltrán,Ingeniería Mecatrónica,24,emperatriz.menendez@utec.edu.pe,Alumno
+201910243,Manuel Gámez Aguilera,Ingeniería Mecatrónica,28,manuel.gamez@utec.edu.pe,Alumno
+201910549,Paco Ildefonso Coloma Alcolea,Ingeniería Mecatrónica,25,paco.coloma@utec.edu.pe,Alumno
+201920594,Vinicio Palacios Vega,Ingeniería Mecatrónica,20,vinicio.palacios@utec.edu.pe,Alumno
+201920457,Jose Luis Otero,Ingeniería Mecatrónica,22,jose.luis@utec.edu.pe,Alumno
+201910294,Nieves Arnal Llamas,Ingeniería Mecatrónica,22,nieves.arnal@utec.edu.pe,Alumno
+201920290,Jafet Francisco Echevarría,Ingeniería Mecatrónica,24,jafet.francisco@utec.edu.pe,Alumno
+201920235,Severiano Laguna Aroca,Ingeniería Mecatrónica,22,severiano.laguna@utec.edu.pe,Alumno
+201920482,Miguela Nieto Uribe,Ingeniería Mecatrónica,27,miguela.nieto@utec.edu.pe,Alumno
+201910595,Cristian Chema Valderrama Raya,Ingeniería Mecatrónica,24,cristian.valderrama@utec.edu.pe,Alumno
+201920571,Nidia Arnal Serna,Ingeniería Mecatrónica,21,nidia.arnal@utec.edu.pe,Alumno
+201920517,Lalo Belda Linares,Ingeniería Mecatrónica,24,lalo.belda@utec.edu.pe,Alumno
+201910343,Concepción Peiró Benet,Ingeniería Mecatrónica,27,concepcion.peiro@utec.edu.pe,Alumno
+201910521,Agapito Guillermo Llorens Pujol,Ingeniería Mecatrónica,28,agapito.llorens@utec.edu.pe,Alumno
+201910532,Teófilo Lerma Naranjo,Ingeniería Mecatrónica,24,teofilo.lerma@utec.edu.pe,Alumno
+201920416,Manuelita Nebot Mancebo,Ingeniería Mecatrónica,23,manuelita.nebot@utec.edu.pe,Alumno
+201920546,Pepita Flor Baró Zabaleta,Ingeniería Mecatrónica,23,pepita.baro@utec.edu.pe,Alumno
+201920309,Abril Verdugo Páez,Ingeniería Mecatrónica,24,abril.verdugo@utec.edu.pe,Alumno
+201920260,Delfina Arcos Verdú,Ingeniería Mecatrónica,21,delfina.arcos@utec.edu.pe,Alumno
+201910254,Olivia Pereira Villanueva,Ingeniería Mecatrónica,25,olivia.pereira@utec.edu.pe,Alumno
+201910468,Juliana Álvarez Méndez,Ingeniería Mecatrónica,21,juliana.alvarez@utec.edu.pe,Alumno
+201910395,Eliana Gomez Giner,Ingeniería Mecatrónica,21,eliana.gomez@utec.edu.pe,Alumno
+201920271,Blas Juliá Pinedo,Ingeniería Mecatrónica,22,blas.julia@utec.edu.pe,Alumno
+201910397,Jessica Ema Rosado Blazquez,Ingeniería Mecatrónica,20,jessica.rosado@utec.edu.pe,Alumno
+201920342,Lara Estrada Vall,Ingeniería Mecatrónica,21,lara.estrada@utec.edu.pe,Alumno
+201910399,Pepito Huguet Quintero,Ingeniería Mecatrónica,25,pepito.huguet@utec.edu.pe,Alumno
+201920431,Raimundo Vazquez Alba,Ingeniería Mecatrónica,23,raimundo.vazquez@utec.edu.pe,Alumno
+201910316,Moisés Gibert Campoy,Ingeniería Mecatrónica,23,moises.gibert@utec.edu.pe,Alumno
+201920520,Amelia Valdés Zamorano,Ingeniería Mecatrónica,23,amelia.valdes@utec.edu.pe,Alumno
+201920561,Emma Sanz Juan,Ingeniería Mecatrónica,22,emma.sanz@utec.edu.pe,Alumno
+201910410,Gala Pinedo Gálvez,Ingeniería Mecatrónica,24,gala.pinedo@utec.edu.pe,Alumno
+201920514,Claudia Roselló Pineda,Ingeniería Mecatrónica,27,claudia.rosello@utec.edu.pe,Alumno
+201920578,Luna Aguiló Pérez,Ingeniería Mecatrónica,26,luna.aguilo@utec.edu.pe,Alumno
+201920242,Rosalva Luís Roldan,Ingeniería Mecatrónica,20,rosalva.luis@utec.edu.pe,Alumno
+201920450,Marcelo Sebastián Lillo Escrivá,Ingeniería Mecatrónica,22,marcelo.lillo@utec.edu.pe,Alumno
+201910460,Flavio Javi Valle Bas,Ingeniería Mecatrónica,21,flavio.valle@utec.edu.pe,Alumno
+201920314,Anabel Noa Águila Aranda,Ingeniería Mecatrónica,25,anabel.aguila@utec.edu.pe,Alumno
+201910202,Susana Palomares Escudero,Ingeniería Mecatrónica,20,susana.palomares@utec.edu.pe,Alumno
+201910360,María Ángeles Mir,Ingeniería Mecatrónica,26,maria.angeles@utec.edu.pe,Alumno
+201910488,Abilio Severino Martín Mayoral,Ingeniería Mecatrónica,25,abilio.martin@utec.edu.pe,Alumno
+201910567,Odalis Campos Montaña,Ingeniería Mecatrónica,21,odalis.campos@utec.edu.pe,Alumno
+201920515,Eulalia Hoz Priego,Ingeniería Mecatrónica,23,eulalia.hoz@utec.edu.pe,Alumno
+201910311,Ascensión Palmira Mendoza Roldan,Ingeniería Mecatrónica,25,ascension.mendoza@utec.edu.pe,Alumno
+201920210,Alicia Bermudez Polo,Ingeniería Mecatrónica,26,alicia.bermudez@utec.edu.pe,Alumno
+201910446,Ismael Real Carrión,Ingeniería Mecatrónica,21,ismael.real@utec.edu.pe,Alumno
+201710337,Eloy Cadenas Domínguez,Ingeniería Mecatrónica,27,eloy.cadenas@utec.edu.pe,Alumno
+201720431,Benigna Ferrera Montero,Ingeniería Mecatrónica,28,benigna.ferrera@utec.edu.pe,Alumno
+201620484,Marcelo Larrañaga Sarabia,Ingeniería Mecatrónica,23,marcelo.larranaga@utec.edu.pe,Alumno
+201720597,Maribel Tejera Pino,Ingeniería Mecatrónica,26,maribel.tejera@utec.edu.pe,Alumno
+201710479,Fátima Francisco Grande,Ingeniería Mecatrónica,20,fatima.francisco@utec.edu.pe,Alumno
+201820409,Nacho Laguna Roman,Ingeniería Mecatrónica,21,nacho.laguna@utec.edu.pe,Alumno
+201710535,Victoriano Neira Bosch,Ingeniería Mecatrónica,21,victoriano.neira@utec.edu.pe,Alumno
+201720334,Lupe Gisela Campo Araujo,Ingeniería Mecatrónica,24,lupe.campo@utec.edu.pe,Alumno
+201710468,Quique Olmo Fuentes,Ingeniería Mecatrónica,22,quique.olmo@utec.edu.pe,Alumno
+201720561,Guadalupe Fuertes Godoy,Ingeniería Mecatrónica,24,guadalupe.fuertes@utec.edu.pe,Alumno
+201620244,Valerio Jacobo Fernandez Polo,Ingeniería Mecatrónica,20,valerio.fernandez@utec.edu.pe,Alumno
+201720532,Donato Salamanca Alcaraz,Ingeniería Mecatrónica,28,donato.salamanca@utec.edu.pe,Alumno
+201810220,María Ángeles Ballester Ruano,Ingeniería Mecatrónica,21,maria.ballester@utec.edu.pe,Alumno
+201720372,Valerio Arias Mata,Ingeniería Mecatrónica,28,valerio.arias@utec.edu.pe,Alumno
+201820275,Rocío Gomila Hoyos,Ingeniería Mecatrónica,23,rocio.gomila@utec.edu.pe,Alumno
+201810223,Mamen Ortiz Abad,Ingeniería Mecatrónica,24,mamen.ortiz@utec.edu.pe,Alumno
+201710306,Gema Quintanilla Mármol,Ingeniería Mecatrónica,20,gema.quintanilla@utec.edu.pe,Alumno
+201710406,Filomena Salcedo Ferrero,Ingeniería Mecatrónica,28,filomena.salcedo@utec.edu.pe,Alumno
+201620362,Rita Santiago Oliva,Ingeniería Mecatrónica,23,rita.santiago@utec.edu.pe,Alumno
+201820542,Ambrosio Flores Ruano,Ingeniería Mecatrónica,26,ambrosio.flores@utec.edu.pe,Alumno
+201610370,Oriana Armida Tena Estévez,Ingeniería Mecatrónica,26,oriana.tena@utec.edu.pe,Alumno
+201710232,Estefanía Perea Ropero,Ingeniería Mecatrónica,20,estefania.perea@utec.edu.pe,Alumno
+201620329,Jose Francisco Mayoral,Ingeniería Mecatrónica,19,jose.francisco@utec.edu.pe,Alumno
+201720248,Silvio Cisneros Fuertes,Ingeniería Mecatrónica,20,silvio.cisneros@utec.edu.pe,Alumno
+201620396,Lisandro Pascual Espada,Ingeniería Mecatrónica,22,lisandro.pascual@utec.edu.pe,Alumno
+201820247,Maricela Barranco León,Ingeniería Mecatrónica,24,maricela.barranco@utec.edu.pe,Alumno
+201710250,Berta Rojas Páez,Ingeniería Mecatrónica,25,berta.rojas@utec.edu.pe,Alumno
+201820231,Máxima Peña Cuesta,Ingeniería Mecatrónica,20,maxima.pena@utec.edu.pe,Alumno
+201720450,Nicolás Amigó Roma,Ingeniería Mecatrónica,20,nicolas.amigo@utec.edu.pe,Alumno
+201620480,Isidora Durán Parra,Ingeniería Mecatrónica,24,isidora.duran@utec.edu.pe,Alumno
+201610465,Agustina Aroca Tovar,Ingeniería Mecatrónica,24,agustina.aroca@utec.edu.pe,Alumno
+201720407,Caridad Gutierrez Cámara,Ingeniería Mecatrónica,29,caridad.gutierrez@utec.edu.pe,Alumno
+201610364,Hector Leonel Abril Verdugo,Ingeniería Mecatrónica,29,hector.abril@utec.edu.pe,Alumno
+201820235,Octavia Camacho Bermúdez,Ingeniería Mecatrónica,23,octavia.camacho@utec.edu.pe,Alumno
+201620579,Herminia Barrena Orozco,Ingeniería Mecatrónica,24,herminia.barrena@utec.edu.pe,Alumno
+201810507,Ibán Sancho Padilla,Ingeniería Mecatrónica,23,iban.sancho@utec.edu.pe,Alumno
+201610286,Mireia Sáenz Borrás,Ingeniería Mecatrónica,25,mireia.saenz@utec.edu.pe,Alumno
+201710382,Rafa Amorós Esteve,Ingeniería Mecatrónica,28,rafa.amoros@utec.edu.pe,Alumno
+201820399,Olalla Palmer Arnaiz,Ingeniería Mecatrónica,27,olalla.palmer@utec.edu.pe,Alumno
+201820253,Natalio Ros Valle,Ingeniería Mecatrónica,24,natalio.ros@utec.edu.pe,Alumno
+201710397,Narciso Ezequiel Olmedo Carrasco,Ingeniería Mecatrónica,24,narciso.olmedo@utec.edu.pe,Alumno
+201710335,Raquel Peña Iborra,Ingeniería Mecatrónica,26,raquel.pena@utec.edu.pe,Alumno
+201710524,Andrés Felipe Roldan-Narváez,Ingeniería Mecatrónica,23,andres.felipe@utec.edu.pe,Alumno
+201810413,Emiliana Aragón Solé,Ingeniería Mecatrónica,20,emiliana.aragon@utec.edu.pe,Alumno
+201810269,Calisto Urbano Toro Vall,Ingeniería Mecatrónica,21,calisto.toro@utec.edu.pe,Alumno
+201710463,Noa Adadia Riquelme,Ingeniería Mecatrónica,27,noa.adadia@utec.edu.pe,Alumno
+201710282,Eugenia Sevillano Aramburu,Ingeniería Mecatrónica,23,eugenia.sevillano@utec.edu.pe,Alumno
+201720270,Jesús Belmonte Taboada,Ingeniería Mecatrónica,23,jesus.belmonte@utec.edu.pe,Alumno
+201610402,Benito Vendrell Cadenas,Ingeniería Mecatrónica,23,benito.vendrell@utec.edu.pe,Alumno
+201820564,Pascual Iñiguez Peñalver,Ingeniería Mecatrónica,30,pascual.iniguez@utec.edu.pe,Alumno
+201720583,Belen Pozuelo Jiménez,Ingeniería Mecatrónica,27,belen.pozuelo@utec.edu.pe,Alumno
+201720415,Edgardo Jove Llabrés,Ingeniería Mecatrónica,22,edgardo.jove@utec.edu.pe,Alumno
+201620590,Tadeo Reina Gimeno,Ingeniería Mecatrónica,25,tadeo.reina@utec.edu.pe,Alumno
+201720313,Aurelio Peral Marin,Ingeniería Mecatrónica,27,aurelio.peral@utec.edu.pe,Alumno
+201720589,Fulgencio Rosselló Luján,Ingeniería Mecatrónica,20,fulgencio.rossello@utec.edu.pe,Alumno
+201620211,Lourdes Benito Cuéllar,Ingeniería Mecatrónica,22,lourdes.benito@utec.edu.pe,Alumno
+201720591,Wilfredo Bermudez Boix,Ingeniería Mecatrónica,27,wilfredo.bermudez@utec.edu.pe,Alumno
+201720436,Irma Escribano Bolaños,Ingeniería Mecatrónica,22,irma.escribano@utec.edu.pe,Alumno
+201720304,Fernando Jesús Gil Gonzalo,Ingeniería Mecatrónica,27,fernando.gil@utec.edu.pe,Alumno
+201720390,Calista Salamanca Torre,Ingeniería Mecatrónica,25,calista.salamanca@utec.edu.pe,Alumno
+201610514,Josefa Chico Peinado,Ingeniería Mecatrónica,27,josefa.chico@utec.edu.pe,Alumno
+201710452,Leonardo Zaragoza Ropero,Ingeniería Mecatrónica,23,leonardo.zaragoza@utec.edu.pe,Alumno
+201710369,Cristóbal Hierro Seco,Ingeniería Mecatrónica,25,cristobal.hierro@utec.edu.pe,Alumno
+201620447,Josué Leocadio Cortina Roldán,Ingeniería Mecatrónica,24,josue.cortina@utec.edu.pe,Alumno
+201810261,Maribel Noriega Alarcón,Ingeniería Mecatrónica,26,maribel.noriega@utec.edu.pe,Alumno
+201720599,Fabio Alvarez Agullo,Ingeniería Mecatrónica,21,fabio.alvarez@utec.edu.pe,Alumno
+201710555,Febe Aguilar Hervia,Ingeniería Mecatrónica,22,febe.aguilar@utec.edu.pe,Alumno
+201720295,Felisa Casal Mesa,Ingeniería Mecatrónica,27,felisa.casal@utec.edu.pe,Alumno
+201610280,Cebrián Lloret Azcona,Ingeniería Mecatrónica,28,cebrian.lloret@utec.edu.pe,Alumno
+201710400,Gilberto Roman Granados,Ingeniería Mecatrónica,21,gilberto.roman@utec.edu.pe,Alumno
+201720567,Encarnacion Caparrós Borrás,Ingeniería Mecatrónica,28,encarnacion.caparros@utec.edu.pe,Alumno
+201620240,Renato Fonseca Rivero,Ingeniería Mecatrónica,24,renato.fonseca@utec.edu.pe,Alumno
+201720252,Bienvenida Río Agullo,Ingeniería Mecatrónica,22,bienvenida.rio@utec.edu.pe,Alumno
+201620367,Fabricio Naranjo Barriga,Ingeniería Mecatrónica,29,fabricio.naranjo@utec.edu.pe,Alumno
+201810386,Clímaco Castells Sanmartín,Ingeniería Mecatrónica,28,climaco.castells@utec.edu.pe,Alumno
+201710494,Cintia Andrea Guardiola Arnal,Ingeniería Mecatrónica,28,cintia.guardiola@utec.edu.pe,Alumno
+201810257,Dani Vázquez Ferrando,Ingeniería Mecatrónica,26,dani.vazquez@utec.edu.pe,Alumno
+201710298,Julie Carbonell Piquer,Ingeniería Mecatrónica,25,julie.carbonell@utec.edu.pe,Alumno
+201810440,Leandro Bueno Requena,Ingeniería Mecatrónica,24,leandro.bueno@utec.edu.pe,Alumno
+201610437,Rita Micaela Polo Moliner,Ingeniería Mecatrónica,27,rita.polo@utec.edu.pe,Alumno
+201620230,Bernardita Ribas Llabrés,Ingeniería Mecatrónica,27,bernardita.ribas@utec.edu.pe,Alumno
+201810418,Encarnación Moraleda Cuevas,Ingeniería Mecatrónica,19,encarnacion.moraleda@utec.edu.pe,Alumno
+201710533,Gisela Vaquero Manzano,Ingeniería Mecatrónica,23,gisela.vaquero@utec.edu.pe,Alumno
+201820339,Luciano Pedrero Arranz,Ingeniería Mecatrónica,21,luciano.pedrero@utec.edu.pe,Alumno
+201820405,Cándida Azahar Aroca Pérez,Ingeniería Mecatrónica,27,candida.aroca@utec.edu.pe,Alumno
+201620580,Natanael Verdugo Carrasco,Ingeniería Mecatrónica,20,natanael.verdugo@utec.edu.pe,Alumno
+201720496,Salvador Fuente Blanes,Ingeniería Mecatrónica,29,salvador.fuente@utec.edu.pe,Alumno
+201820469,Felicia Guijarro Pou,Ingeniería Mecatrónica,28,felicia.guijarro@utec.edu.pe,Alumno
+201610331,Narcisa Bartolomé Sancho,Ingeniería Mecatrónica,25,narcisa.bartolome@utec.edu.pe,Alumno
+201810340,Alberto Carvajal Ferrero,Ingeniería Mecatrónica,26,alberto.carvajal@utec.edu.pe,Alumno
+201810596,Julián Seguí Clemente,Ingeniería Mecatrónica,24,julian.segui@utec.edu.pe,Alumno
+201620238,Nélida Montes Peñalver,Ingeniería Mecatrónica,23,nelida.montes@utec.edu.pe,Alumno
+201810474,Petrona Palomino Vallés,Ingeniería Mecatrónica,21,petrona.palomino@utec.edu.pe,Alumno
+201610373,Adalberto Pastor Pulido,Ingeniería Mecatrónica,28,adalberto.pastor@utec.edu.pe,Alumno
+201710368,Marciano Fonseca Mata,Ingeniería Mecatrónica,26,marciano.fonseca@utec.edu.pe,Alumno
