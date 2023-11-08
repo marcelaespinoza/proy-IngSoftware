@@ -21,7 +21,9 @@ export default {
       userToCitar: "",
       emailToCitar: "",
 
-      mainGrafico: ""
+      mainGrafico: "",
+
+      top_limit: null
     }
   },
   created() {
@@ -33,7 +35,7 @@ export default {
         console.error('Error al obtener el dato:', error);
       });
       
-      axios.get('http://127.0.0.1:5000/api/Nmembers')
+      axios.get(`http://127.0.0.1:5000/api/member/all/top_negative/${top_limit}`)
       .then(res => {
         this.puntajeMembers = res.data;
       })
@@ -42,7 +44,7 @@ export default {
         this.puntajeMembers = JSON.parse(JSON.stringify(puntajes))
       });
 
-      axios.get('http://127.0.0.1:5000/emocion/predominante')
+      axios.get('http://127.0.0.1:5000/emotion/predominant')
       .then(res => {
         this.dominantEmotion = res.data;
       })
@@ -77,7 +79,7 @@ export default {
           this.DoneCheck[index] = false;
         }
         const codeuser = this.puntajeMembers[index-1].codigo
-        await axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/1`)
+        await axios.post(`http://127.0.0.1:8000/member/${codeuser}/state/1/score`)
         .then(res => this.puntajeMembers[index-1].puntaje -= 20) //
       },
       
@@ -87,7 +89,7 @@ export default {
           this.DoneCheck[index] = false;
         }
         const codeuser = this.puntajeMembers[index-1].codigo
-        await axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/2`) //
+        await axios.post(`http://127.0.0.1:8000/member/${codeuser}/state/2/score`) //
         .then(res => this.puntajeMembers[index-1].puntaje -= 50) //
         
       },
@@ -98,7 +100,7 @@ export default {
         this.meanWhileCheck[index] = false;
       }
       const codeuser = this.puntajeMembers[index-1].codigo
-      await axios.post(`http://127.0.0.1:5000/api/Member/State/${codeuser}/3`) //
+      await axios.put(`http://127.0.0.1:8000/member/${codeuser}/state/3/score`) //
       .then(res => this.puntajeMembers[index-1].puntaje -= 100) //
     },
   },

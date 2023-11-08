@@ -51,29 +51,29 @@ a realizar en base a las estadísticas de las emociones de los miembros en una i
 3.|Los estudiantes pocos sociables para integrarlos a las actividades de la universidad con distintos tipos de talleres que sean efectivos para el desarrollo de esa emoción
 4.|Los estudiantes que no responden las encuestas que realiza bienestar estudiantil para saber la condición de los estudiantes en determinado tiempopor cuestión de tiempo o vergüenza.
 
-## Database
+## Development
 
 ### _Mock Data_
 
-- Generado en Python con `Faker` y `random`
-- Datos previos en `/client/src/utils/`
+- Generados en Python con `Faker` y `random` guardados como CSV en `server/data`
+- Datos previos de fetching en `/client/src/utils/`
 
-### _Access_
+### _Database_
 
-- Utilizando Amazon DynamoDB de estilo Multitenancy con `"tenant_id": "UTEC"`
-
-## Development
+- Utilizando Amazon DynamoDB de estilo Multitenancy con `"tenant_id": "UTEC"` (usuario predeterminado)
+- Modelado de Datos con `pydantic` y `typing` para instanciar las tablas
 
 ### _Environment_
 
-- **Server testing** con `FastAPI`
+- **Back-end** con `FastAPI` localmente
 
 ```bash
 cd server
-uvicorn main:app --reload --env-file=".env"
+pip3 install -r requirements.txt
+uvicorn main:app --reload --env-file=".env"  # .env : las credenciales de AWS
 ```
 
-- **Frontend testing** con `pnpm` o `npm` en desarrollo
+- **Front-end** con `npm` o `pnpm` en modo desarrollo
 
 ```bash
 cd client
@@ -88,6 +88,8 @@ npm run dev
 - **`/dashboard`**: Contiene el reporte de las emociones predominantes en un periodo específico, gráficos estadísiticos de las emociones por área resumidas y el listado de las personas por prioridad de recibir recomendaciones.
 
 - **`/recommendation`**: 
+
+- **`/profile`**:
 
 ## Deployment
 
