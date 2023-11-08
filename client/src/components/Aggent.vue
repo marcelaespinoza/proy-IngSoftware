@@ -105,41 +105,41 @@ import horariosPsico from '../utils/horariosPsico.json'
 
       // selecciona un psicologo a citar
       toCheckPsico(psico_email, code) {
-          if (this.arrChecks.some(elem => elem === true)) {
-            const indexActive = this.arrChecks.findIndex(elem => elem === true);
-            this.arrChecks[indexActive] = false
-          }
-          this.checkPsico.email = psico_email;
-          this.checkPsico.index = this.codigos.indexOf(code);
-
-          this.arrChecks[this.checkPsico.index] = true;
-        },
-
-        activeTr(code) {
-          return {
-            backgroundColor : (this.codigos.indexOf(code) === this.checkPsico.index)
-                                ? "var(--color-feelscan-4)":""
-          };
-        },
-
-        // funcion asincrona donde despues de enviar el correo, se confirme en el form
-        async sendAggent() {
-          if (this.date && this.message) {
-            // Lógica para enviar el correo
-            this.isFormValid = true;
-            //implementar la lógica para enviar el correo
-
-          } else {
-            this.isFormValid = false; // El formulario no es válido
-          }
-        },
-        closePopup() {
-          this.isEmailSent = false;
-        },
-
-        viewWindow() {
-          this.showWindow = false;
+        if (this.arrChecks.some(elem => elem === true)) {
+          const indexActive = this.arrChecks.findIndex(elem => elem === true);
+          this.arrChecks[indexActive] = false
         }
+        this.checkPsico.email = psico_email;
+        this.checkPsico.index = this.codigos.indexOf(code);
+
+        this.arrChecks[this.checkPsico.index] = true;
+      },
+
+      activeTr(code) {
+        return {
+          backgroundColor : (this.codigos.indexOf(code) === this.checkPsico.index)
+                              ? "var(--color-feelscan-4)":""
+        };
+      },
+
+      // funcion asincrona donde despues de enviar el correo, se confirme en el form
+      async sendAggent() {
+        if (this.date && this.message) {
+          // Lógica para enviar el correo
+          this.isFormValid = true;
+          //implementar la lógica para enviar el correo
+
+        } else {
+          this.isFormValid = false; // El formulario no es válido
+        }
+      },
+      closePopup() {
+        this.isEmailSent = false;
+      },
+
+      viewWindow() {
+        this.showWindow = false;
+      }
     }
   }
 </script>

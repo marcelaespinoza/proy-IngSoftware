@@ -8,7 +8,9 @@ export default {
       return {
         collapsed: false,
         showNotifications: false,
-        screenWidth: window.innerWidth
+        screenWidth: window.innerWidth,
+
+        userNane: "Usuario",
       };
     },
     methods: {
@@ -51,17 +53,18 @@ export default {
     </div>
 
     <ul class="sidenav-nav">
+      
+      <li class="sidenav-nav-item">
+        <router-link class="sidenav-nav-link" to="/profile" exact>
+          <img src="../svg/user.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
+          <span class="sidenav-link-text" v-if="collapsed">Profile</span>
+        </router-link>
+      </li>
+
         <li class="sidenav-nav-item">
            <router-link class="sidenav-nav-link" to="/dashboard" exact>
             <img src="../svg/home.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
             <span class="sidenav-link-text" v-if="collapsed">Dashboard</span>
-          </router-link>
-        </li>
-        
-        <li class="sidenav-nav-item">
-          <router-link class="sidenav-nav-link" to="/profile" exact>
-            <img src="../svg/user.svg" type="image/svg+xml" loading="lazy" class="sidenav-link-icon" />
-            <span class="sidenav-link-text" v-if="collapsed">Profile</span>
           </router-link>
         </li>
   

@@ -10,7 +10,7 @@ const router = createRouter({
   routes: [ {
       path: "/",
       name: "/",
-      component: () => import("../components/Dashboard.vue"),
+      component: () => import("../components/Login.vue"),
       // meta: {
       //   requiresAuth: true
       // }
@@ -40,11 +40,6 @@ const router = createRouter({
     //   name: "settings",
     //   component: () => import("../components/Settings.vue"),
     // },
-    {
-      path: "/aggent",
-      name: "aggent",
-      component: () => import("../components/Aggent.vue"),
-    },
   ],
 });
 

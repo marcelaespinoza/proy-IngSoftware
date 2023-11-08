@@ -66,11 +66,11 @@ a realizar en base a las estadísticas de las emociones de los miembros en una i
 
 ### _Environment_
 
-- **Server testing** con `Flask`
+- **Server testing** con `FastAPI`
 
 ```bash
-cd server/src
-python main.py
+cd server
+uvicorn main:app --reload --env-file=".env"
 ```
 
 - **Frontend testing** con `pnpm` o `npm` en desarrollo

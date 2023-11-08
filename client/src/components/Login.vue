@@ -66,8 +66,13 @@ export default {
           <input v-model="emailLogin" type="text" class="form-control" placeholder="Correo" required />
           <label class="error-message" v-if="emptyFields && passwordLogin === ''">Por favor ingresa tu contraseña</label>
           <input v-model="passwordLogin" type="password" class="form-control" placeholder="Contraseña" required />
+
           <!-- <button type="submit" class="button-68" @click="doLogin">Entrar</button> -->
-          <button type="submit" class="button-68" @click="doLogin"><router-link to="/dashboard">Entrar</router-link></button>
+          <button type="submit" class="button-68" >
+          <!-- @click="doLogin"> -->
+          
+          <router-link to="/dashboard">Entrar</router-link></button>
+
           <!-- <p>¿No tienes una cuenta? <a href="javascript:void(0)" @click="toggleRegister">Crear cuenta</a></p> -->
           <!-- <p><a href="javascript:void(0)">¿Olvidaste tu contraseña?</a></p> -->
         </div>
@@ -108,11 +113,7 @@ img {
   margin-left: 180px;
 }
 
-a {
-  color: white;
-}
-
-h1 {
+a, h1 {
   color: white;
 }
 
@@ -122,122 +123,6 @@ h1 {
 
 .form-group input {
   margin-bottom: 20px;
-}
-
-.login-page {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  background-color: #7c623f;
-}
-
-.custom-container {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #728c45;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.form-control {
-  padding: 12px 20px;
-  font-size: 1rem;
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--accent);
-  border-radius: 4px;
-  text-align: center;
-  outline: transparent;
-  width: 90%;
-}
-
-.input-control {
-  padding: 12px 0px;
-  font-size: 1rem;
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--accent);
-  border-radius: 4px;
-  text-align: center;
-  outline: transparent;
-  width: 43%;
-  margin-left: 20px;
-}
-
-.input-text {
-  font-size: 22px;
-  font-weight: 500;
-  color: white;
-}
-
-.button-68 {
-  appearance: none;
-  backface-visibility: hidden;
-  background-color: #2a3a16;
-  border-radius: 8px;
-  border-style: none;
-  box-shadow: rgba(39, 174, 96, 0.15) 0 4px 9px;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Inter, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: normal;
-  line-height: 1.5;
-  outline: none;
-  overflow: hidden;
-  padding: 13px 20px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all 0.3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: top;
-  white-space: nowrap;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 15px;
-}
-
-.button-68:hover {
-  background-color: #36491e;
-  opacity: 1;
-  transform: translateY(0);
-  transition-duration: 0.35s;
-}
-
-.button-68:active {
-  transform: translateY(2px);
-  transition-duration: 0.35s;
-}
-
-.button-68:hover {
-  box-shadow: rgba(39, 174, 96, 0.2) 0 6px 12px;
-}
-
-.login-page .fade-enter-active,
-.login-page .fade-leave-active {
-  transition: opacity 0.5s;
-}
-
-.login-page .fade-enter,
-.login-page .fade-leave-to {
-  opacity: 0;
-}
-
-.login-page h1 {
-  margin-bottom: 1.5rem;
 }
 
 .error {
