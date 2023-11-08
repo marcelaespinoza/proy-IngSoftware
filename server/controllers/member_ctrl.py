@@ -93,8 +93,10 @@ def get_members_top_negative(limit: int = 20) -> Optional[dict]: ##
 
 # Auxiliary Functions
 
+
 def calculate_new_score(current_score: int, state: int) -> int:
     return current_score - (20 if state == 1 else (50 if state == 2 else (100 if state == 3 else 0)))
+
 
 convert_response = lambda response: {
     key: next(iter(value.values())) if isinstance(value, dict) else value for key, value in response.get('Item', {}).items()
